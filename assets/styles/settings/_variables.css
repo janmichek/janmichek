@@ -21,7 +21,8 @@
   --gutter-section: 80px;
   --container-max-width: 1000px;
 
-  --header-height: 310px;
+  --header-height: 520px;
+  --header-height-desktop: 310px;
   --header-height-slim: 60px;
 
   --fast: 0.1s;

@@ -8,27 +8,35 @@ dotenv.config()
 
 export default {
   mode: 'universal',
-  
+
   head: {
     title: pkg.niceName,
     meta: [
       { hid: 'robots', name: 'robots', content: process.env.ALLOW_INDEXING ? 'index' : 'noindex' },
     ],
   },
-  
+
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: 'janmichek.jpg',
+    },
+  ],
+
   loading: { color: pkg.themeColor },
-  
+
   css: ['~/assets/styles/main.css'],
-  
+
   plugins: [
     '~/plugins/vue-moment',
     '~/plugins/listify',
     '~/plugins/vue-filters',
   ],
-  
+
   modules: [
     '@nuxtjs/dotenv',
-    
+
     ['@nuxtjs/pwa', {
       meta: {
         name: pkg.niceName,
@@ -37,7 +45,7 @@ export default {
         icon: true,
         ogImage: false,
         ogTitle: false,
-        ogUrl: process.env.BASE_URL,
+        ogUrl: 'janmichek.com',
       },
       manifest: {
         name: pkg.niceName,
@@ -46,7 +54,7 @@ export default {
         lang: pkg.lang,
       },
     }],
-    
+
     ['@bazzite/nuxt-optimized-images',
       {
         optimizeImages: true,
@@ -54,11 +62,11 @@ export default {
       },
     ],
   ],
-  
+
   buildModules: [
     '@nuxtjs/stylelint-module',
   ],
-  
+
   build: {
     extractCSS: true,
     transpile: ['vue-clamp', 'resize-detector'],
@@ -68,7 +76,7 @@ export default {
         /en|cs/,
       ),
     ],
-    
+
     postcss: {
       plugins: {
         'postcss-import': {},
@@ -90,7 +98,7 @@ export default {
         ],
       },
     },
-    
+
     extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
@@ -100,10 +108,10 @@ export default {
           exclude: /(node_modules)/,
         })
       }
-      
+
       const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')
       config.module.rules.splice(config.module.rules.indexOf(rule), 1)
-      
+
       config.module.rules.push({
         test: /\.(png|jpe?g|gif|svg|webp)$/i,
         exclude: path.resolve(__dirname, 'assets/images/icons'),
@@ -113,11 +121,10 @@ export default {
           name: 'img/[name].[hash:7].[ext]',
         },
       })
-      
     },
   },
-  
+
   generate: {
-    "dir": "public",
+    dir: 'public',
   },
 }

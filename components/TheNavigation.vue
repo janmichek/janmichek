@@ -2,13 +2,13 @@
   <nav :class="['the-navigation',{'the-navigation--stacked': stacked}]">
     <div class="u-container">
       <div class="u-flex-row">
-        <div class="u-5/12">
+        <div :class="['u-5/12@tablet the-navigation__avatar',{'the-navigation__avatar--stacked': stacked}]">
           <img
-            :class="['the-navigation__avatar',{'the-navigation__avatar--stacked': stacked}]"
+            :class="['the-navigation__image',{'the-navigation__image--stacked': stacked}]"
             src="../assets/images/janmichek.jpg"
             alt="Jan Michek's avatar">
         </div>
-        <div class="u-7/12">
+        <div :class="['u-7/12@tablet the-navigation__content',{'the-navigation__content--stacked': stacked}]">
           <h1 :class="['the-navigation__heading',{'the-navigation__heading--stacked': stacked}]">
             Jan Michek
           </h1>
@@ -57,17 +57,47 @@
     padding: var(--gutter-xl);
     background: var(--brand-secondary);
     height: var(--header-height);
+
     position: fixed;
     width: 100%;
     margin-bottom: var(--gutter);
     z-index: 900;
     transition: all var(--normal);
+    @media (--tablet){
+      height: var(--header-height-desktop);
+    }
     &--stacked {
       height: var(--header-height-slim);
       padding: var(--gutter-sm);
     }
 
     &__avatar {
+      width: 100%;
+      margin-right: 30px;
+      display: flex;
+      justify-content: center;
+      transition: all var(--normal);
+
+      @media (--tablet) {
+        justify-content: flex-start;
+      }
+
+      &--stacked {
+        width: auto;
+        flex-basis: auto;
+      }
+    }
+    &__content {
+      width: 100%;
+      transition: all var(--normal);
+
+      &--stacked {
+      width: auto;
+      flex-basis: auto;
+      }
+    }
+
+    &__image {
       transition: all var(--normal);
       height: 230px;
       &--stacked {
