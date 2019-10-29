@@ -1,0 +1,16 @@
+a {
+  text-decoration: underline;
+  color: var(--link-color);
+  word-wrap: break-word;
+
+  &:visited {
+    color: var(--link-color);
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+

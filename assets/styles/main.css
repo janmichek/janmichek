@@ -1,0 +1,28 @@
+@import "assets/styles/settings/_variables.css";
+@import "assets/styles/settings/_mapping.css";
+
+@import "assets/styles/generic/_fonts.css";
+@import "assets/styles/generic/_reset.css";
+@import "assets/styles/generic/_icons.css";
+
+@import "assets/styles/elements/_a.css";
+@import "assets/styles/elements/_blockquote.css";
+@import "assets/styles/elements/_body.css";
+@import "assets/styles/elements/_button.css";
+@import "assets/styles/elements/_em.css";
+@import "assets/styles/elements/_figure.css";
+@import "assets/styles/elements/_h.css";
+@import "assets/styles/elements/_html.css";
+@import "assets/styles/elements/_iframe.css";
+@import "assets/styles/elements/_img.css";
+@import "assets/styles/elements/_input.css";
+@import "assets/styles/elements/_li.css";
+@import "assets/styles/elements/_ol.css";
+@import "assets/styles/elements/_p.css";
+@import "assets/styles/elements/_strong.css";
+@import "assets/styles/elements/_table.css";
+@import "assets/styles/elements/_ul.css";
+
+@import "assets/styles/utilities/_align.css";
+@import "assets/styles/utilities/_grid.css";
+@import "assets/styles/utilities/_wp-video.css";

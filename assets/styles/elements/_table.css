@@ -1,0 +1,14 @@
+table {
+  margin: 0 auto var(--gutter) auto;
+}
+
+td {
+  padding: 0 var(--gutter) 0 0;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+  padding: 0 var(--gutter) 0 0;
+  font-weight: normal;
+}

@@ -1,0 +1,78 @@
+{
+  "name": "janmichek",
+  "niceName": "Jan Michek",
+  "themeColor": "#1ce4e4",
+  "lang": "cs-CZ",
+  "version": "1.0.0",
+  "description": "personal page of Jan Michek",
+  "author": "janmichek",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.2.1",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "jimp": "^0.8.4",
+    "listify": "^1.0.0",
+    "lost": "^8.3.1",
+    "lqip-loader": "^2.2.0",
+    "node-fetch": "^2.6.0",
+    "nuxt": "^2.10.1",
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-import": "^12.0.1",
+    "postcss-import-ext-glob": "^1.1.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-short": "^5.0.0",
+    "responsive-loader": "^1.2.0",
+    "sqip-loader": "^0.2.0",
+    "vue-clamp": "^0.2.2",
+    "vue-moment": "^4.0.0",
+    "vue2-filters": "^0.8.0-beta.1",
+    "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^3.0.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2",
+    "stylelint": "^11.1.1",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-prettier": "^1.1.1"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "yarn"
+  },
+  "gitHooks": {
+    "pre-push": "eslint --config .eslintrc-pre-push.js --ext .js,.vue"
+  },
+  "eslintIgnore": [
+    "plugins/modernizr.js"
+  ]
+}
