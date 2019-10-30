@@ -79,7 +79,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+      text-align: center;
+      @media (--tablet) {
+        text-align: left;
+      }
     }
   }
 </style>

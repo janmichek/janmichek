@@ -9,11 +9,13 @@ h1,
 .h1 {
   font-family: var(--font-family);
   font-size: 72px;
+  margin-bottom: var(--gutter-lg);
 }
 
 h2,
 .h2 {
   font-size: 40px;
+  margin-bottom: var(--gutter-lg);
 }
 
 h3,

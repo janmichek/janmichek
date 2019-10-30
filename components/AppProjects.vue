@@ -62,7 +62,7 @@
           </h4>
           <ul class="projects__list">
             <li>
-              Presentation webpage made for celebrating anniversary of freedom and democracy.
+              Presentation webpage made for celebration of anniversary of freedom and democracy.
             </li>
             <li>
               I have made complete responsive frontend upon Wordpress backend, coded from graphic design in Sketch

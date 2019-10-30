@@ -3,4 +3,10 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #ffffff;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
 }

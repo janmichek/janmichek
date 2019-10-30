@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="page">
     <app-skills class="page__skills u-container"/>
     <app-projects class="page__projects"/>
   </section>

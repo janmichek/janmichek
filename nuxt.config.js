@@ -15,15 +15,7 @@ export default {
       { hid: 'robots', name: 'robots', content: process.env.ALLOW_INDEXING ? 'index' : 'noindex' },
     ],
   },
-
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: 'janmichek.jpg',
-    },
-  ],
-
+  
   loading: { color: pkg.themeColor },
 
   css: ['~/assets/styles/main.css'],
