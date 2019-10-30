@@ -3,7 +3,7 @@
   --brand-secondary: #ffffff;
 
   --text-color: #082626;
-  --text-color-secondary: #9f9f9f;
+  --text-color-secondary: #808080;
 
   --font-family: 'Play', serif;
   --font-family-heading: 'Roboto Slab', sans-serif;
@@ -18,17 +18,15 @@
   --gutter-lg: 32px;
   --gutter-xl: 40px;
   --gutter-xxl: 60px;
-  --gutter-section: 80px;
+  --gutter-section: 40px;
   --container-max-width: 1000px;
-
-  --header-height: 520px;
-  --header-height-desktop: 310px;
-  --header-height-slim: 60px;
 
   --fast: 0.1s;
   --normal: 0.2s;
   --slow: 0.4s;
 }
+
+@custom-media --mobile (min-width: 480px);
 
 @custom-media --tablet (min-width: 768px);
 

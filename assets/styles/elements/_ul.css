@@ -1,3 +1,4 @@
 ul {
-  padding-left: var(--gutter);
+  padding-left: 0;
+  margin: var(--gutter-xs) 0;
 }

@@ -51,9 +51,6 @@ module.exports = {
       'singleline': 1,
       'multiline': { 'max': 1 },
     }],
-    'vue/singleline-html-element-content-newline': ['warn', {
-      'ignoreWhenNoAttributes': false,
-    }],
     'vue/no-v-html': 0,
     'no-console': 'off',
     'no-debugger': 'off',

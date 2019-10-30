@@ -1,4 +1,4 @@
 li {
-  margin-bottom: var(--gutter-xs);
+  margin-bottom: var(--gutter-sm);
   list-style: none;
 }

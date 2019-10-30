@@ -2,6 +2,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 var(--gutter-sm) 0;
   font-family: var(--font-family-heading);
   font-weight: normal;
+  line-height: 1;
 }
 
 h1,
@@ -19,9 +20,12 @@ h3,
 .h3 {
   font-family: var(--font-family);
   font-size: 40px;
+  margin-bottom: var(--gutter-lg);
 }
 
 h4,
 .h4 {
   font-size: 22px;
+  margin-bottom: var(--gutter-xs);
+
 }

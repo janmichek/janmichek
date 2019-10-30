@@ -27,10 +27,6 @@
     flex-direction: column;
     min-height: 100vh;
 
-    &__content {
-      margin-top: var(--header-height);
-    }
-
     &__footer {
       margin-top: auto;
     }
