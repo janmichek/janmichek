@@ -1,6 +1,4 @@
-# plnt-frontend-template
-
-> planetary front-end boilerplate
+# Jan Michek personal page
 
 ## Build Setup
 
@@ -19,10 +17,8 @@ $ yarn start
 $ yarn run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
-
-## Perfect Styleguide
+## Styleguide
 
 ### Vue
 - 2 words component name with PascalCase but filename should be named in kebab-case.vue
@@ -83,7 +79,3 @@ we use [bit.dev](https://bit.dev/plnt/planetary-component) for reusable componen
  - code review through github
  - regenerate yarn.lock
  - `bit eject component`
-
- 
- ## Project specific readme
- ...

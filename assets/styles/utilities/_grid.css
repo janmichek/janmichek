@@ -23,6 +23,16 @@
   lost-align: center;
 }
 
+.u-masonry {
+   column-gap: 1.5em;
+  @media (--tablet) {
+    column-count: 2;
+  }
+  @media (--desktop) {
+    column-count: 3;
+  }
+}
+
 .u-1\/2 {
   lost-column: 1/2 2 var(--gutter);
 }

@@ -1,0 +1,37 @@
+<template>
+  <h3
+    class="title-section"
+    :data-theme="theme">
+    <slot/>
+  </h3>
+</template>
+
+<script>
+  export default {
+    name: 'TitleSection',
+    props: {
+      theme: {
+        type: String,
+        default: 'light',
+      },
+    },
+  }
+</script>
+
+<style scoped>
+  [data-theme="dark"] {
+    --title-section-color: var(--text-color);
+  }
+
+  [data-theme="light"] {
+    --title-section-color: var(--brand-primary);
+  }
+
+  .title-section {
+    color: var(--title-section-color);
+    text-align: center;
+    @media (--tablet) {
+      text-align: left;
+    }
+  }
+</style>

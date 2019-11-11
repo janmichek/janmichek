@@ -1,43 +1,47 @@
 <template>
-  <nav class="the-navigation">
+  <header class="the-header">
     <div class="u-container">
       <div class="u-flex-row">
-        <div class="u-5/12@tablet the-navigation__avatar">
-          <img
-            class="the-navigation__image"
-            src="../assets/images/janmichek.jpg"
-            width="230"
-            alt="Jan Michek's avatar">
+        <div class="u-5/12@tablet the-header__avatar">
+          <app-link
+            class="the-header__image"
+            to="/">
+            <img
+              src="../assets/images/janmichek.jpg"
+              width="230"
+              alt="Jan Michek's avatar">
+          </app-link>
         </div>
-        <div class="u-7/12@tablet the-navigation__content">
-          <h1 class="the-navigation__heading">
+        <div class="u-7/12@tablet the-header__content">
+          <h1 class="the-header__heading">
             Jan Michek
           </h1>
-          <h2 class="the-navigation__subheading">
+          <div class="h2 the-header__subheading">
             frontend developer
-          </h2>
-          <div class="the-navigation__excerpt">
-            13.7.1987 / Karlovy Vary
+          </div>
+          <div class="h3 the-header__excerpt">
+            Czechia / Prague / 32 yo
           </div>
         </div>
       </div>
     </div>
-  </nav>
+  </header>
 </template>
 
 <script>
+  import AppLink from '../components/AppLink'
   export default {
-    name: 'TheNavigation',
+    name: 'TheHeader',
+    components: { AppLink },
   }
 
 </script>
 
 <style scoped>
-  .the-navigation {
+  .the-header {
     padding: var(--gutter-xl);
     background: var(--brand-secondary);
     width: 100%;
-    margin-bottom: var(--gutter-section);
     z-index: 900;
 
     &__avatar {
@@ -51,6 +55,7 @@
         margin-bottom: 0;
       }
     }
+
     &__content {
       width: 100%;
     }
@@ -73,6 +78,7 @@
       text-align: center;
       color: var(--text-color-secondary);
       font-size: 32px;
+      margin-bottom: 0;
     }
   }
 </style>

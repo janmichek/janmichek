@@ -9,9 +9,6 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--brand-primary)
-
+    color: var(--brand-primary);
   }
 }
-
-

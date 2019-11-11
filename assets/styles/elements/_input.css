@@ -13,3 +13,77 @@
 ::placeholder {
   color: var(--placeholder-color);
 }
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 2em;
+  height: 1.5em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+label::before,
+label::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+label::before {
+  content: " ";
+  border: 2px solid var(--text-color-secondary);
+}
+
+/* Checkbox */
+input[type="checkbox"] + label::after {
+  content: "\2714";
+  color: var(--brand-secondary);
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Radio */
+input[type="radio"] + label::before {
+  border-radius: 50%;
+}
+
+input[type=radio] + label::after {
+  content: " ";
+  top: .25em;
+  left: .25em;
+  width: 1em;
+  height: 1em;
+  background: var(--brand-primary);
+  border: .2em solid var(--brand-secondary);
+  border-radius: 50%;
+}
+
+/* :checked */
+input[type="checkbox"]:checked + label::before,
+input[type="radio"]:checked + label::before {
+  background: var(--brand-primary);
+  border: .2em solid var(--brand-primary);
+}
+
+input[type="checkbox"] + label::after,
+input[type=radio] + label::after {
+  transform: scale(0);
+}
+
+input[type="checkbox"]:checked + label::after,
+input[type=radio]:checked + label::after {
+  transform: scale(1);
+}
+

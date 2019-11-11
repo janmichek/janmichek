@@ -30,7 +30,7 @@
       },
       target: {
         type: String,
-        default: '',
+        default: '_blank',
       },
     },
     computed: {

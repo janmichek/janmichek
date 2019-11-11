@@ -1,9 +1,9 @@
 <template>
-  <nav class="the-footer">
+  <footer
+    class="the-footer"
+    :data-theme="theme">
     <div class="u-container">
-      <h3 class="the-footer__heading">
-        Contact
-      </h3>
+      <title-section theme="dark">Contact</title-section>
 
       <div class="u-flex-row">
         <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">
@@ -13,52 +13,66 @@
             jan@janmichek.cz
           </app-link>
         </div>
-        <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">
 
+        <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">
           <app-link
             class="the-footer__link"
-            target="_blank"
             to="https://cz.linkedin.com/in/jan-michek-aba913103">
             Linked In
           </app-link>
         </div>
 
         <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">
-
           <app-link
             class="the-footer__link"
-            target="_blank"
             to="https://github.com/janmichek/">
             Github
           </app-link>
         </div>
 
         <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">
-
           <app-link
             class="the-footer__link"
-            target="_blank"
             to="https://www.facebook.com/honej">
             Facebook
           </app-link>
         </div>
-
       </div>
     </div>
-  </nav>
+  </footer>
 </template>
 
 <script>
   import AppLink from '../components/AppLink'
+  import TitleSection from '../components/TitleSection'
 
   export default {
     name: 'TheFooter',
-    components: { AppLink },
+    components: { TitleSection, AppLink },
+    props: {
+      theme: {
+        type: String,
+        default: 'light',
+      },
+    },
   }
 </script>
 
 <style scoped>
+  [data-theme="dark"] {
+    --footer-background: var(--brand-primary);
+    --footer-link: var(--brand-secondary);
+    --footer-link-hover: var(--text-color);
+  }
+
+  [data-theme="light"] {
+    --footer-background: var(--brand-secondary);
+    --footer-link: var(--brand-primary);
+    --footer-link-hover: var(--text-color);
+  }
+
   .the-footer {
+    background: var(--footer-background);
     padding: var(--gutter-xl) 0;
     text-align: center;
     @media (--mobile) {
@@ -66,9 +80,9 @@
     }
     &__link {
       font-size: 22px;
-      color: var(--brand-secondary);
+      color: var(--footer-link);
       &:hover {
-        color: var(--text-color);
+        color: var(--footer-link-hover);
       }
     }
     &__link-wrap {

@@ -1,3 +1,36 @@
+html {
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: var(--slow);
+}
+
+/* Pages transition */
+.layout-enter-active,
+.layout-leave-active {
+  transition: all var(--fast);
+}
+
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+/* Links */
+a {
+  &:hover,
+  &:focus {
+    transition: all var(--fast);
+  }
+}
+
+/* Checkbox */
+label {
+  &:before,
+  &:after {
+    transition: var(--normal) all ease;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

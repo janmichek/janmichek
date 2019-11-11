@@ -1,26 +1,25 @@
 <template>
-  <section class="page">
-    <app-skills class="page__skills u-container"/>
-    <app-projects class="page__projects"/>
-  </section>
+  <article class="page">
+    <section-skills class="page__section"/>
+    <section-projects class="page__section"/>
+    <section-goodies class="page__section"/>
+  </article>
 </template>
-
 <script>
 
-  import AppSkills from '../components/AppSkills'
-  import AppProjects from '../components/AppProjects'
+  import SectionSkills from '../components/SectionSkills'
+  import SectionProjects from '../components/SectionProjects'
+  import SectionGoodies from '../components/SectionGoodies'
+
   export default {
-    components: { AppProjects, AppSkills },
+    components: { SectionGoodies, SectionProjects, SectionSkills },
   }
 </script>
 
 <style scoped>
   .page {
-    &__skills {
-      padding-bottom: var(--gutter-section);
-    }
-    &__projects {
-      padding-bottom: var(--gutter-section);
+    &__section {
+      padding: var(--gutter-section) 0;
     }
   }
 </style>

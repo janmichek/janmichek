@@ -10,6 +10,6 @@ body {
   font-style: normal;
   font-variant: normal;
   text-transform: none;
-  background: var(--brand-primary);
+  background: var(--brand-secondary);
   min-width: 320px;
 }

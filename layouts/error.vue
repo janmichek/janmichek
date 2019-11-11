@@ -1,5 +1,5 @@
 <template>
-  <div class="u-container">
+  <div class="error u-container">
     <h1
       v-if="error.statusCode === 404"
       class="error__heading">
@@ -39,6 +39,7 @@
 
 <style>
   .error {
+    margin: var(--gutter-xl) 0;
     &__heading {
       text-align: center;
     }
@@ -48,7 +49,6 @@
     }
     &__action {
       text-align: center;
-      padding-bottom:var(--gutter-xl);
     }
   }
 </style>

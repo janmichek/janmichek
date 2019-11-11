@@ -1,4 +1,5 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 0 0 var(--gutter-sm) 0;
   font-family: var(--font-family-heading);
   font-weight: normal;
@@ -29,5 +30,4 @@ h4,
 .h4 {
   font-size: 22px;
   margin-bottom: var(--gutter-xs);
-
 }
