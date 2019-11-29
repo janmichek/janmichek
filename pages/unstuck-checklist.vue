@@ -1,7 +1,7 @@
 <template>
   <article>
     <title-slug
-      title="Unstuck checklist"
+      title="Un-stuck checklist"
       description="This is a list of known problem-solving techniques right on one place in order.
       When the cause of the problem is not clear in 15 minutes, lets check this list one by one."/>
 
