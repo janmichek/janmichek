@@ -78,7 +78,7 @@
           {
             title: 'Source Code',
             image: 'janmichek.jpg',
-            description: 'Source code of this personal page. This web is hosted on zeit.co',
+            description: 'Source code of this personal page. This web is hosted on zeit.co.',
             link: 'https://github.com/janmichek/janmichek',
           },
         ],
