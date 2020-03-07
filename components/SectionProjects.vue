@@ -80,7 +80,7 @@
         <div class="projects__project">
           <h4>
             <app-link
-              to="https://test.fkr.plnt.cz/">
+              to="https://kalabisruzickova.cz/">
               Fond Kalabis Růžičková
             </app-link>
           </h4>
