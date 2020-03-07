@@ -7,7 +7,7 @@ import pkg from './package.json'
 dotenv.config()
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
 
   head: {
     title: pkg.niceName,
@@ -15,7 +15,7 @@ export default {
       { hid: 'robots', name: 'robots', content: process.env.ALLOW_INDEXING ? 'index' : 'noindex' },
     ],
   },
-  
+
   loading: { color: pkg.themeColor },
 
   css: ['~/assets/styles/main.css'],
