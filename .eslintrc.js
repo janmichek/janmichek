@@ -8,6 +8,7 @@ module.exports = {
     parser: 'babel-eslint',
   },
   extends: [
+    'plugin:nuxt/recommended',
     'standard',
     'plugin:vue/base',
     'plugin:vue/essential',
@@ -16,13 +17,16 @@ module.exports = {
     'eslint:recommended',
     'prettier/vue',
   ],
-  plugins: [
-    'vue',
-  ],
+
   rules: {
     'semi': [2, 'never'],
     'comma-dangle': ['warn', 'always-multiline'],
     'indent': 'off',
+    'no-empty': 'warn',
+    'padded-blocks': 'warn',
+    'no-unused-vars': 'warn',
+    'no-undef': 'warn',
+    'space-before-function-paren': 'warn',
     'no-trailing-spaces': 'warn',
     'no-multiple-empty-lines': 'warn',
     'vue/script-indent': ['warn', 2, {
@@ -50,6 +54,9 @@ module.exports = {
     'vue/max-attributes-per-line': ['warn', {
       'singleline': 1,
       'multiline': { 'max': 1 },
+    }],
+    'vue/singleline-html-element-content-newline': ['warn', {
+      'ignoreWhenNoAttributes': false,
     }],
     'vue/no-v-html': 0,
     'no-console': 'off',

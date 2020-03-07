@@ -23,6 +23,11 @@ module.exports = {
     'semi': [2, 'never'],
     'comma-dangle': ['error', 'always-multiline'],
     'indent': 'off',
+    'no-empty': 'error',
+    'padded-blocks': 'error',
+    'no-unused-vars': 'error',
+    'no-undef': 'error',
+    'space-before-function-paren': 'error',
     'no-trailing-spaces': 'error',
     'no-multiple-empty-lines': 'error',
     'vue/script-indent': ['error', 2, {
@@ -50,6 +55,9 @@ module.exports = {
     'vue/max-attributes-per-line': ['error', {
       'singleline': 1,
       'multiline': { 'max': 1 }
+    }],
+    'vue/singleline-html-element-content-newline': ['error', {
+      'ignoreWhenNoAttributes': false,
     }],
     'vue/no-v-html': 0,
     'no-console': 'error',
