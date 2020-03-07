@@ -4,7 +4,7 @@ import path from 'path'
 import pkg from './package.json'
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
 
   head: {
     title: pkg.niceName,
