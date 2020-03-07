@@ -1,18 +1,15 @@
-import dotenv from 'dotenv'
 import 'babel-polyfill'
 import webpack from 'webpack'
 import path from 'path'
 import pkg from './package.json'
 
-dotenv.config()
-
 export default {
-  mode: 'universal',
+  mode: 'spa',
 
   head: {
     title: pkg.niceName,
     meta: [
-      { hid: 'robots', name: 'robots', content: process.env.ALLOW_INDEXING ? 'index' : 'noindex' },
+      { hid: 'robots', name: 'robots', content: 'index' },
     ],
   },
 
@@ -20,15 +17,7 @@ export default {
 
   css: ['~/assets/styles/main.css'],
 
-  plugins: [
-    '~/plugins/vue-moment',
-    '~/plugins/listify',
-    '~/plugins/vue-filters',
-  ],
-
   modules: [
-    '@nuxtjs/dotenv',
-
     ['@nuxtjs/pwa', {
       meta: {
         name: pkg.niceName,
@@ -37,7 +26,7 @@ export default {
         icon: true,
         ogImage: false,
         ogTitle: false,
-        ogUrl: 'janmichek.com',
+        ogUrl: 'janmichek.cz',
       },
       manifest: {
         name: pkg.niceName,
@@ -61,7 +50,6 @@ export default {
 
   build: {
     extractCSS: true,
-    transpile: ['vue-clamp', 'resize-detector'],
     plugins: [
       new webpack.ContextReplacementPlugin(
         /moment[/\\]locale$/,
