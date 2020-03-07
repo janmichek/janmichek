@@ -7,28 +7,16 @@
   "description": "personal page of Jan Michek",
   "author": "janmichek",
   "private": true,
-  "builds": [
-    {
-      "src": "nuxt.config.js",
-      "use": "@nuxtjs/now-builder",
-      "config": {}
-    }
-  ],
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "deploy": "nuxt generate && firebase deploy"
   },
   "dependencies": {
     "@bazzite/nuxt-optimized-images": "^0.3.0",
-    "@nuxtjs/now-builder": "^0.17.1",
     "@nuxtjs/pwa": "^3.0.0-beta.16",
     "babel-polyfill": "^6.26.0",
-    "cross-env": "^7.0.2",
-    "extract-text-webpack-plugin": "^3.0.2",
+    "firebase": "^7.10.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "imagemin-svgo": "^7.1.0",
