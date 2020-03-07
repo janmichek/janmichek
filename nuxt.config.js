@@ -7,7 +7,7 @@ import pkg from './package.json'
 dotenv.config()
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
 
   head: {
     title: pkg.niceName,
