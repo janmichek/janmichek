@@ -70,6 +70,12 @@
             link: '/tech-links',
           },
           {
+            title: 'Code Review Checklist',
+            image: 'checklist.jpg',
+            description: 'I always say that developing a project alone is the same as to rise child as a single parent.',
+            link: '/code-review-checklist',
+          },
+          {
             title: 'Music Production',
             image: 'honeytcz.jpg',
             description: 'I invest most of my free time into music production. Take a listen.',
