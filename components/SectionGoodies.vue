@@ -27,6 +27,12 @@
       return {
         goodies: [
           {
+            title: 'Pull Request Checklist',
+            image: 'checklist.jpg',
+            description: 'With empathy you can grow strong codebase. Here is what I have learned.',
+            link: '/pull-request-checklist',
+          },
+          {
             title: 'Github Tools',
             image: 'github-tools.jpg',
             description: 'Awesome Github tools and standards I hold in my Git workflow. I use them to make collaboration joy for everyone.',
