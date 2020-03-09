@@ -3,7 +3,9 @@
     class="the-footer"
     :data-theme="theme">
     <div class="u-container">
-      <title-section theme="dark">Contact</title-section>
+      <title-section theme="dark">
+        Contact
+      </title-section>
 
       <div class="u-flex-row">
         <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">

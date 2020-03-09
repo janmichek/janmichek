@@ -1,7 +1,9 @@
 <template>
   <section class="skills">
     <div class="u-container">
-      <title-section theme="dark">My skillset</title-section>
+      <title-section theme="dark">
+        My skillset
+      </title-section>
       <div class="skills__row">
         <div class="skills__name">
           Vue

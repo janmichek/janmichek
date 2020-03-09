@@ -1,7 +1,11 @@
 <template>
   <div class="title-slug">
-    <h2 class="h3 title-slug__title">{{ title }}</h2>
-    <p class="title-slug__description">{{ description }}</p>
+    <h2 class="h3 title-slug__title">
+      {{ title }}
+    </h2>
+    <p class="title-slug__description">
+      {{ description }}
+    </p>
   </div>
 </template>
 
@@ -26,6 +30,7 @@
     margin-bottom: var(--gutter-xxl);
 
     &__title {
+      color: var(--brand-primary);
       margin-bottom: var(--gutter);
       text-align: center;
       @media (--tablet) {
