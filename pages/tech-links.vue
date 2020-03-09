@@ -93,7 +93,6 @@
   import TitleSlug from '../components/TitleSlug'
 
   export default {
-    name: 'TechLinks',
     layout: 'slug',
     components: { TitleSlug, AppLink },
   }

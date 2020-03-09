@@ -14,7 +14,6 @@
   import TitleSlug from '../components/TitleSlug'
 
   export default {
-    name: 'UnstuckChecklist',
     components: { TitleSlug, AppChecklist },
     layout: 'slug',
 

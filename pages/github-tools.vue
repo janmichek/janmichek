@@ -8,7 +8,9 @@
     </section>
 
     <section class="tools__section">
-      <h3 class="h4 tools__subtitle">Side-by-side comparison</h3>
+      <h3 class="h4 tools__subtitle">
+        Side-by-side comparison
+      </h3>
       <p class="tools__paragraph">
         Leaving all doubts behind and show the differences before and after implementation.
       </p>
@@ -18,7 +20,9 @@
     </section>
 
     <section class="tools__section">
-      <h3 class="h4 tools__subtitle">Github Projects</h3>
+      <h3 class="h4 tools__subtitle">
+        Github Projects
+      </h3>
       <p class="tools__paragraph">
         Make progress of my work visible to me and all of my co-workers. Automatically. No hands.
       </p>
@@ -28,7 +32,9 @@
     </section>
 
     <section class="tools__section">
-      <h3 class="h4 tools__subtitle">Screen recordings</h3>
+      <h3 class="h4 tools__subtitle">
+        Screen recordings
+      </h3>
       <p class="tools__paragraph">
         Sometimes the picture is not enough, especially when describing complex user interactions.
       </p>
@@ -41,7 +47,9 @@
     </section>
 
     <section class="tools__section">
-      <h3 class="h4 tools__subtitle">Checklist</h3>
+      <h3 class="h4 tools__subtitle">
+        Checklist
+      </h3>
       <p class="tools__paragraph">
         Good old checkbox style. I am always make them as a response to requested code reviews.
       </p>

@@ -15,7 +15,6 @@
   import TitleSlug from '../components/TitleSlug'
 
   export default {
-    name: 'DesignChecklist',
     components: { TitleSlug, AppChecklist },
     layout: 'slug',
     data () {
