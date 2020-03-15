@@ -19,20 +19,13 @@
             </li>
             <li>
               Used technologies:
-              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>
-              ,
-              <app-link to="https://www.prisma.io/">Prisma</app-link>
-              ,
-              <app-link to="https://PostCSS.org">PostCSS</app-link>
-              ,
-              <app-link to="https://eslint.org/">Eslint</app-link>
-              ,
-              <app-link to="https://www.hotjar.com">Hotjar</app-link>
-              ,
-              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
-              ,
-              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
-              ,
+              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>,
+              <app-link to="https://www.prisma.io/">Prisma</app-link>,
+              <app-link to="https://PostCSS.org">PostCSS</app-link>,
+              <app-link to="https://eslint.org/">Eslint</app-link>,
+              <app-link to="https://www.hotjar.com">Hotjar</app-link>,
+              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>,
+              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>,
               <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
             </li>
           </ul>
@@ -54,24 +47,15 @@
             </li>
             <li>
               Used technologies:
-              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>
-              ,
-              <app-link to="https://www.wordpress.com/">Wordpress</app-link>
-              ,
-              <app-link to="https://www.graphql.org/">GraphQL</app-link>
-              ,
-              <app-link to="https://bit.dev">Bit components</app-link>
-              ,
-              <app-link to="https://PostCSS.org">PostCSS</app-link>
-              ,
-              <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>
-              ,
-              <app-link to="https://eslint.org/">Eslint</app-link>
-              ,
-              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
-              ,
-              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
-              ,
+              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>,
+              <app-link to="https://www.wordpress.com/">Wordpress</app-link>,
+              <app-link to="https://www.graphql.org/">GraphQL</app-link>,
+              <app-link to="https://bit.dev">Bit components</app-link>,
+              <app-link to="https://PostCSS.org">PostCSS</app-link>,
+              <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>,
+              <app-link to="https://eslint.org/">Eslint</app-link>,
+              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>,
+              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>,
               <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
             </li>
           </ul>
@@ -96,24 +80,15 @@
 
             <li>
               Used technologies:
-              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>
-              ,
-              <app-link to="https://www.wordpress.com/">Wordpress</app-link>
-              ,
-              <app-link to="https://www.graphql.org/">GraphQL</app-link>
-              ,
-              <app-link to="https://bit.dev">Bit components</app-link>
-              ,
-              <app-link to="https://PostCSS.org">PostCSS</app-link>
-              ,
-              <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>
-              ,
-              <app-link to="https://eslint.org/">Eslint</app-link>
-              ,
-              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
-              ,
-              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
-              ,
+              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>,
+              <app-link to="https://www.wordpress.com/">Wordpress</app-link>,
+              <app-link to="https://www.graphql.org/">GraphQL</app-link>,
+              <app-link to="https://bit.dev">Bit components</app-link>,
+              <app-link to="https://PostCSS.org">PostCSS</app-link>,
+              <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>,
+              <app-link to="https://eslint.org/">Eslint</app-link>,
+              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>,
+              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>,
               <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
             </li>
           </ul>
@@ -134,20 +109,13 @@
             </li>
             <li>
               Used technologies:
-              <app-link to="https://reactjs.org">React</app-link>
-              ,
-              <app-link to="https://reactjs.org/docs/introducing-jsx.html">JSX</app-link>
-              ,
-              <app-link to="https://storybook.js.org">Storybook</app-link>
-              ,
-              <app-link to="https://jestjs.io/">Jest testing</app-link>
-              ,
-              <app-link to="https://getbootstrap.com/docs/3.3/">Bootstrap</app-link>
-              ,
-              <app-link to="https://eslint.org/">Eslint</app-link>
-              ,
-              <app-link to="https://stylelint.io/">Stylelint</app-link>
-              ,
+              <app-link to="https://reactjs.org">React</app-link>,
+              <app-link to="https://reactjs.org/docs/introducing-jsx.html">JSX</app-link>,
+              <app-link to="https://storybook.js.org">Storybook</app-link>,
+              <app-link to="https://jestjs.io/">Jest testing</app-link>,
+              <app-link to="https://getbootstrap.com/docs/3.3/">Bootstrap</app-link>,
+              <app-link to="https://eslint.org/">Eslint</app-link>,
+              <app-link to="https://stylelint.io/">Stylelint</app-link>,
               <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
             </li>
           </ul>
