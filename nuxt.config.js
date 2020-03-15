@@ -88,19 +88,6 @@ export default {
           exclude: /(node_modules)/,
         })
       }
-
-      const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')
-      config.module.rules.splice(config.module.rules.indexOf(rule), 1)
-
-      config.module.rules.push({
-        test: /\.(png|jpe?g|gif|svg|webp)$/i,
-        exclude: path.resolve(__dirname, 'assets/images/icons'),
-        loader: 'url-loader',
-        query: {
-          limit: 1000, // 1KO
-          name: 'img/[name].[hash:7].[ext]',
-        },
-      })
     },
   },
 }

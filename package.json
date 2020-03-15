@@ -32,6 +32,7 @@
     "postcss-short": "^5.0.0",
     "responsive-loader": "^1.2.0",
     "sqip-loader": "^1.0.0",
+    "webp-loader": "^0.6.0",
     "yorkie": "^2.0.0"
   },
   "devDependencies": {

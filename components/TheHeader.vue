@@ -7,7 +7,7 @@
             class="the-header__image"
             to="/">
             <img
-              src="../assets/images/janmichek.jpg"
+              src="../assets/images/janmichek.jpg?webp"
               width="230"
               alt="Jan Michek's avatar">
           </app-link>

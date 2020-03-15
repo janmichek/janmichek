@@ -15,7 +15,7 @@
         Leaving all doubts behind and show the differences before and after implementation.
       </p>
       <img
-        src="../assets/images/gh3.jpg"
+        src="../assets/images/gh3.jpg?webp"
         alt="">
     </section>
 
@@ -27,7 +27,7 @@
         Make progress of my work visible to me and all of my co-workers. Automatically. No hands.
       </p>
       <img
-        src="../assets/images/gh1.jpg"
+        src="../assets/images/gh1.jpg?webp"
         alt="">
     </section>
 
@@ -54,7 +54,7 @@
         Good old checkbox style. I am always make them as a response to requested code reviews.
       </p>
       <img
-        src="../assets/images/gh4.jpg"
+        src="../assets/images/gh4.jpg?webp"
         alt="">
     </section>
   </article>

@@ -8,7 +8,7 @@
     </h4>
     <img
       class="card__image"
-      :src="require(`../assets/images/${image}`)"
+      :src="require(`../assets/images/${image}?webp`)"
       alt="Goodie image">
     <slot/>
   </component>
