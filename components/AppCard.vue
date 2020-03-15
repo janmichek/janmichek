@@ -1,9 +1,16 @@
 <template>
-  <component
-    :is="component"
-    :to="component === 'app-link' ? link : null"
-    :class="['card u-link-wrap', {'card--has-link': link }]">
-    <h4 class="card__title">
+  <div class="card">
+    <app-link
+      v-if="link"
+      class="card__link u-stretched-link"
+      :to="link">
+      <h4 class="card__title">
+        {{ title }}
+      </h4>
+    </app-link>
+    <h4
+      v-else
+      class="card__title">
       {{ title }}
     </h4>
     <img
@@ -11,13 +18,14 @@
       :src="require(`../assets/images/${image}?webp`)"
       alt="Goodie image">
     <slot/>
-  </component>
+  </div>
 </template>
 
 <script>
   /* eslint-disable vue/no-unused-components */
   /* component rendered dynamically */
   import AppLink from '../components/AppLink'
+
   export default {
     name: 'AppCard',
     components: { AppLink },
@@ -35,31 +43,31 @@
         default: null,
       },
     },
-    computed: {
-      component () {
-        return this.link ? 'app-link' : 'div'
-      },
-    },
   }
 </script>
 
-<style>
+<style scoped>
   .card {
     width: 100%;
     display: inline-block;
     background: #fff;
     padding: var(--gutter);
     margin-bottom: var(--gutter-sm);
-    &--has-link:hover .card__title {
-      color: var(--brand-primary);
-      text-decoration: underline;
+    &__link {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
+
     &:last-child {
       margin-bottom: 0;
     }
+
     &__image {
       margin-bottom: var(--gutter-sm);
     }
+
     &__description {
       color: var(--text-color);
     }
