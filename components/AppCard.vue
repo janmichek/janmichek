@@ -53,6 +53,7 @@
     background: #fff;
     padding: var(--gutter);
     margin-bottom: var(--gutter-sm);
+    position: relative;
     &__link {
       text-decoration: none;
       &:hover {
