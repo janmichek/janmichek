@@ -46,10 +46,10 @@
               '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-2-ready-to-go-22a96aa38bfe">POST 2</a>.',
           },
           {
-            title: 'Design quality checklist',
+            title: 'Webdesign checklist',
             image: 'checklist.jpg',
             description: 'When I am collaborating with designers I need to make sure all formal requirements on design sketches are met. Otherwise would be pure waste of our times.',
-            link: '/design-checklist',
+            link: '/webdesign-checklist',
           },
           {
             title: 'Frontendisti meetup',
