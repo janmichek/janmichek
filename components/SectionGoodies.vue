@@ -64,10 +64,10 @@
             link: '/unstuck-checklist',
           },
           {
-            title: 'Invision Mock',
-            image: 'invision.jpg',
-            description: 'Just to show my skillsw with this tool to build interactive mockups.',
-            link: 'https://invis.io/RGPAXGIM4W2',
+            title: 'CRUD animations',
+            image: 'crud_actions.png',
+            description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
+            link: 'https://codepen.io/janmichek/pen/bGEoozW',
           },
           {
             title: 'Weekly Tech Feed',
