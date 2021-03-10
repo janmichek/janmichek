@@ -1,6 +1,4 @@
 import 'babel-polyfill'
-import webpack from 'webpack'
-import path from 'path'
 import pkg from './package.json'
 
 export default {
@@ -16,6 +14,10 @@ export default {
   loading: { color: pkg.themeColor },
 
   css: ['~/assets/styles/main.css'],
+
+  plugins: [
+    '~/plugins/vue-awesome-swiper',
+  ],
 
   modules: [
     ['@nuxtjs/pwa', {
@@ -50,12 +52,6 @@ export default {
 
   build: {
     extractCSS: true,
-    plugins: [
-      new webpack.ContextReplacementPlugin(
-        /moment[/\\]locale$/,
-        /en|cs/,
-      ),
-    ],
 
     postcss: {
       plugins: {

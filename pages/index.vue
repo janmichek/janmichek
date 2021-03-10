@@ -19,7 +19,7 @@
 <style scoped>
   .page {
     &__section {
-      padding: var(--gutter-section) 0;
+      padding: var(--gutter-xxl) 0;
     }
   }
 </style>

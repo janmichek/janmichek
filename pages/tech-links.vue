@@ -38,19 +38,19 @@
       </li>
       <li class="tech-links__item">
         <h4>
+          <app-link to="https://www.morningbrew.com/emerging-tech">
+            https://www.morningbrew.com/emerging-tech
+          </app-link>
+        </h4>
+        <div>Future proof feed you need</div>
+      </li>
+      <li class="tech-links__item">
+        <h4>
           <app-link to="https://designyoutrust.com/">
             designyoutrust.com
           </app-link>
         </h4>
         <div>Inspirational eye candies</div>
-      </li>
-      <li class="tech-links__item">
-        <h4>
-          <app-link to="https://css-tricks.com/">
-            css-tricks.com
-          </app-link>
-        </h4>
-        <div>Another classic curated frontend stuff</div>
       </li>
       <li class="tech-links__item">
         <h4>

@@ -14,9 +14,10 @@
       <p class="tools__paragraph">
         Leaving all doubts behind and show the differences before and after implementation.
       </p>
-      <img
-        src="../assets/images/gh3.jpg?webp"
-        alt="">
+      <app-image
+        class="tools__image"
+        image="gh3.jpg"
+        alt="comparison"/>
     </section>
 
     <section class="tools__section">
@@ -26,9 +27,10 @@
       <p class="tools__paragraph">
         Make progress of my work visible to me and all of my co-workers. Automatically. No hands.
       </p>
-      <img
-        src="../assets/images/gh1.jpg?webp"
-        alt="">
+      <app-image
+        class="tools__image"
+        image="gh1.jpg"
+        alt="board"/>
     </section>
 
     <section class="tools__section">
@@ -39,10 +41,10 @@
         Sometimes the picture is not enough, especially when describing complex user interactions.
       </p>
       <div class="tools__image-wrap">
-        <img
+        <app-image
           class="tools__image"
-          src="../assets/images/gh2.gif"
-          alt="">
+          image="gh2.jpg"
+          alt="screen capture"/>
       </div>
     </section>
 
@@ -53,18 +55,20 @@
       <p class="tools__paragraph">
         Good old checkbox style. I am always make them as a response to requested code reviews.
       </p>
-      <img
-        src="../assets/images/gh4.jpg?webp"
-        alt="">
+      <app-image
+        class="tools__image"
+        image="gh4.jpg"
+        alt="checkbox"/>
     </section>
   </article>
 </template>
 
 <script>
   import TitleSlug from '../components/TitleSlug'
+  import AppImage from '~/components/AppImage'
 
   export default {
-    components: { TitleSlug },
+    components: { AppImage, TitleSlug },
     layout: 'slug',
   }
 </script>

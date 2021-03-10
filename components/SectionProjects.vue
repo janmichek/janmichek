@@ -3,123 +3,182 @@
     <div class="u-container">
       <title-section>Recent projects</title-section>
       <div class="projects__content">
-        <div class="projects__project">
-          <h4>
-            <app-link to="https://vaznyzajem.cz">
-              Vážný zájem
+        <app-post>
+          <template #heading>
+            Chatbot Builder
+          </template>
+          <template #image>
+            <app-image
+              image="chatbot.jpg"
+              :width="480"
+              alt="Chabot Builder"/>
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                This is complete frontend for AI based chatbot builder.
+                App offers innovative approach for industry leading corporate client
+                to building conversations between useres and bot.
+              </li>
+              <li>
+                My role was to code whole frontend, partipate in creating, user flows based on product requirements.
+                Team-wise I was responsible to setting strong guides and lead junior aside the development.
+              </li>
+              <li>
+                Used technologies:
+                <app-link to="https://nuxtjs.org/">Vue</app-link>
+                ,
+                <app-link to="https://www.prisma.io/">Vuex</app-link>
+                ,
+                <app-link to="https://postcss.org">postcss</app-link>
+                ,
+                <app-link to="https://eslint.org/">Eslint</app-link>
+                ,
+                <app-link to="https://www.hotjar.com">Hotjar</app-link>
+                ,
+                <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
+              </li>
+            </ul>
+          </template>
+        </app-post>
+        <app-post>
+          <template #heading>
+            Vážný zájem
+          </template>
+          <template #image>
+            <app-link to="https://vaznyzajem.cz/">
+              <app-image
+                image="vaznyzajem.jpg"
+                :width="480"
+                alt="Vážný zájem"/>
             </app-link>
-          </h4>
-          <ul class="projects__list">
-            <li>
-              Platform for organizing concerts of classical music in your living room.
-            </li>
-            <li>
-              I have collaborated on custom UI, UX and coded frontend features such as feedbacks, user forms and
-              validations and partly back-end features (notifications, permissions).
-            </li>
-            <li>
-              Used technologies:
-              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>,
-              <app-link to="https://www.prisma.io/">Prisma</app-link>,
-              <app-link to="https://PostCSS.org">PostCSS</app-link>,
-              <app-link to="https://eslint.org/">Eslint</app-link>,
-              <app-link to="https://www.hotjar.com">Hotjar</app-link>,
-              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
-            </li>
-          </ul>
-
-        </div>
-        <div class="projects__project">
-          <h4>
-            <app-link to="https://dikyzemuzem.cz">
-              Díky, že můžem
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                Platform for organizing concerts of classical music in your living room.
+              </li>
+              <li>
+                I have collaborated on custom UI, UX and coded frontend features such as feedbacks, user forms and
+                validations and partly back-end features (notifications, permissions).
+              </li>
+              <li>
+                Used technologies:
+                <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>
+                ,
+                <app-link to="https://www.prisma.io/">Prisma</app-link>
+                ,
+                <app-link to="https://postcss.org">postcss</app-link>
+                ,
+                <app-link to="https://eslint.org/">Eslint</app-link>
+                ,
+                <app-link to="https://www.hotjar.com">Hotjar</app-link>
+                ,
+                <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
+              </li>
+            </ul>
+          </template>
+        </app-post>
+        <app-post>
+          <template #heading>
+            Fond Kalabis Růžičková
+          </template>
+          <template #image>
+            <app-link to="https://kalabisruzickova.cz/">
+              <app-image
+                image="fond_kb.jpg"
+                :width="480"
+                alt="Fond Kalabis Růžičková"/>
             </app-link>
-          </h4>
-          <ul class="projects__list">
-            <li>
-              Presentation webpage made for celebration of anniversary of freedom and democracy.
-            </li>
-            <li>
-              I have made complete responsive frontend upon Wordpress backend, coded from graphic design in Sketch
-              project.
-            </li>
-            <li>
-              Used technologies:
-              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>,
-              <app-link to="https://www.wordpress.com/">Wordpress</app-link>,
-              <app-link to="https://www.graphql.org/">GraphQL</app-link>,
-              <app-link to="https://bit.dev">Bit components</app-link>,
-              <app-link to="https://PostCSS.org">PostCSS</app-link>,
-              <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>,
-              <app-link to="https://eslint.org/">Eslint</app-link>,
-              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
-            </li>
-          </ul>
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                Presentation webpage and archive of records for fund of two classical Czech musicians.
+              </li>
+              <li>
+                I have made complete frontend with custom UI such as advanced multi selects, participated on UX.
+                The app is based upon customized Wordpress backend.
+              </li>
 
-        </div>
-        <div class="projects__project">
-          <h4>
-            <app-link
-              to="https://kalabisruzickova.cz/">
-              Fond Kalabis Růžičková
-            </app-link>
-          </h4>
+              <li>
+                Used technologies:
+                <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>
+                ,
+                <app-link to="https://www.wordpress.com/">Wordpress</app-link>
+                ,
+                <app-link to="https://www.graphql.org/">GraphQL</app-link>
+                ,
+                <app-link to="https://bit.dev">Bit components</app-link>
+                ,
+                <app-link to="https://postcss.org">PostCSS</app-link>
+                ,
+                <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>
+                ,
+                <app-link to="https://eslint.org/">Eslint</app-link>
+                ,
+                <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
+              </li>
+            </ul>
+          </template>
+        </app-post>
 
-          <ul class="projects__list">
-            <li>
-              Presentation webpage and archive of records for fund of two classical Czech musicians.
-            </li>
-            <li>
-              I have made complete frontend with custom UI such as advanced multi selects, participated on UX.
-              The app is based upon customized Wordpress backend.
-            </li>
-
-            <li>
-              Used technologies:
-              <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>,
-              <app-link to="https://www.wordpress.com/">Wordpress</app-link>,
-              <app-link to="https://www.graphql.org/">GraphQL</app-link>,
-              <app-link to="https://bit.dev">Bit components</app-link>,
-              <app-link to="https://PostCSS.org">PostCSS</app-link>,
-              <app-link to="https://developers.google.com/speed/webp">WebP images</app-link>,
-              <app-link to="https://eslint.org/">Eslint</app-link>,
-              <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
-            </li>
-          </ul>
-        </div>
-        <div class="projects__project">
-          <h4>
+        <app-post>
+          <template #heading>
+            Indigo Styleguide
+          </template>
+          <template #image>
             <app-link to="https://indigo.keboola.com/">
-              Indigo Styleguide
+              <app-image
+                image="indigo.jpg"
+                :width="400"
+                alt="Indigo"/>
             </app-link>
-          </h4>
-          <ul class="projects__list">
-            <li>
-              UI library for developers to reuse UI components over complex ETL app.
-            </li>
-            <li>
-              I have reverse engineered inconsistent usage of UI components, codified it in styleguide and
-              reimplemented back to the app.
-            </li>
-            <li>
-              Used technologies:
-              <app-link to="https://reactjs.org">React</app-link>,
-              <app-link to="https://reactjs.org/docs/introducing-jsx.html">JSX</app-link>,
-              <app-link to="https://storybook.js.org">Storybook</app-link>,
-              <app-link to="https://jestjs.io/">Jest testing</app-link>,
-              <app-link to="https://getbootstrap.com/docs/3.3/">Bootstrap</app-link>,
-              <app-link to="https://eslint.org/">Eslint</app-link>,
-              <app-link to="https://stylelint.io/">Stylelint</app-link>,
-              <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
-            </li>
-          </ul>
-        </div>
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                UI library for developers to reuse UI components over complex ETL app.
+              </li>
+              <li>
+                I have reverse engineered inconsistent usage of UI components, codified it in styleguide and
+                reimplemented back to the app.
+              </li>
+              <li>
+                Used technologies:
+                <app-link to="https://reactjs.org">React</app-link>
+                ,
+                <app-link to="https://reactjs.org/docs/introducing-jsx.html">JSX</app-link>
+                ,
+                <app-link to="https://storybook.js.org">Storybook</app-link>
+                ,
+                <app-link to="https://jestjs.io/">Jest testing</app-link>
+                ,
+                <app-link to="https://getbootstrap.com/docs/3.3/">Bootstrap</app-link>
+                ,
+                <app-link to="https://eslint.org/">Eslint</app-link>
+                ,
+                <app-link to="https://stylelint.io/">Stylelint</app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</app-link>
+              </li>
+            </ul>
+          </template>
+          <!--todo record chatbot-->
+          <!--          todo record indigo-->
+        </app-post>
       </div>
     </div>
   </section>
@@ -128,10 +187,12 @@
 <script>
   import AppLink from '../components/AppLink'
   import TitleSection from '../components/TitleSection'
+  import AppImage from '../components/AppImage'
+  import AppPost from './AppPost'
 
   export default {
     name: 'SectionProjects',
-    components: { TitleSection, AppLink },
+    components: { AppPost, AppImage, TitleSection, AppLink },
   }
 </script>
 
@@ -142,7 +203,7 @@
     }
 
     &__project:not(:last-of-type) {
-      margin-bottom: var(--gutter-xl);
+      margin-bottom: var(--gutter-xxl);
     }
   }
 </style>

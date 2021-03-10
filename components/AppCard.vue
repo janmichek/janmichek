@@ -13,22 +13,23 @@
       class="card__title">
       {{ title }}
     </h4>
-    <img
+    <app-image
       class="card__image"
-      :src="require(`../assets/images/${image}?webp`)"
-      alt="Goodie image">
-    <slot/>
+      :image="image"
+      :alt="title"/>
+    <div class="card__description">
+      <slot/>
+    </div>
   </div>
 </template>
 
 <script>
-  /* eslint-disable vue/no-unused-components */
-  /* component rendered dynamically */
   import AppLink from '../components/AppLink'
+  import AppImage from '~/components/AppImage'
 
   export default {
     name: 'AppCard',
-    components: { AppLink },
+    components: { AppImage, AppLink },
     props: {
       image: {
         type: String,
@@ -52,10 +53,12 @@
     display: inline-block;
     background: #fff;
     padding: var(--gutter);
-    margin-bottom: var(--gutter-sm);
+    margin-bottom: var(--gutter-lg);
     position: relative;
+
     &__link {
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
@@ -66,10 +69,11 @@
     }
 
     &__image {
-      margin-bottom: var(--gutter-sm);
+      margin-bottom: var(--gutter-lg);
     }
 
     &__description {
+      margin-top: var(--gutter-xs);
       color: var(--text-color);
     }
   }

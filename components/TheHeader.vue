@@ -3,13 +3,12 @@
     <div class="u-container">
       <div class="u-flex-row">
         <div class="u-5/12@tablet the-header__avatar">
-          <app-link
-            class="the-header__image"
-            to="/">
-            <img
-              src="../assets/images/janmichek.jpg?webp"
-              width="230"
-              alt="Jan Michek's avatar">
+          <app-link to="/">
+            <app-image
+              class="the-header__image"
+              image="janmichek.jpg"
+              :width="230"
+              alt="Jan Michek's avatar"/>
           </app-link>
         </div>
         <div class="u-7/12@tablet the-header__content">
@@ -20,7 +19,7 @@
             frontend developer
           </div>
           <div class="h3 the-header__excerpt">
-            Czechia / Prague / 32 yo
+            Czechia / Prague / 33 yr
           </div>
         </div>
       </div>
@@ -30,16 +29,18 @@
 
 <script>
   import AppLink from '../components/AppLink'
+  import AppImage from '~/components/AppImage'
+
   export default {
     name: 'TheHeader',
-    components: { AppLink },
+    components: { AppImage, AppLink },
   }
 
 </script>
 
 <style scoped>
   .the-header {
-    padding: var(--gutter-xl);
+    padding: var(--gutter-xxl);
     background: var(--brand-secondary);
     width: 100%;
     z-index: 900;

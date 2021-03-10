@@ -76,6 +76,19 @@
             link: '/tech-links',
           },
           {
+            title: 'Photos Gallery',
+            image: 'k6.jpg',
+            description: 'I like shooting photography too. Especially flowers. Here is a small presentation of my esthetics skills. I using them as placeholder images when building new app',
+            link: '/gallery',
+          },
+
+          {
+            title: 'Vue File Template By Styleguide',
+            image: 'janmichek.jpg',
+            description: 'A template for new .vue file creation in IntelliJ family editors. This template creates new file according to official styleguide so there is need to manually write code anymore.',
+            link: 'https://gist.github.com/janmichek/9a40c8e481a1f8d3fa3a07fe79733e27',
+          },
+          {
             title: 'Code Review Checklist',
             image: 'checklist.jpg',
             description: 'I always say that developing a project alone is the same as to rise child as a single parent.',
@@ -90,9 +103,10 @@
           {
             title: 'Source Code',
             image: 'janmichek.jpg',
-            description: 'Source code of this personal page. This web is hosted on zeit.co.',
+            description: 'Source code of this personal page. This web is hosted on Firebase.',
             link: 'https://github.com/janmichek/janmichek',
           },
+
         ],
       }
     },
