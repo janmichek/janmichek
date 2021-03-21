@@ -16,13 +16,12 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                This is complete frontend for AI based chatbot builder.
-                App offers innovative approach for industry leading corporate client
-                to building conversations between useres and bot.
+                This is a complex frontend for AI based chatbot builder.
+                App offers innovative approach to build conversations between users and bot for industry leading corporate client.
               </li>
               <li>
-                My role was to code whole frontend, partipate in creating, user flows based on product requirements.
-                Team-wise I was responsible to setting strong guides and lead junior aside the development.
+                My role was to code whole frontend, participate on creating user flows based on product vision.
+                Team-wise I was responsible to setting guidelines and lead junior dev aside the development.
               </li>
               <li>
                 Used technologies:
@@ -30,13 +29,11 @@
                 ,
                 <app-link to="https://www.prisma.io/">Vuex</app-link>
                 ,
-                <app-link to="https://postcss.org">postcss</app-link>
+                <app-link to="https://postcss.org">Postcss</app-link>
                 ,
                 <app-link to="https://eslint.org/">Eslint</app-link>
                 ,
-                <app-link to="https://www.hotjar.com">Hotjar</app-link>
-                ,
-                <app-link to="https://developers.google.com/web/progressive-web-apps">PWA</app-link>
+                <app-link to="https://www.adobe.com/products/xd.html">Adobe XD</app-link>
                 ,
                 <app-link to="https://www.w3schools.com/css/css3_variables.asp">CSS Variables</app-link>
                 ,
@@ -72,7 +69,7 @@
                 ,
                 <app-link to="https://www.prisma.io/">Prisma</app-link>
                 ,
-                <app-link to="https://postcss.org">postcss</app-link>
+                <app-link to="https://postcss.org">Postcss</app-link>
                 ,
                 <app-link to="https://eslint.org/">Eslint</app-link>
                 ,
@@ -108,7 +105,6 @@
                 I have made complete frontend with custom UI such as advanced multi selects, participated on UX.
                 The app is based upon customized Wordpress backend.
               </li>
-
               <li>
                 Used technologies:
                 <app-link to="https://nuxtjs.org/">Vue + Nuxt</app-link>

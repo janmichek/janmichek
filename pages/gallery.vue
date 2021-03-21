@@ -17,11 +17,6 @@
         carousel-id="carousel"
         :images="images">
       </app-swiper>
-      <div
-        v-for="image in images"
-        :key="image.medium">
-        {{ image.medium }}
-      </div>
     </section>
   </article>
 </template>

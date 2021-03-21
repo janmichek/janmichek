@@ -18,7 +18,9 @@ export default {
   plugins: [
     '~/plugins/vue-awesome-swiper',
   ],
-
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+  ],
   modules: [
     ['@nuxtjs/pwa', {
       meta: {

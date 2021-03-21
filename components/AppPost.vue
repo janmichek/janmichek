@@ -25,7 +25,12 @@
     }
 
     &__description {
-      margin-left: var(--gutter-lg);
+      margin-left: 0;
+      margin-top: var(--gutter-sm);
+      @media (--tablet) {
+        margin-left: var(--gutter-lg);
+        margin-top: 0;
+      }
     }
   }
 </style>

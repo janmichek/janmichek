@@ -19,7 +19,7 @@
             frontend developer
           </div>
           <div class="h3 the-header__excerpt">
-            Czechia / Prague / 33 yr
+            Czechia / Prague / 1987
           </div>
         </div>
       </div>
@@ -40,10 +40,14 @@
 
 <style scoped>
   .the-header {
-    padding: var(--gutter-xxl);
+    padding: var(--gutter-xl) var(--gutter-xl) var(--gutter-xxl) ;
     background: var(--brand-secondary);
     width: 100%;
     z-index: 900;
+
+    @media (--tablet) {
+      padding: var(--gutter-xxl);
+    }
 
     &__avatar {
       width: 100%;

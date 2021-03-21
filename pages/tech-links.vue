@@ -39,7 +39,7 @@
       <li class="tech-links__item">
         <h4>
           <app-link to="https://www.morningbrew.com/emerging-tech">
-            https://www.morningbrew.com/emerging-tech
+            morningbrew/emerging-tech
           </app-link>
         </h4>
         <div>Future proof feed you need</div>
