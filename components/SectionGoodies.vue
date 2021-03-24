@@ -1,7 +1,9 @@
 <template>
   <section class="goodies">
     <div class="u-container">
-      <title-section theme="dark">Goodies</title-section>
+      <title-section theme="dark">
+        Goodies
+      </title-section>
       <div class="u-masonry">
         <app-card
           v-for="(goodie, id) in goodies"
@@ -9,7 +11,7 @@
           :image="goodie.image"
           :title="goodie.title"
           :link="goodie.link">
-          <div v-html="goodie.description "></div>
+          <div v-html="goodie.description"/>
         </app-card>
       </div>
     </div>

@@ -1,6 +1,5 @@
 <template>
   <article class="gallery">
-    <!--    todo json json-->
     <div class="layout__content u-flex-row u-center">
       <div class="u-2/3@tablet">
         <div class="u-container">
@@ -15,8 +14,7 @@
     <section>
       <app-swiper
         carousel-id="carousel"
-        :images="images">
-      </app-swiper>
+        :images="images"/>
     </section>
   </article>
 </template>
@@ -80,11 +78,6 @@
           },
         ],
       }
-    },
-    computed: {
-      formattedText () {
-        return this.images.map(image => image.medium)
-      },
     },
   }
 </script>

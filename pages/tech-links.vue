@@ -66,7 +66,7 @@
             frontend.garden
           </app-link>
         </h4>
-        <div>Czech frontend community  blog</div>
+        <div>Czech frontend community blog</div>
       </li>
       <li class="tech-links__item">
         <h4>
@@ -93,8 +93,8 @@
   import TitleSlug from '../components/TitleSlug'
 
   export default {
-    layout: 'slug',
     components: { TitleSlug, AppLink },
+    layout: 'slug',
   }
 </script>
 
