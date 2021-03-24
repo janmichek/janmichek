@@ -14,7 +14,6 @@ module.exports = {
     'plugin:vue/strongly-recommended',
     'plugin:vue/recommended',
     'eslint:recommended',
-    'prettier/vue',
   ],
   plugins: [
     'vue',

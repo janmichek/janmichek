@@ -22,24 +22,6 @@ export default {
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
   ],
   modules: [
-    ['@nuxtjs/pwa', {
-      meta: {
-        name: pkg.niceName,
-        theme_color: pkg.themeColor,
-        lang: pkg.lang,
-        icon: true,
-        ogImage: false,
-        ogTitle: false,
-        ogUrl: 'janmichek.cz',
-      },
-      manifest: {
-        name: pkg.niceName,
-        short_name: pkg.niceName,
-        theme_color: pkg.themeColor,
-        lang: pkg.lang,
-      },
-    }],
-
     ['@bazzite/nuxt-optimized-images',
       {
         optimizeImages: true,
