@@ -2,7 +2,7 @@ import 'babel-polyfill'
 import pkg from './package.json'
 
 export default {
-  mode: 'spa',
+  ssr: false,
 
   head: {
     title: pkg.niceName,
@@ -22,7 +22,7 @@ export default {
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
   ],
   modules: [
-    ['@bazzite/nuxt-optimized-images',
+    ['@aceforth/nuxt-optimized-images',
       {
         optimizeImages: true,
         handleImages: ['jpeg', 'png', 'webp', 'gif'],
@@ -36,7 +36,6 @@ export default {
 
   build: {
     extractCSS: true,
-
     postcss: {
       plugins: {
         'postcss-import': {},
