@@ -18,10 +18,8 @@ export default {
   plugins: [
     '~/plugins/vue-awesome-swiper',
   ],
-  link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-  ],
   modules: [
+    'nuxt-rfg-icon',
     ['@aceforth/nuxt-optimized-images',
       {
         optimizeImages: true,
