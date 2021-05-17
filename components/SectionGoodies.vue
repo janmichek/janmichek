@@ -60,6 +60,12 @@
             link: '/',
           },
           {
+            title: 'Weekly Tech Feed',
+            image: 'janmichek.jpg',
+            description: 'List of tech, dev & frontend related links I am going through on weekly basis. Mostly on sundays.',
+            link: '/tech-links',
+          },
+          {
             title: 'Un-stuck checklist',
             image: 'checklist.jpg',
             description: 'Problem solving checklist for those "I have no idea what i am doing" moments.',
@@ -72,18 +78,11 @@
             link: 'https://codepen.io/janmichek/pen/bGEoozW',
           },
           {
-            title: 'Weekly Tech Feed',
-            image: 'janmichek.jpg',
-            description: 'List of tech, dev & frontend related links I am going through on weekly basis. Mostly on sundays.',
-            link: '/tech-links',
-          },
-          {
             title: 'Photos Gallery',
             image: 'k6.jpg',
             description: 'I like shooting photography too. Especially flowers. Here is a small presentation of my esthetics skills. I using them as placeholder images when building new app',
             link: '/gallery',
           },
-
           {
             title: 'Vue File Template By Styleguide',
             image: 'janmichek.jpg',
@@ -97,16 +96,22 @@
             link: '/code-review-checklist',
           },
           {
+            title: 'Source Code',
+            image: 'janmichek.jpg',
+            description: 'Source code of this personal page. This web is hosted on Firebase.',
+            link: 'https://github.com/janmichek/janmichek',
+          },
+          {
             title: 'Music Production',
             image: 'honeytcz.jpg',
             description: 'I invest most of my free time into music production. Take a listen.',
             link: 'https://soundcloud.com/honeytcz',
           },
           {
-            title: 'Source Code',
+            title: 'Frontend Developer Manifesto',
             image: 'janmichek.jpg',
-            description: 'Source code of this personal page. This web is hosted on Firebase.',
-            link: 'https://github.com/janmichek/janmichek',
+            description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in structured form',
+            link: 'https://github.com/janmichek/frontend-developer-manifesto/blob/main/README.md',
           },
 
         ],
