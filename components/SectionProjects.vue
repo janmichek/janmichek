@@ -9,8 +9,8 @@
           </template>
           <template #image>
             <app-image
-              image="chatbot.jpg"
-              :width="480"
+              image="chatbot.png"
+              :width="686"
               alt="Chabot Builder"/>
           </template>
           <template #description>
@@ -58,8 +58,8 @@
           <template #image>
             <app-link to="https://vaznyzajem.cz/">
               <app-image
-                image="vaznyzajem.jpg"
-                :width="480"
+                image="vaznyzajem.png"
+                :width="686"
                 alt="Vážný zájem"/>
             </app-link>
           </template>
@@ -109,8 +109,8 @@
           <template #image>
             <app-link to="https://kalabisruzickova.cz/">
               <app-image
-                image="fond_kb.jpg"
-                :width="480"
+                image="fond_kb.png"
+                :width="686"
                 alt="Fond Kalabis Růžičková"/>
             </app-link>
           </template>
@@ -167,8 +167,8 @@
           <template #image>
             <app-link to="https://indigo.keboola.com/">
               <app-image
-                image="indigo.jpg"
-                :width="400"
+                image="indigo.png"
+                :width="686"
                 alt="Indigo"/>
             </app-link>
           </template>
