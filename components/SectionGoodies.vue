@@ -31,7 +31,7 @@
           {
             title: 'Blockchain learning Dapps',
             image: 'janmichek.jpg',
-            description: 'dapps',
+            description: 'Showcase of my progress in last months. Learned me a lot about Solidity, web3, Ganache and Drizzle.',
             link: '/blockchain-dapps',
           },
           {
