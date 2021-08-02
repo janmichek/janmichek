@@ -8,6 +8,7 @@ export default {
     title: pkg.niceName,
     meta: [
       { hid: 'robots', name: 'robots', content: 'index' },
+      { hid: 'description', name: 'description', content: pkg.description },
     ],
   },
 
