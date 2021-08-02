@@ -16,9 +16,10 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                This is a complex frontend for AI based chatbot builder.
-                App offers innovative approach to build conversations between users and bot for industry leading
-                corporate client.
+                This is a complex frontend for AI based chatbot builder made for industry leading
+                corporate client. App offers innovative approach to build conversations between users and bot .
+                <br>
+                Preview of an app on demand.
               </li>
               <li>
                 My role was to code whole frontend, participate on creating user flows based on product vision.
@@ -29,8 +30,14 @@
                 <app-link to="https://nuxtjs.org/">
                   Vue
                 </app-link>,
-                <app-link to="https://www.prisma.io/">
+                <app-link to="https://vuex.vuejs.org/">
                   Vuex
+                </app-link>,
+                <app-link to="https://laravel.com/">
+                  Laravel
+                </app-link>,
+                <app-link to="https://jestjs.io/">
+                  Jest
                 </app-link>,
                 <app-link to="https://postcss.org">
                   Postcss
@@ -210,8 +217,6 @@
               </li>
             </ul>
           </template>
-          <!--todo record chatbot-->
-          <!--          todo record indigo-->
         </app-post>
       </div>
     </div>
