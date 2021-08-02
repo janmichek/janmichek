@@ -66,10 +66,10 @@
             link: '/webdesign-checklist',
           },
           {
-            title: 'Weekly Tech Feed',
-            image: 'janmichek.jpg',
-            description: 'List of tech, dev & frontend related links I am going through on weekly basis. Mostly on sundays.',
-            link: '/tech-links',
+            title: 'CRUD animations',
+            image: 'crud_actions.png',
+            description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
+            link: 'https://codepen.io/janmichek/pen/bGEoozW',
           },
           {
             title: 'Vue File Template By Styleguide',
@@ -84,15 +84,10 @@
             link: 'https://github.com/janmichek/janmichek',
           },
           {
-            title: 'CRUD animations',
-            image: 'crud_actions.png',
-            description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
-            link: 'https://codepen.io/janmichek/pen/bGEoozW',
-          }, {
-            title: 'CRUD animations',
-            image: 'crud_actions.png',
-            description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
-            link: 'https://codepen.io/janmichek/pen/bGEoozW',
+            title: 'Weekly Tech Feed',
+            image: 'janmichek.jpg',
+            description: 'List of tech, dev & frontend related links I am going through on weekly basis. Mostly on sundays.',
+            link: '/tech-links',
           },
           {
             title: 'Code Review Checklist',
