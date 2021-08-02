@@ -2,14 +2,18 @@
   <article class="blockchain-dapps">
     <title-slug
       title="Blockchain learning dapps"
-      description="Last Two months I spend 100+ hours of learning and coding blockchain apps.
-    Most of tutorials had frontend build React, so I remade them into Vue.
-    It learned me a lot about Solidity, web3, Ganache and drizzle, but still a lot to learned
-    Please give me something more meaningful to work on!"/>
+      description="
+      Last two months I spend 100+ hours of learning and coding blockchain apps as an introduction to this world.
+      Most of these tutorials had frontend build React, so I remade them into Vue.
+      It learned me a lot about Solidity, web3, Ganache and Drizzle, but still a lot to learned.
+      Please give me something more meaningful to work on!
+    "/>
     <ul>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-drizzle-simple">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-drizzle-simple">
             Basic usage of Drizzle components
           </app-link>
         </h4>
@@ -17,7 +21,9 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-drizzle-custom">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-drizzle-custom">
             Custom Drizzle components
           </app-link>
         </h4>
@@ -28,8 +34,10 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-ipfs">
-            IPFS dapp
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-ipfs">
+            IPFS Dapp
           </app-link>
         </h4>
         <div>
@@ -39,7 +47,9 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-nft">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-nft">
             NFT Dapp
           </app-link>
         </h4>
@@ -49,7 +59,9 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-swap">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-swap">
             Swap Dapp
           </app-link>
         </h4>
@@ -59,7 +71,9 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-staking">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-staking">
             Staking Dapp
           </app-link>
         </h4>
@@ -69,7 +83,9 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-bank">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-bank">
             Bank Dapp
           </app-link>
         </h4>
@@ -80,7 +96,9 @@
       </li>
       <li class="blockchain-dapps__item">
         <h4>
-          <app-link target="_blank" to="https://github.com/janmichek/blockchain-election">
+          <app-link
+            target="_blank"
+            to="https://github.com/janmichek/blockchain-election">
             Election Dapp
           </app-link>
         </h4>
