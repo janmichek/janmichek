@@ -4,8 +4,9 @@
       title="Blockchain learning dapps"
       description="
       Last two months I spend 100+ hours of learning and coding blockchain apps as an introduction to this world.
-      Most of these tutorials had frontend build React, so I remade them into Vue.
       It learned me a lot about Solidity, web3, Ganache and Drizzle, but still a lot to learned.
+      Most of these tutorials had frontend build React, so I remade them into Vue.
+      Frontend-wise, these dapps are very simple. My point was to demonstrate what I have went through in blockchain dev.
       Please give me something more meaningful to work on!
     "/>
     <ul>
