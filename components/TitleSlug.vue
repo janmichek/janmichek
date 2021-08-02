@@ -3,9 +3,9 @@
     <h2 class="h3 title-slug__title">
       {{ title }}
     </h2>
-    <p class="title-slug__description">
-      {{ description }}
-    </p>
+    <p
+      class="title-slug__description"
+      v-html="description"/>
   </div>
 </template>
 
