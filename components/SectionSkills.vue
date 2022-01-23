@@ -15,11 +15,10 @@
       </div>
       <div class="skills__row">
         <div class="skills__name">
-          CSS
+          Web3
         </div>
         <p class="skills__description">
-          From designing modular system through animations tuning to browser compatibility.
-          Let me design, implement and maintain app styles.
+          Let me take care of smooth user experience of an app that is based on confirming transactions.
         </p>
       </div>
       <div class="skills__row">
@@ -28,7 +27,7 @@
         </div>
         <p class="skills__description">
           I love to bridge computer code with human perception.
-          “Don’t let users think” is my motto above all the work I do.
+          “Don’t let users think” is my motto above all the work I do. I live on front side of frontend.
         </p>
       </div>
     </div>

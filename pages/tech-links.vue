@@ -14,11 +14,11 @@
       </li>
       <li class="tech-links__item">
         <h4>
-          <app-link to="https://www.reddit.com/r/technology/">
-            reddit.com/r/technology
+          <app-link to="https://twitter.com/jan_michek/following">
+            twitter feed
           </app-link>
         </h4>
-        <div>Freshest community tech news</div>
+        <div>This is more of daily feed. Curated crypto info is a must for crypto space</div>
       </li>
       <li class="tech-links__item">
         <h4>
@@ -70,11 +70,11 @@
       </li>
       <li class="tech-links__item">
         <h4>
-          <app-link to="https://confs.tech">
-            confs.tech
+          <app-link to="https://vuejsdevelopers.com/">
+            Hacker news
           </app-link>
         </h4>
-        <div>Dev conferences around</div>
+        <div>Art of code and underground scene</div>
       </li>
       <li class="tech-links__item">
         <h4>

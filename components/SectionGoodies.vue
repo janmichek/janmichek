@@ -40,12 +40,7 @@
             description: 'With empathy you can grow strong codebase. Here is what I have learned.',
             link: '/pull-request-checklist',
           },
-          {
-            title: 'Github Tools',
-            image: 'github-tools.jpg',
-            description: 'Awesome Github tools and standards I hold in my Git workflow. I use them to make collaboration joy for everyone.',
-            link: '/github-tools',
-          },
+
           {
             title: 'Un-stuck checklist',
             image: 'checklist.jpg',
@@ -72,7 +67,7 @@
             link: 'https://codepen.io/janmichek/pen/bGEoozW',
           },
           {
-            title: 'Vue File Template By Styleguide',
+            title: 'Vue 2 File Template By Styleguide',
             image: 'janmichek.jpg',
             description: 'A template for new .vue file creation in IntelliJ family editors. This template creates new file according to official styleguide so there is need to manually write code anymore.',
             link: 'https://gist.github.com/janmichek/9a40c8e481a1f8d3fa3a07fe79733e27',
@@ -101,7 +96,6 @@
             description: 'I like shooting photography too. Especially flowers. Here is a small presentation of my esthetics skills. I using them as placeholder images when building new app',
             link: '/gallery',
           },
-
           {
             title: 'Music Production',
             image: 'honeytcz.jpg',
@@ -113,6 +107,7 @@
             image: 'janmichek.jpg',
             description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in structured form',
             link: 'https://github.com/janmichek/frontend-developer-manifesto/blob/main/README.md',
+            // todo if we dont have better guides
           },
         ],
       }

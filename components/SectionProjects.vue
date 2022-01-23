@@ -5,6 +5,68 @@
       <div class="projects__content">
         <app-post>
           <template #heading>
+            PWN
+          </template>
+          <template #image>
+            <app-image
+              image="pwn.png"
+              :width="686"
+              alt="Chabot Builder"/>
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                My first web3 dapp I have been working on. Basically is a pawn shop for NFTs. The frontend part wraps
+                user interactions with wallet, contracts and communication with backend.
+              </li>
+              <li>
+                I was collaborating on designing visuals and user interaction as well as implementing the result. Building the app also required to be in close contact with community and adjust app
+                accordingly in turbulent crypto space.
+              </li>
+              <li>
+                Used tech:
+                <app-link to="https://vuejs.org/">
+                  Vue 3
+                </app-link>
+                ,
+                <app-link to="https://www.typescriptlang.org/">
+                  Typescript
+                </app-link>
+                ,
+                <app-link to="https://www.alchemy.com/">
+                  Alchemy
+                </app-link>
+                ,
+                <app-link to="https://moralis.io/">
+                  Moralis
+                </app-link>
+                ,
+                <app-link to="https://docs.ethers.io/v5/">
+                  Ethers.js
+                </app-link>
+                ,
+                <app-link to="https://postcss.org">
+                  Postcss
+                </app-link>
+                ,
+                <app-link to="https://eslint.org/">
+                  Eslint
+                </app-link>
+                ,
+                <app-link to="https://www.figma.com/">
+                  Figma
+                </app-link>
+                ,
+                <app-link to="https://www.w3schools.com/css/css3_variables.asp">
+                  CSS Variables
+                </app-link>
+              </li>
+            </ul>
+          </template>
+        </app-post>
+
+        <app-post>
+          <template #heading>
             Chatbot Builder
           </template>
           <template #image>
@@ -26,9 +88,9 @@
                 Team-wise I was responsible to setting guidelines and lead junior dev aside the development.
               </li>
               <li>
-                Used technologies:
-                <app-link to="https://nuxtjs.org/">
-                  Vue
+                Used tech:
+                <app-link to="https://vuejs.org/">
+                  Vue 2
                 </app-link>,
                 <app-link to="https://vuex.vuejs.org/">
                   Vuex
@@ -80,7 +142,7 @@
                 validations and partly back-end features (notifications, permissions).
               </li>
               <li>
-                Used technologies:
+                Used tech:
                 <app-link to="https://nuxtjs.org/">
                   Vue + Nuxt
                 </app-link>,
@@ -111,64 +173,6 @@
         </app-post>
         <app-post>
           <template #heading>
-            Fond Kalabis Růžičková
-          </template>
-          <template #image>
-            <app-link to="https://kalabisruzickova.cz/">
-              <app-image
-                image="fond_kb.png"
-                :width="686"
-                alt="Fond Kalabis Růžičková"/>
-            </app-link>
-          </template>
-          <template #description>
-            <ul class="projects__list">
-              <li>
-                Presentation webpage and archive of records for fund of two classical Czech musicians.
-              </li>
-              <li>
-                I have made complete frontend with custom UI such as advanced multi selects, participated on UX.
-                The app is based upon customized Wordpress backend.
-              </li>
-              <li>
-                Used technologies:
-                <app-link to="https://nuxtjs.org/">
-                  Vue + Nuxt
-                </app-link>,
-                <app-link to="https://www.wordpress.com/">
-                  Wordpress
-                </app-link>,
-                <app-link to="https://www.graphql.org/">
-                  GraphQL
-                </app-link>,
-                <app-link to="https://bit.dev">
-                  Bit components
-                </app-link>,
-                <app-link to="https://postcss.org">
-                  PostCSS
-                </app-link>,
-                <app-link to="https://developers.google.com/speed/webp">
-                  WebP images
-                </app-link>,
-                <app-link to="https://eslint.org/">
-                  Eslint
-                </app-link>,
-                <app-link to="https://developers.google.com/web/progressive-web-apps">
-                  PWA
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_variables.asp">
-                  CSS Variables
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_animations.asp">
-                  CSS Animations
-                </app-link>
-              </li>
-            </ul>
-          </template>
-        </app-post>
-
-        <app-post>
-          <template #heading>
             Indigo Styleguide
           </template>
           <template #image>
@@ -189,7 +193,7 @@
                 reimplemented back to the app.
               </li>
               <li>
-                Used technologies:
+                Used tech:
                 <app-link to="https://reactjs.org">
                   React
                 </app-link>,
