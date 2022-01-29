@@ -28,12 +28,7 @@
     data () {
       return {
         goodies: [
-          {
-            title: 'Blockchain learning Dapps',
-            image: 'janmichek.jpg',
-            description: 'Showcase of my progress in last months. Learned me a lot about Solidity, web3, Ganache and Drizzle.',
-            link: '/blockchain-dapps',
-          },
+
           {
             title: 'Pull Request Checklist',
             image: 'checklist.jpg',
@@ -61,6 +56,18 @@
             link: '/webdesign-checklist',
           },
           {
+            title: 'Blockchain learning Dapps',
+            image: 'janmichek.jpg',
+            description: 'Set of guided tutorials dapps I made as an entry work to crypto space',
+            link: '/blockchain-dapps',
+          },
+          {
+            title: 'Weekly News Feed',
+            image: 'news.jpg',
+            description: 'List of tech, dev & frontend related links I am going through on weekly basis. Mostly on sundays.',
+            link: '/tech-links',
+          },
+          {
             title: 'CRUD animations',
             image: 'crud_actions.png',
             description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
@@ -74,16 +81,11 @@
           },
           {
             title: 'Source Code',
-            image: 'janmichek.jpg',
+            image: 'sourcecode.jpg',
             description: 'Source code of this personal page. This web is hosted on Firebase.',
             link: 'https://github.com/janmichek/janmichek',
           },
-          {
-            title: 'Weekly Tech Feed',
-            image: 'janmichek.jpg',
-            description: 'List of tech, dev & frontend related links I am going through on weekly basis. Mostly on sundays.',
-            link: '/tech-links',
-          },
+
           {
             title: 'Code Review Checklist',
             image: 'checklist.jpg',
@@ -93,7 +95,7 @@
           {
             title: 'Photos Gallery',
             image: 'k6.jpg',
-            description: 'I like shooting photography too. Especially flowers. Here is a small presentation of my esthetics skills. I using them as placeholder images when building new app',
+            description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or just for nice placeholder.',
             link: '/gallery',
           },
           {
@@ -105,9 +107,8 @@
           {
             title: 'Frontend Developer Manifesto',
             image: 'janmichek.jpg',
-            description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in structured form',
+            description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in structured form.',
             link: 'https://github.com/janmichek/frontend-developer-manifesto/blob/main/README.md',
-            // todo if we dont have better guides
           },
         ],
       }

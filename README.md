@@ -14,6 +14,7 @@ $ yarn run dev
 
 ``` bash
 # deploy to Firebase hosting
+$ yarn global add firebase-tools (first time)
 $ yarn deploy
 ```
 

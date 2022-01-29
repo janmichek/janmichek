@@ -35,8 +35,8 @@
         <div class="u-1/4@desktop u-1/2@tablet the-footer__link-wrap">
           <app-link
             class="the-footer__link"
-            to="https://www.facebook.com/honej">
-            Facebook
+            to="https://www.twitter.com/jan_michek">
+            Twitter
           </app-link>
         </div>
       </div>

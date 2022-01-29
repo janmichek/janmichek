@@ -8,10 +8,12 @@
             PWN
           </template>
           <template #image>
-            <app-image
-              image="pwn.png"
-              :width="686"
-              alt="Chabot Builder"/>
+            <app-link to="http://pwn.finance">
+              <app-image
+                image="pwn.png"
+                :width="686"
+                alt="Chabot Builder"/>
+            </app-link>
           </template>
           <template #description>
             <ul class="projects__list">
@@ -51,6 +53,10 @@
                 ,
                 <app-link to="https://eslint.org/">
                   Eslint
+                </app-link>
+                ,
+                <app-link to="https://sentry.io/">
+                  Sentry
                 </app-link>
                 ,
                 <app-link to="https://www.figma.com/">
@@ -144,7 +150,7 @@
               <li>
                 Used tech:
                 <app-link to="https://nuxtjs.org/">
-                  Vue + Nuxt
+                  Vue 2 + Nuxt
                 </app-link>,
                 <app-link to="https://www.prisma.io/">
                   Prisma
@@ -204,7 +210,7 @@
                   Storybook
                 </app-link>,
                 <app-link to="https://jestjs.io/">
-                  Jest testing
+                  Jest
                 </app-link>,
                 <app-link to="https://getbootstrap.com/docs/3.3/">
                   Bootstrap

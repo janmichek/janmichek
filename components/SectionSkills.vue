@@ -9,16 +9,16 @@
           Vue
         </div>
         <p class="skills__description">
-          Simple, effective, joy to code. The best JS framework I had a opportunity to work with.
+          Simple, effective and joy to code. The best JS framework I had a opportunity to work with.
           I mean React is good, but Vue is cool.
         </p>
       </div>
       <div class="skills__row">
-        <div class="skills__name">
+        <div class="skills__name skills__name--web3">
           Web3
         </div>
         <p class="skills__description">
-          Let me take care of smooth user experience of an app that is based on confirming transactions.
+          Let me take design and implement user experience in app that is based on confirming transactions.
         </p>
       </div>
       <div class="skills__row">
@@ -27,7 +27,7 @@
         </div>
         <p class="skills__description">
           I love to bridge computer code with human perception.
-          “Don’t let users think” is my motto above all the work I do. I live on front side of frontend.
+          “Don’t let users think” is my ultimate motto. I live on front side of frontend.
         </p>
       </div>
     </div>
@@ -70,6 +70,9 @@
       min-width: 118px;
       line-height: 1;
       margin-bottom: var(--gutter-sm);
+      &--web3 {
+        font-size: 28px;
+      }
       @media (--tablet) {
         margin-bottom: 0;
       }
