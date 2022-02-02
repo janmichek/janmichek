@@ -3,19 +3,19 @@
     <h1
       v-if="error.statusCode === 404"
       class="error__heading">
-      Stránka nenalezena
+      Page not found
     </h1>
     <h1
       v-else
       class="error__heading">
-      Někde se stala chyba
+      Error
     </h1>
     <div class="error__excerpt">
-      Omlouváme se za způsobené potíže. Vraťte se prosím na hlavní stránku.
+      Sorry for inconvenience
     </div>
     <div class="error__action">
       <app-link to="/">
-        Vrátit se na hlavní stránku
+        Back to homepage
       </app-link>
     </div>
   </div>

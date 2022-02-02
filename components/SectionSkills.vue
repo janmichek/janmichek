@@ -18,7 +18,7 @@
           Web3
         </div>
         <p class="skills__description">
-          Let me take design and implement user experience in app that is based on confirming transactions.
+          Let me implement and design smooth user experience in modern app that is based on confirming transactions.
         </p>
       </div>
       <div class="skills__row">
@@ -27,7 +27,7 @@
         </div>
         <p class="skills__description">
           I love to bridge computer code with human perception.
-          “Don’t let users think” is my ultimate motto. I live on front side of frontend.
+          “Don’t let users think” is my ultimate motto. I live on the front side of frontend.
         </p>
       </div>
     </div>

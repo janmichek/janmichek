@@ -27,45 +27,37 @@
               </li>
               <li>
                 Used tech:
-                <app-link to="https://vuejs.org/">
-                  Vue 3
-                </app-link>
-                ,
-                <app-link to="https://www.typescriptlang.org/">
-                  Typescript
-                </app-link>
-                ,
-                <app-link to="https://www.alchemy.com/">
-                  Alchemy
-                </app-link>
-                ,
-                <app-link to="https://moralis.io/">
-                  Moralis
-                </app-link>
-                ,
-                <app-link to="https://docs.ethers.io/v5/">
-                  Ethers.js
-                </app-link>
-                ,
-                <app-link to="https://postcss.org">
-                  Postcss
-                </app-link>
-                ,
-                <app-link to="https://eslint.org/">
-                  Eslint
-                </app-link>
-                ,
-                <app-link to="https://sentry.io/">
-                  Sentry
-                </app-link>
-                ,
-                <app-link to="https://www.figma.com/">
-                  Figma
-                </app-link>
-                ,
-                <app-link to="https://www.w3schools.com/css/css3_variables.asp">
-                  CSS Variables
-                </app-link>
+                <project-link
+                  label="Vue3"
+                  to="https://vuejs.org/"/>
+                <project-link
+                  label="Typescript"
+                  to="https://www.typescriptlang.org/"/>
+                <project-link
+                  label="Alchemy"
+                  to="https://www.alchemy.com/"/>
+                <project-link
+                  label="Moralis"
+                  to="https://moralis.io/"/>
+                <project-link
+                  label=" Ethers.js"
+                  to=" https://docs.ethers.io/v5/"/>
+                <project-link
+                  label="Postcss"
+                  to="https://postcss.org"/>
+                <project-link
+                  label="Eslint"
+                  to="https://eslint.org/"/>
+                <project-link
+                  label="Sentry"
+                  to="https://sentry.io/"/>
+                <project-link
+                  label="Figma"
+                  to="https://www.figma.com/"/>
+                <project-link
+                  label="CSS Variables"
+                  to="https://www.w3schools.com/css/css3_variables.asp"
+                  is-last/>
               </li>
             </ul>
           </template>
@@ -95,33 +87,34 @@
               </li>
               <li>
                 Used tech:
-                <app-link to="https://vuejs.org/">
-                  Vue 2
-                </app-link>,
-                <app-link to="https://vuex.vuejs.org/">
-                  Vuex
-                </app-link>,
-                <app-link to="https://laravel.com/">
-                  Laravel
-                </app-link>,
-                <app-link to="https://jestjs.io/">
-                  Jest
-                </app-link>,
-                <app-link to="https://postcss.org">
-                  Postcss
-                </app-link>,
-                <app-link to="https://eslint.org/">
-                  Eslint
-                </app-link>,
-                <app-link to="https://www.adobe.com/products/xd.html">
-                  Adobe XD
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_variables.asp">
-                  CSS Variables
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_animations.asp">
-                  CSS Animations
-                </app-link>
+                <project-link
+                  label="Vue 2"
+                  to="https://vuejs.org/"/>
+                <project-link
+                  label="Vuex"
+                  to="https://vuex.vuejs.org/"/>
+                <project-link
+                  label="Laravel"
+                  to="https://laravel.com/"/>
+                <project-link
+                  label="Jest"
+                  to="https://jestjs.io/"/>
+                <project-link
+                  label="Postcss"
+                  to="https://postcss.org"/>
+                <project-link
+                  label="Eslint"
+                  to="https://eslint.org/"/>
+                <project-link
+                  label="Adobe XD"
+                  to="https://www.adobe.com/products/xd.html"/>
+                <project-link
+                  label=" CSS Variables"
+                  to="https://www.w3schools.com/css/css3_variables.as"/>
+                <project-link
+                  label="CSS Animations"
+                  to="https://www.w3schools.com/css/css3_animations.asp"
+                  is-last/>
               </li>
             </ul>
           </template>
@@ -149,30 +142,31 @@
               </li>
               <li>
                 Used tech:
-                <app-link to="https://nuxtjs.org/">
-                  Vue 2 + Nuxt
-                </app-link>,
-                <app-link to="https://www.prisma.io/">
-                  Prisma
-                </app-link>,
-                <app-link to="https://postcss.org">
-                  Postcss
-                </app-link>,
-                <app-link to="https://eslint.org/">
-                  Eslint
-                </app-link>,
-                <app-link to="https://www.hotjar.com">
-                  Hotjar
-                </app-link>,
-                <app-link to="https://developers.google.com/web/progressive-web-apps">
-                  PWA
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_variables.asp">
-                  CSS Variables
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_animations.asp">
-                  CSS Animations
-                </app-link>
+                <project-link
+                  label="Vue 2 + Nuxt"
+                  to="https://nuxtjs.org/"/>
+                <project-link
+                  label="Prisma"
+                  to="https://www.prisma.io/"/>
+                <project-link
+                  label="Postcss"
+                  to="https://postcss.org"/>
+                <project-link
+                  label="Eslint"
+                  to="https://eslint.org/"/>
+                <project-link
+                  label="Hotjar"
+                  to="https://www.hotjar.com"/>
+                <project-link
+                  label="PWA"
+                  to="https://developers.google.com/web/progressive-web-apps"/>
+                <project-link
+                  label=" CSS Variables"
+                  to="https://www.w3schools.com/css/css3_variables.as"/>
+                <project-link
+                  label="CSS Animations"
+                  to="https://www.w3schools.com/css/css3_animations.asp"
+                  is-last/>
               </li>
             </ul>
           </template>
@@ -192,7 +186,7 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                UI library for developers to reuse UI components over complex ETL app.
+                UI library for developers to reuse UI components over complex ETL app. Library is unmaintained now.
               </li>
               <li>
                 I have reverse engineered inconsistent usage of UI components, codified it in styleguide and
@@ -200,30 +194,30 @@
               </li>
               <li>
                 Used tech:
-                <app-link to="https://reactjs.org">
-                  React
-                </app-link>,
-                <app-link to="https://reactjs.org/docs/introducing-jsx.html">
-                  JSX
-                </app-link>,
-                <app-link to="https://storybook.js.org">
-                  Storybook
-                </app-link>,
-                <app-link to="https://jestjs.io/">
-                  Jest
-                </app-link>,
-                <app-link to="https://getbootstrap.com/docs/3.3/">
-                  Bootstrap
-                </app-link>,
-                <app-link to="https://eslint.org/">
-                  Eslint
-                </app-link>,
-                <app-link to="https://stylelint.io/">
-                  Stylelint
-                </app-link>,
-                <app-link to="https://www.w3schools.com/css/css3_animations.asp">
-                  CSS Animations
-                </app-link>
+                <project-link
+                  label="React"
+                  to="https://reactjs.org"/>
+                <project-link
+                  label="JSX"
+                  to="https://reactjs.org/docs/introducing-jsx.html"/>
+                <project-link
+                  label="Storybook"
+                  to="https://storybook.js.org"/>
+                <project-link
+                  label="Jest"
+                  to="https://jestjs.io/"/>
+                <project-link
+                  label="Bootstrap"
+                  to="https://getbootstrap.com/docs/3.3"/>
+                <project-link
+                  label="Eslint"
+                  to="https://eslint.org/"/>
+                <project-link
+                  label="Stylelint"
+                  to="https://stylelint.io/"/>
+                <project-link
+                  label="CSS Animations"
+                  to="https://www.w3schools.com/css/css3_animations.asp"/>
               </li>
             </ul>
           </template>
@@ -238,10 +232,11 @@
   import TitleSection from '../components/TitleSection'
   import AppImage from '../components/AppImage'
   import AppPost from './AppPost'
+  import ProjectLink from '@/components/ProjectLink'
 
   export default {
     name: 'SectionProjects',
-    components: { AppPost, AppImage, TitleSection, AppLink },
+    components: { ProjectLink, AppPost, AppImage, TitleSection, AppLink },
   }
 </script>
 
