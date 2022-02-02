@@ -4,7 +4,7 @@
       title="Webdesign checklist"
       description="
       Nothing great is created alone, so I created this to make collaboration better.
-      These are frequent requests on design sketches that applies on 95% of projects.
+      These are frequent requests on design sketches that applies almost ultimately.
       These requirements should be met before design sketches handoff."/>
     <app-checklist :list="checklist"/>
   </article>

@@ -9,7 +9,7 @@
           Vue
         </div>
         <p class="skills__description">
-          Simple, effective and joy to code. The best JS framework I had a opportunity to work with.
+          Simple, effective and joy to code. The best JS framework I had an opportunity to work with.
           I mean React is good, but Vue is cool.
         </p>
       </div>

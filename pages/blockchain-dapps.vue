@@ -7,9 +7,8 @@
       It learned me a lot about Solidity, web3, Ganache and Drizzle, but still a lot to learn.
       <br>
       <br>
-      Most of these tutorials had frontend build React, so I remade them into Vue.
+      Most of these tutorials had frontend build on React, so I remade them into Vue.
       Frontend-wise, these dapps are very simple. My point was to demonstrate what I went through in blockchain dev.
-      Please give me something more meaningful to work on!
     "/>
     <ul>
       <li class="blockchain-dapps__item">

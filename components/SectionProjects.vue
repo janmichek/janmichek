@@ -15,14 +15,12 @@
                 alt="Chabot Builder"/>
               <app-link
                 class="projects__preview"
-                to="/preview/pwn1"
-                target="_blank">
+                to="/preview/pwn1">
                 Preview 1
               </app-link>
               <app-link
                 class="projects__preview"
-                to="/preview/pwn2"
-                target="_blank">
+                to="/preview/pwn2">
                 Preview 2
               </app-link>
             </app-link>
@@ -34,7 +32,7 @@
                 user interactions with wallet, contracts and communication with backend.
               </li>
               <li>
-                I was collaborating on designing visuals and user interaction as well as implementing the result.
+                I was collaborating on designing visuals and UX as well as coding the result.
                 Building the app also required to be in close contact with community and adjust app
                 accordingly in turbulent crypto space.
               </li>
@@ -47,14 +45,14 @@
                   label="Typescript"
                   to="https://www.typescriptlang.org/"/>
                 <project-link
+                  label="Ethers.js"
+                  to="https://docs.ethers.io/v5/"/>
+                <project-link
                   label="Alchemy"
                   to="https://www.alchemy.com/"/>
                 <project-link
                   label="Moralis"
                   to="https://moralis.io/"/>
-                <project-link
-                  label=" Ethers.js"
-                  to=" https://docs.ethers.io/v5/"/>
                 <project-link
                   label="Postcss"
                   to="https://postcss.org"/>
@@ -87,14 +85,12 @@
               alt="Chabot Builder"/>
             <app-link
               class="projects__preview"
-              to="/preview/chatbot1"
-              target="_blank">
+              to="/preview/chatbot1">
               Preview 1
             </app-link>
             <app-link
               class="projects__preview"
-              to="/preview/chatbot2"
-              target="_blank">
+              to="/preview/chatbot2">
               Preview 2
             </app-link>
           </template>
@@ -102,7 +98,7 @@
             <ul class="projects__list">
               <li>
                 This is a complex frontend for AI based chatbot builder made for industry leading
-                corporate client. App offers innovative approach to build conversations between users and bot .
+                corporate client. App offers innovative approach to build conversations between users and bot.
               </li>
               <li>
                 My role was to code whole frontend, participate on creating user flows based on product vision.
@@ -154,8 +150,7 @@
                 alt="Vážný zájem"/>
               <app-link
                 class="projects__preview"
-                to="/preview/vz"
-                target="_blank">
+                to="/preview/vz">
                 Preview
               </app-link>
             </app-link>
@@ -246,7 +241,8 @@
                   to="https://stylelint.io/"/>
                 <project-link
                   label="CSS Animations"
-                  to="https://www.w3schools.com/css/css3_animations.asp"/>
+                  to="https://www.w3schools.com/css/css3_animations.asp"
+                  is-last/>
               </li>
             </ul>
           </template>
@@ -280,6 +276,9 @@
   }
 
   &__preview {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     margin-right: var(--gutter-xs);
     font-size: 14px;
   }
