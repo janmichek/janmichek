@@ -281,6 +281,7 @@
 
   &__preview {
     margin-right: var(--gutter-xs);
+    font-size: 14px;
   }
 }
 </style>

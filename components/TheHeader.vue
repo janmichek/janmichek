@@ -19,7 +19,7 @@
             frontend developer
           </div>
           <div class="h3 the-header__excerpt">
-            Czechia / Prague / 1987
+            Czechia / Prague / <span title="That is 34">1987</span>
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@
             twitter feed
           </app-link>
         </h4>
-        <div>This is more of daily feed. Curated crypto info is a must for crypto space</div>
+        <div>This is more of daily feed. Tuned Twitter feed is a must in crypto space.</div>
       </li>
       <li class="tech-links__item">
         <h4>
@@ -70,7 +70,7 @@
       </li>
       <li class="tech-links__item">
         <h4>
-          <app-link to="https://vuejsdevelopers.com/">
+          <app-link to="https://news.ycombinator.com/">
             Hacker news
           </app-link>
         </h4>

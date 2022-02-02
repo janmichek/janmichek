@@ -6,6 +6,7 @@
       No worry if our company does not have solid workflow yet. After working for different companies, now I see what's ultimately working.
       I wrote down these rules to make collaboration aligned, so we can iterate from here.
       In the case of missing dev lead or to instruct junior developers, we may use these basics."/>
+
     <title-section class="git-flow__title">
       Issues
     </title-section>

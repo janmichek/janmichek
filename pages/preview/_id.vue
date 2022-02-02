@@ -23,7 +23,7 @@
     },
 
     mounted () {
-      this.$nextTick(function () {
+      this.$nextTick(() => {
         this.imageLInk = `screencaptures/preview-${this.$route.params.id}.gif`
       })
     },
