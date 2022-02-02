@@ -4,6 +4,12 @@ import pkg from './package.json'
 export default {
   ssr: false,
 
+  static: {
+    prefix: false,
+  },
+
+  target: 'static',
+
   head: {
     title: pkg.niceName,
     meta: [

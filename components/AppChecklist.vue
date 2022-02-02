@@ -4,12 +4,12 @@
       v-for="(item, id) in list"
       :key="id">
       <input
-        :id="`checkbox-${id}`"
+        :id="`checkbox-${id}-${name}`"
         type="checkbox"
         class="checklist__checkbox">
       <label
         class="checklist__label"
-        :for="`checkbox-${id}`">
+        :for="`checkbox-${id}-${name}`">
         {{ item }}
       </label>
     </li>
@@ -23,6 +23,10 @@
       list: {
         type: Array,
         required: true,
+      },
+      name: {
+        type: String,
+        default: '',
       },
     },
   }

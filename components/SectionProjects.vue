@@ -18,11 +18,24 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                My first web3 dapp I have been working on. Basically is a pawn shop for NFTs. The frontend part wraps
+                My first web3 dapp I have been working on. Basically it's a pawn shop for NFTs. The frontend part wraps
                 user interactions with wallet, contracts and communication with backend.
+                <br>
+
+                <app-link
+                  to="/preview/pwn1"
+                  target="_blank">
+                  Preview 1
+                </app-link>
+                <app-link
+                  to="/preview/pwn2"
+                  target="_blank">
+                  Preview 2
+                </app-link>
               </li>
               <li>
-                I was collaborating on designing visuals and user interaction as well as implementing the result. Building the app also required to be in close contact with community and adjust app
+                I was collaborating on designing visuals and user interaction as well as implementing the result.
+                Building the app also required to be in close contact with community and adjust app
                 accordingly in turbulent crypto space.
               </li>
               <li>
@@ -79,7 +92,17 @@
                 This is a complex frontend for AI based chatbot builder made for industry leading
                 corporate client. App offers innovative approach to build conversations between users and bot .
                 <br>
-                Preview of an app on demand.
+
+                <app-link
+                  to="/preview/chatbot1"
+                  target="_blank">
+                  Preview 1
+                </app-link>
+                <app-link
+                  to="/preview/chatbot2"
+                  target="_blank">
+                  Preview 2
+                </app-link>
               </li>
               <li>
                 My role was to code whole frontend, participate on creating user flows based on product vision.
@@ -135,6 +158,11 @@
             <ul class="projects__list">
               <li>
                 Platform for organizing concerts of classical music in your living room.
+                <app-link
+                  to="/preview/vz"
+                  target="_blank">
+                  Preview
+                </app-link>
               </li>
               <li>
                 I have collaborated on custom UI, UX and coded frontend features such as feedbacks, user forms and
@@ -241,13 +269,13 @@
 </script>
 
 <style scoped>
-  .projects {
-    &__content {
-      margin: 0 var(--gutter);
-    }
-
-    &__project:not(:last-of-type) {
-      margin-bottom: var(--gutter-xxl);
-    }
+.projects {
+  &__content {
+    margin: 0 var(--gutter);
   }
+
+  &__project:not(:last-of-type) {
+    margin-bottom: var(--gutter-xxl);
+  }
+}
 </style>

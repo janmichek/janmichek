@@ -30,17 +30,10 @@
         goodies: [
 
           {
-            title: 'Pull Request Checklist',
+            title: 'Git Flow',
             image: 'checklist.jpg',
-            description: 'With empathy you can grow strong codebase. Here is what I have learned.',
-            link: '/pull-request-checklist',
-          },
-
-          {
-            title: 'Un-stuck checklist',
-            image: 'checklist.jpg',
-            description: 'Problem solving checklist for those "I have no idea what i am doing" moments.',
-            link: '/unstuck-checklist',
+            description: 'If our company has solid workflow, thats the best. If not, we can iterate from these',
+            link: '/git-flow',
           },
           {
             title: 'Blog posts',
@@ -57,7 +50,7 @@
           },
           {
             title: 'Blockchain learning Dapps',
-            image: 'janmichek.jpg',
+            image: 'book.jpg',
             description: 'Set of guided tutorials dapps I made as an entry work to crypto space',
             link: '/blockchain-dapps',
           },
@@ -75,7 +68,7 @@
           },
           {
             title: 'Vue 2 File Template By Styleguide',
-            image: 'janmichek.jpg',
+            image: 'vue-logo.jpg',
             description: 'A template for new .vue file creation in IntelliJ family editors. This template creates new file according to official styleguide so there is need to manually write code anymore.',
             link: 'https://gist.github.com/janmichek/9a40c8e481a1f8d3fa3a07fe79733e27',
           },
@@ -84,13 +77,6 @@
             image: 'sourcecode.jpg',
             description: 'Source code of this personal page. This web is hosted on Firebase.',
             link: 'https://github.com/janmichek/janmichek',
-          },
-
-          {
-            title: 'Code Review Checklist',
-            image: 'checklist.jpg',
-            description: 'I always say that developing a project alone is the same as to rise child as a single parent.',
-            link: '/code-review-checklist',
           },
           {
             title: 'Photos Gallery',
