@@ -15,6 +15,7 @@ export default {
     meta: [
       { hid: 'robots', name: 'robots', content: 'index' },
       { hid: 'description', name: 'description', content: pkg.description },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ],
   },
 
