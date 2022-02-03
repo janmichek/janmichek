@@ -96,8 +96,8 @@
           {
             title: 'Music Production',
             image: 'honeytcz.jpg',
-            description: 'I invest most of my free time into music production. Take a listen.',
-            link: 'https://soundcloud.com/honeytcz',
+            description: 'I invest most of my free time into music production. Have a listen.',
+            link: 'https://open.spotify.com/artist/52iWG2c2P0K6HmGrAAUyoP?si=SuOL9lY1QuyCI1FDBOzO9A',
           },
         ],
       }
