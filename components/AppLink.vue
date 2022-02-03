@@ -45,3 +45,9 @@
     },
   }
 </script>
+
+<style scoped>
+.link {
+  display: inline-flex;
+}
+</style>

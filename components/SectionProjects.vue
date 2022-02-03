@@ -13,16 +13,16 @@
                 image="pwn.png"
                 :width="686"
                 alt="Chabot Builder"/>
-              <app-link
-                class="projects__preview"
-                to="/preview/pwn1">
-                Preview 1
-              </app-link>
-              <app-link
-                class="projects__preview"
-                to="/preview/pwn2">
-                Preview 2
-              </app-link>
+            </app-link>
+            <app-link
+              class="projects__preview"
+              to="/preview/pwn1">
+              Preview 1
+            </app-link>
+            <app-link
+              class="projects__preview"
+              to="/preview/pwn2">
+              Preview 2
             </app-link>
           </template>
           <template #description>
@@ -79,10 +79,12 @@
             Chatbot Builder
           </template>
           <template #image>
-            <app-image
-              image="chatbot.png"
-              :width="686"
-              alt="Chabot Builder"/>
+            <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
+              <app-image
+                image="chatbot.png"
+                :width="686"
+                alt="Chabot Builder"/>
+            </app-link>
             <app-link
               class="projects__preview"
               to="/preview/chatbot1">
@@ -97,8 +99,11 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                This is a complex frontend for AI based chatbot builder made for industry leading
-                corporate client. App offers innovative approach to build conversations between users and bot.
+                This is a complex frontend for building AI based chatbot made for
+                <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
+                  industry leader
+                </app-link>.
+                App offers innovative approach to build conversations between user and bot.
               </li>
               <li>
                 My role was to code whole frontend, participate on creating user flows based on product vision.
@@ -148,11 +153,11 @@
                 image="vaznyzajem.png"
                 :width="686"
                 alt="Vážný zájem"/>
-              <app-link
-                class="projects__preview"
-                to="/preview/vz">
-                Preview
-              </app-link>
+            </app-link>
+            <app-link
+              class="projects__preview"
+              to="/preview/vz">
+              Preview
             </app-link>
           </template>
           <template #description>

@@ -32,7 +32,7 @@
           {
             title: 'Blockchain learning Dapps',
             image: 'book.jpg',
-            description: 'Set of guided tutorials dapps I made as an entry work to crypto space before my first real experience.',
+            description: 'Set of guided dapps tutorials I made as an entry work to crypto space before my first real experience.',
             link: '/blockchain-dapps',
           },
           {

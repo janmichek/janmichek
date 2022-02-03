@@ -101,14 +101,7 @@
       z-index: 9;
       cursor: pointer;
       display: none;
-
-      &:focus {
-        outline: none;
-      }
-
-      @media (--tablet) {
-        display: block;
-      }
+      transition: all 0.2s ease-in-out;
 
       &-prev {
         left: 0;
@@ -137,6 +130,24 @@
       &--disabled {
         opacity: 0.2;
       }
+
+      &:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
+
+      &:active {
+        transform: scale(1.3);
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      @media (--tablet) {
+        display: block;
+      }
+
     }
 
     &__caption {

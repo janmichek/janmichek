@@ -3,7 +3,7 @@
     <title-slug
       title="Blockchain learning dapps"
       description="
-      Last two months I spend 100+ hours of learning and coding blockchain dapps as an introduction to this world.
+      Last two months (Aug/Sep 2021) I spend 100+ hours of learning and coding blockchain dapps as an introduction to this world.
       It learned me a lot about Solidity, web3, Ganache and Drizzle, but still a lot to learn.
       <br>
       <br>
