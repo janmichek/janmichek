@@ -70,11 +70,15 @@
       min-width: 118px;
       line-height: 1;
       margin-bottom: var(--gutter-sm);
-      &--web3 {
-        font-size: 28px;
-      }
+
       @media (--tablet) {
         margin-bottom: 0;
+      }
+
+      &--web3 {
+        @media (--tablet) {
+          font-size: 28px;
+        }
       }
     }
 
