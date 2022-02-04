@@ -20,7 +20,7 @@
     data () {
       return {
         checklist: [
-          'Doing too much complicated stuff at once. Use partly hardcoded solution, parametrize later.',
+          'Doing much complicated stuff at once. Use partly hardcoded solution, parametrize later.',
           'Start solving the task from frontend. Start solving the task from backend.',
           'Is the problem present in the browser or on the server?',
           'Is it a problem of style or is it functional?',
@@ -34,7 +34,7 @@
           'Refactor the code at least temporarily. Rename the functions and variable to be more self-explanatory.',
           'See how did I or my colleagues were solving similar problems. Search in Github repos Issues.',
           'Google the problem with different naming. Google the problem less or more specific.',
-          'Revise the issue and start again from scratch with different approach.',
+          'Revise the issue and start again from scratch with a different approach.',
           'Reorder editor windows or change the form somehow else.',
           'Turn the computer off and on again.',
           'Tomorrow is another day.',

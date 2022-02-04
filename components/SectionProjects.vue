@@ -28,8 +28,8 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                My first web3 dapp I have been working on. Basically it's a pawn shop for NFTs. The frontend part wraps
-                user interactions with wallet, contracts and communication with backend.
+                The first web3 dapp I have been working on. Basically, it's a pawnshop for NFTs. The frontend part wraps
+                user interactions with wallet, contracts, and communication with backend.
               </li>
               <li>
                 I was collaborating on designing visuals and UX as well as coding the result.
@@ -102,8 +102,9 @@
                 This is a complex frontend for building AI based chatbot made for
                 <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
                   industry leader
-                </app-link>.
-                App offers innovative approach to build conversations between user and bot.
+                </app-link>
+                .
+                App offers an innovative approach to build conversations between user and bot.
               </li>
               <li>
                 My role was to code whole frontend, participate on creating user flows based on product vision.
@@ -215,7 +216,7 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                UI library for developers to reuse UI components over complex ETL app. Library is unmaintained now.
+                UI library for developers to reuse UI components over complex ETL app. The library is unmaintained now.
               </li>
               <li>
                 I have reverse engineered inconsistent usage of UI components, codified it in styleguide and

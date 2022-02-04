@@ -1,5 +1,5 @@
 <template>
-  <article class="blockchain-dapps">
+  <article className="blockchain-dapps">
     <title-slug
       title="Blockchain learning dapps"
       description="
@@ -7,11 +7,11 @@
       It learned me a lot about Solidity, web3, Ganache and Drizzle, but still a lot to learn.
       <br>
       <br>
-      Most of these tutorials had frontend build on React, so I remade them into Vue.
+      Most of these tutorials had frontend built on React, so I remade them into Vue.
       Frontend-wise, these dapps are very simple. My point was to demonstrate what I went through in blockchain dev.
     "/>
     <ul>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -21,7 +21,7 @@
         </h4>
         <div>Simple usage of Drizzle components in Vue frontend.</div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -34,7 +34,7 @@
           It also fires flash message when data changed.
         </div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -47,7 +47,7 @@
           It is also using basic Drizzle implementation.
         </div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -59,7 +59,7 @@
           In this app you can create token in form of color hex code and mint it into blockchain.
         </div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -71,7 +71,7 @@
           DAPP which let you exchange ETH for made up DAPP currency and vice versa.
         </div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -83,7 +83,7 @@
           This DeFi app let you earn interest for depositing cryptocurrency.
         </div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -96,7 +96,7 @@
           the funds
         </div>
       </li>
-      <li class="blockchain-dapps__item">
+      <li className="blockchain-dapps__item">
         <h4>
           <app-link
             target="_blank"
@@ -125,9 +125,9 @@
 </script>
 
 <style scoped>
-  .blockchain-dapps {
-    &__item {
-      margin-bottom: var(--gutter-lg);
-    }
+.blockchain-dapps {
+  &__item {
+    margin-bottom: var(--gutter-lg);
   }
+}
 </style>

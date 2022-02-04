@@ -24,7 +24,6 @@
         type: String,
       },
       isLast: {
-
         default: false,
         type: Boolean,
       },

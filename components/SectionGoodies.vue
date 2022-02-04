@@ -75,7 +75,7 @@
           {
             title: 'Frontend Developer Manifesto',
             image: 'janmichek.jpg',
-            description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in structured form.',
+            description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in a structured form.',
             link: 'https://github.com/janmichek/frontend-developer-manifesto/blob/main/README.md',
           },
           {
