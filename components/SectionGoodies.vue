@@ -79,12 +79,18 @@
             link: 'https://github.com/janmichek/frontend-developer-manifesto/blob/main/README.md',
           },
           {
+            title: 'Linter Settings',
+            image: 'eslint.png',
+            description: 'In the case of my team lacks linter settings - here are my preffered ones as a good starter for a new project.' +
+              '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-eslint-settings">Vue Eslint Settings</a> and ' +
+              '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-stylelint-settings">Stylelint settings</a>.',
+          },
+          {
             title: 'Photos Gallery',
             image: 'k6.jpg',
             description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or just for nice placeholder.',
             link: '/gallery',
           },
-
           {
             title: 'Blog posts',
             image: 'medium.jpg',
@@ -92,7 +98,6 @@
               '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-1-kick-off-eng-cb81d5f7994c">POST 1</a>, ' +
               '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-2-ready-to-go-22a96aa38bfe">POST 2</a>.',
           },
-
           {
             title: 'Music Production',
             image: 'honeytcz.jpg',
