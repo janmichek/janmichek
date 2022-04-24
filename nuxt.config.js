@@ -4,6 +4,10 @@ import pkg from './package.json'
 import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
+
+  bridge: {
+    nitro: false,
+  },
   // Your existing configuration
   // ssr: false,
   //
