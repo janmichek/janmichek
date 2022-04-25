@@ -10,11 +10,8 @@
 </template>
 
 <script>
-  import AppChecklist from '../components/AppChecklist'
-  import TitleSlug from '../components/TitleSlug'
 
   export default {
-    components: { TitleSlug, AppChecklist },
     layout: 'slug',
 
     data () {

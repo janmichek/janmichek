@@ -25,11 +25,8 @@
 </template>
 
 <script>
-  import AppImage from './AppImage'
-
   export default {
     name: 'AppSwiper',
-    components: { AppImage },
     props: {
       images: {
         type: Array,

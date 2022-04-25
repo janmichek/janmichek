@@ -13,9 +13,7 @@
 </template>
 
 <script>
-  import AppImage from '@/components/AppImage'
   export default {
-    components: { AppImage },
     data () {
       return {
         imageLInk: '',

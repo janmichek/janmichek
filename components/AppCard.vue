@@ -24,12 +24,8 @@
 </template>
 
 <script>
-  import AppLink from '../components/AppLink'
-  import AppImage from '~/components/AppImage'
-
   export default {
     name: 'AppCard',
-    components: { AppImage, AppLink },
     props: {
       image: {
         type: String,

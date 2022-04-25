@@ -45,12 +45,8 @@
 </template>
 
 <script>
-  import AppLink from '../components/AppLink'
-  import TitleSection from '../components/TitleSection'
-
   export default {
     name: 'TheFooter',
-    components: { TitleSection, AppLink },
     props: {
       theme: {
         type: String,

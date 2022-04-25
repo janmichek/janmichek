@@ -10,10 +10,8 @@
 </template>
 
 <script>
-  import AppLink from '@/components/AppLink'
   export default {
     name: 'ProjectLink',
-    components: { AppLink },
     props: {
       to: {
         required: true,

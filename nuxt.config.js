@@ -5,8 +5,19 @@ import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
 
+  components: {
+    global: true,
+    dirs: ['~/components'],
+  },
+
+  // https://github.com/nuxt/bridge/issues/27
+  // bridge: {
+  //   nitro: false,
+  // },
+
   bridge: {
-    nitro: false,
+    nitro: process.env.NODE_ENV !== 'production',
+    autoImports: true,
   },
   // Your existing configuration
   // ssr: false,

@@ -20,11 +20,7 @@
 </template>
 
 <script>
-  import AppSwiper from '../components/AppSwiper'
-  import TitleSlug from '../components/TitleSlug'
-
   export default {
-    components: { TitleSlug, AppSwiper },
     data () {
       return {
         images: [

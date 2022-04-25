@@ -89,11 +89,7 @@
 </template>
 
 <script>
-  import AppLink from '../components/AppLink'
-  import TitleSlug from '../components/TitleSlug'
-
   export default {
-    components: { TitleSlug, AppLink },
     layout: 'slug',
   }
 </script>

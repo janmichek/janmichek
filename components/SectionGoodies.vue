@@ -19,12 +19,8 @@
 </template>
 
 <script>
-  import AppCard from '../components/AppCard'
-  import TitleSection from '../components/TitleSection'
-
   export default {
     name: 'SectionGoodies',
-    components: { TitleSection, AppCard },
     data () {
       return {
         goodies: [
