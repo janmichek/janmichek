@@ -4,7 +4,8 @@
   ],
   "extends": [
     "stylelint-config-standard",
-    "stylelint-prettier/recommended"
+    "stylelint-prettier/recommended",
+    "stylelint-config-html/vue"
   ],
   "defaultSeverity": "warning",
   "rules": {
@@ -21,6 +22,9 @@
     "selector-pseudo-element-colon-notation": "single",
     "comment-whitespace-inside": null,
     "comment-empty-line-before": null,
+    "rule-empty-line-before": null,
+    "selector-class-pattern": null,
+    "declaration-block-no-redundant-longhand-properties": null,
     "declaration-empty-line-before": [
       "never",
       {

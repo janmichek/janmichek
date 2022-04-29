@@ -63,6 +63,7 @@ export default defineNuxtConfig({
   buildModules: [
     // Simple usage
     '@nuxtjs/eslint-module',
+    '@nuxtjs/stylelint-module',
   ],
 
   build: {

@@ -6,6 +6,7 @@ module.exports = {
   },
   parser: "vue-eslint-parser",
   parserOptions: {
+    extraFileExtensions: [".vue"],
     "ecmaVersion": 2020,
   },
   plugins: ["prettier"],

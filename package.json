@@ -18,8 +18,9 @@
   },
   "dependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
+    "@nuxtjs/stylelint-module": "^4.1.0",
     "babel-polyfill": "^6.26.0",
-    "firebase": "^9.6.11",
+    "firebase": "^9.7.0",
     "jimp": "^0.16.1",
     "lost": "^8.3.1",
     "lqip-loader": "^2.2.1",
@@ -27,12 +28,14 @@
     "nuxt-edge": "latest",
     "nuxt-rfg-icon": "^0.6.4",
     "postcss-color-mod-function": "^3.0.3",
+    "postcss-html": "^1.4.1",
     "postcss-import": "^14.1.0",
     "postcss-import-ext-glob": "^2.0.1",
     "postcss-nested": "^5.0.6",
     "postcss-short": "^5.0.0",
     "responsive-loader": "^2.3.0",
     "sqip-loader": "^1.0.0",
+
     "vue-awesome-swiper": "^3.1.3",
     "webp-loader": "^0.6.0"
   },
@@ -40,7 +43,6 @@
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxtjs/eslint-config": "^9.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
-    "babel-eslint": "^10.1.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
@@ -50,6 +52,11 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^4.1.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-prettier": "^2.0.0"
   }
 }
