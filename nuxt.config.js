@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   //   nitro: false,
   // },
 
+  // bind click through for autoimported components
   bridge: {
     nitro: process.env.NODE_ENV !== 'production',
     autoImports: true,
@@ -57,6 +58,12 @@ export default defineNuxtConfig({
   // buildModules: [
   //   '@nuxtjs/stylelint-module',
   // ],
+
+
+  buildModules: [
+    // Simple usage
+    '@nuxtjs/eslint-module',
+  ],
 
   build: {
     extractCSS: true,

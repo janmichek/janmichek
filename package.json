@@ -23,7 +23,7 @@
     "jimp": "^0.16.1",
     "lost": "^8.3.1",
     "lqip-loader": "^2.2.1",
-    "node-fetch": "^3.2.3",
+    "node-fetch": "^3.2.4",
     "nuxt-edge": "latest",
     "nuxt-rfg-icon": "^0.6.4",
     "postcss-color-mod-function": "^3.0.3",
@@ -38,11 +38,18 @@
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
-    "@nuxtjs/stylelint-module": "^4.1.0",
     "@nuxtjs/eslint-config": "^9.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-nuxt": "^3.2.0",
-    "eslint-plugin-vue": "^8.7.1"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "prettier": "^2.6.2"
   }
 }
