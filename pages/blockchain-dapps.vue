@@ -114,12 +114,8 @@
 </template>
 
 <script>
-  import TitleSlug from '@/components/TitleSlug'
-  import AppLink from '@/components/AppLink'
-
   export default {
     name: 'BlockhainApps',
-    components: { AppLink, TitleSlug },
     layout: 'slug',
   }
 </script>

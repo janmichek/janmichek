@@ -28,12 +28,8 @@
 </template>
 
 <script>
-  import AppLink from '../components/AppLink'
-  import AppImage from '~/components/AppImage'
-
   export default {
     name: 'TheHeader',
-    components: { AppImage, AppLink },
   }
 
 </script>

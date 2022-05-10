@@ -4,9 +4,12 @@ module.exports = {
     browser: true,
     node: true,
   },
+  parser: "vue-eslint-parser",
   parserOptions: {
-    parser: 'babel-eslint',
+    extraFileExtensions: [".vue"],
+    "ecmaVersion": 2020,
   },
+  plugins: ["prettier"],
   extends: [
     'plugin:nuxt/recommended',
     'standard',

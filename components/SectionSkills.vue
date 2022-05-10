@@ -35,11 +35,8 @@
 </template>
 
 <script>
-  import TitleSection from './TitleSection'
-
   export default {
     name: 'SectionSkills',
-    components: { TitleSection },
   }
 </script>
 

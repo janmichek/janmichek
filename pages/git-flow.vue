@@ -31,12 +31,7 @@
 </template>
 
 <script>
-  import AppChecklist from '../components/AppChecklist'
-  import TitleSlug from '../components/TitleSlug'
-  import TitleSection from '@/components/TitleSection'
-
   export default {
-    components: { TitleSection, TitleSlug, AppChecklist },
     layout: 'slug',
     data () {
       return {

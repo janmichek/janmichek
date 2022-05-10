@@ -259,15 +259,8 @@
 </template>
 
 <script>
-  import AppLink from '../components/AppLink'
-  import TitleSection from '../components/TitleSection'
-  import AppImage from '../components/AppImage'
-  import AppPost from './AppPost'
-  import ProjectLink from '@/components/ProjectLink'
-
   export default {
     name: 'SectionProjects',
-    components: { ProjectLink, AppPost, AppImage, TitleSection, AppLink },
   }
 </script>
 
