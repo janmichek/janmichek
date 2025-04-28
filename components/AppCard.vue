@@ -13,9 +13,9 @@
       class="card__title">
       {{ title }}
     </h4>
-    <app-image
+    <nuxt-img
       class="card__image"
-      :image="image"
+      :src="`/${image}`"
       :alt="title"/>
     <div class="card__description">
       <slot/>
@@ -23,54 +23,51 @@
   </div>
 </template>
 
-<script>
-  export default {
-    name: 'AppCard',
-    props: {
-      image: {
-        type: String,
-        required: true,
-      },
-      title: {
-        type: String,
-        required: true,
-      },
-      link: {
-        type: String,
-        default: null,
-      },
-    },
-  }
+<script setup>
+defineProps({
+  image: {
+    type: String,
+    required: true,
+  },
+  title: {
+    type: String,
+    required: true,
+  },
+  link: {
+    type: String,
+    default: null,
+  },
+})
 </script>
 
 <style scoped>
-  .card {
-    width: 100%;
-    display: inline-block;
-    background: #fff;
-    padding: var(--gutter);
-    margin-bottom: var(--gutter-lg);
-    position: relative;
+.card {
+  width: 100%;
+  display: inline-block;
+  background: #fff;
+  padding: var(--gutter);
+  margin-bottom: var(--gutter-lg);
+  position: relative;
 
-    &__link {
-      text-decoration: none;
+  &__link {
+    text-decoration: none;
 
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    &__image {
-      margin-bottom: var(--gutter-lg);
-    }
-
-    &__description {
-      margin-top: var(--gutter-xs);
-      color: var(--text-color);
+    &:hover {
+      text-decoration: underline;
     }
   }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__image {
+    margin-bottom: var(--gutter-lg);
+  }
+
+  &__description {
+    margin-top: var(--gutter-xs);
+    color: var(--text-color);
+  }
+}
 </style>

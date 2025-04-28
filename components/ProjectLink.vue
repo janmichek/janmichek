@@ -9,24 +9,21 @@
   </div>
 </template>
 
-<script>
-  export default {
-    name: 'ProjectLink',
-    props: {
-      to: {
-        required: true,
-        type: String,
-      },
-      label: {
-        required: true,
-        type: String,
-      },
-      isLast: {
-        default: false,
-        type: Boolean,
-      },
-    },
-  }
+<script setup>
+defineProps({
+  to: {
+    required: true,
+    type: String,
+  },
+  label: {
+    required: true,
+    type: String,
+  },
+  isLast: {
+    default: false,
+    type: Boolean,
+  },
+})
 </script>
 
 <style scoped>
@@ -34,5 +31,5 @@
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  }
+}
 </style>

@@ -21,34 +21,30 @@
   </div>
 </template>
 
-<script>
-  import AppLink from '../components/AppLink'
-
-  export default {
-    components: {
-      AppLink,
-    },
-    props: {
-      error: {
-        type: Object,
-        required: true,
-      },
-    },
-  }
+<script setup>
+defineProps({
+  error: {
+    type: Object,
+    required: true,
+  },
+})
 </script>
 
 <style>
-  .error {
-    margin: var(--gutter-xl) 0;
-    &__heading {
-      text-align: center;
-    }
-    &__excerpt {
-      text-align: center;
-      padding-bottom:var(--gutter-xl);
-    }
-    &__action {
-      text-align: center;
-    }
+.error {
+  margin: var(--gutter-xl) 0;
+
+  &__heading {
+    text-align: center;
   }
+
+  &__excerpt {
+    text-align: center;
+    padding-bottom: var(--gutter-xl);
+  }
+
+  &__action {
+    text-align: center;
+  }
+}
 </style>

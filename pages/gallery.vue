@@ -12,74 +12,66 @@
       </div>
     </div>
     <section>
-      <app-swiper
-        carousel-id="carousel"
-        :images="images"/>
+      <app-swiper :images="images"/>
     </section>
   </article>
 </template>
 
-<script>
-  export default {
-    data () {
-      return {
-        images: [
-          {
-            medium: 'k1.jpg',
-            altText: 'Galanthus nivalis - Žižkov',
-          },
-          {
-            medium: 'k2.jpg',
-            altText: 'Philadelphus indorus - Křivoklátsko',
-          },
-          {
-            medium: 'k3.jpg',
-            altText: 'Canna indica - Puerto de la Cruz',
-          },
-          {
-            medium: 'k4.jpg',
-            altText: 'Prunus mahaleb - Žižkov',
-          },
-          {
-            medium: 'k5.jpg',
-            altText: 'Pelargonium graveolens - Las Playitas',
-          },
-          {
-            medium: 'k6.jpg',
-            altText: 'Nerium oleander - Monopoli',
-          },
-          {
-            medium: 'k7.jpg',
-            altText: 'Bougainvillea spectabilis - Puerto de la Cruz',
-          },
-          {
-            medium: 'k8.jpg',
-            altText: 'Prunus spinosa - Žižkov',
-          },
-          {
-            medium: 'k9.jpg',
-            altText: 'Pancratium maritimum - Praia da Comporta',
-          },
-          {
-            medium: 'k10.jpg',
-            altText: 'Delosperma cooperi - Žižkov',
-          },
-          {
-            medium: 'k11.jpg',
-            altText: 'Myrtus communis - Monopoli',
-          },
-          {
-            medium: 'k12.jpg',
-            altText: 'Pelargonium graveolens - Albertov',
-          },
-        ],
-      }
-    },
-  }
+<script setup>
+const images = ref([
+  {
+    medium: 'k1.jpg',
+    altText: 'Galanthus nivalis - Žižkov',
+  },
+  {
+    medium: 'k2.jpg',
+    altText: 'Philadelphus indorus - Křivoklátsko',
+  },
+  {
+    medium: 'k3.jpg',
+    altText: 'Canna indica - Puerto de la Cruz',
+  },
+  {
+    medium: 'k4.jpg',
+    altText: 'Prunus mahaleb - Žižkov',
+  },
+  {
+    medium: 'k5.jpg',
+    altText: 'Pelargonium graveolens - Las Playitas',
+  },
+  {
+    medium: 'k6.jpg',
+    altText: 'Nerium oleander - Monopoli',
+  },
+  {
+    medium: 'k7.jpg',
+    altText: 'Bougainvillea spectabilis - Puerto de la Cruz',
+  },
+  {
+    medium: 'k8.jpg',
+    altText: 'Prunus spinosa - Žižkov',
+  },
+  {
+    medium: 'k9.jpg',
+    altText: 'Pancratium maritimum - Praia da Comporta',
+  },
+  {
+    medium: 'k10.jpg',
+    altText: 'Delosperma cooperi - Žižkov',
+  },
+  {
+    medium: 'k11.jpg',
+    altText: 'Myrtus communis - Monopoli',
+  },
+  {
+    medium: 'k12.jpg',
+    altText: 'Pelargonium graveolens - Albertov',
+  },
+])
 </script>
 
 <style scoped>
-  .gallery {
-    padding: var(--gutter-xxl) 0;
-  }
+.gallery {
+  padding: var(--gutter-xxl) 0;
+}
 </style>

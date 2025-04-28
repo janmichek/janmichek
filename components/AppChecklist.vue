@@ -16,28 +16,26 @@
   </ul>
 </template>
 
-<script>
-  export default {
-    name: 'AppChecklist',
-    props: {
-      list: {
-        type: Array,
-        required: true,
-      },
-      name: {
-        type: String,
-        default: '',
-      },
-    },
-  }
+<script setup>
+defineProps({
+  list: {
+    type: Array,
+    required: true,
+  },
+  name: {
+    type: String,
+    default: '',
+  },
+})
 </script>
 
 <style scoped>
-  .checklist__checkbox:checked {
-    color: var(--brand-primary);
-  }
-  .checklist__checkbox:checked ~ .checklist__label {
-    text-decoration: line-through;
-    color: var(--brand-primary);
-  }
+.checklist__checkbox:checked {
+  color: var(--brand-primary);
+}
+
+.checklist__checkbox:checked ~ .checklist__label {
+  text-decoration: line-through;
+  color: var(--brand-primary);
+}
 </style>

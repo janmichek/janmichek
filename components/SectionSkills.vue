@@ -1,7 +1,7 @@
 <template>
   <section class="skills">
     <div class="u-container">
-      <title-section theme="dark">
+      <title-section theme="primary">
         My skillset
       </title-section>
       <div class="skills__row">
@@ -34,59 +34,58 @@
   </section>
 </template>
 
-<script>
-  export default {
-    name: 'SectionSkills',
-  }
+<script setup>
+
 </script>
 
 <style>
-  .skills {
-    background: var(--brand-primary);
-    &__row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      @media (--tablet) {
-        flex-direction: row;
-      }
+.skills {
+  background: var(--brand-primary);
 
-      &:not(:last-of-type) {
-        margin-bottom: var(--gutter-lg);
-      }
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (--tablet) {
+      flex-direction: row;
     }
 
-    &__name {
-      font-family: var(--font-family-heading);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--brand-secondary);
-      font-size: 40px;
-      text-align: center;
-      min-width: 118px;
-      line-height: 1;
-      margin-bottom: var(--gutter-sm);
+    &:not(:last-of-type) {
+      margin-bottom: var(--gutter-lg);
+    }
+  }
 
-      @media (--tablet) {
-        margin-bottom: 0;
-      }
+  &__name {
+    font-family: var(--font-family-heading);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand-secondary);
+    font-size: 40px;
+    text-align: center;
+    min-width: 118px;
+    line-height: 1;
+    margin-bottom: var(--gutter-sm);
 
-      &--web3 {
-        @media (--tablet) {
-          font-size: 28px;
-        }
-      }
+    @media (--tablet) {
+      margin-bottom: 0;
     }
 
-    &__description {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+    &--web3 {
       @media (--tablet) {
-        text-align: left;
+        font-size: 28px;
       }
     }
   }
+
+  &__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media (--tablet) {
+      text-align: left;
+    }
+  }
+}
 </style>

@@ -17,33 +17,23 @@
   </a>
 </template>
 
-<script>
-  export default {
-    name: 'AppLink',
-    props: {
-      to: {
-        type: [
-          String,
-          Object,
-        ],
-        required: true,
-      },
-      target: {
-        type: String,
-        default: '_blank',
-      },
-    },
-    computed: {
-      isOpenedInNewTab () {
-        return this.target === '_blank'
-      },
-    },
-    methods: {
-      isLocalLink (url) {
-        return url.charAt(0) === '/'
-      },
-    },
-  }
+<script setup>
+const props = defineProps({
+  to: {
+    type: [String, Object],
+    required: true,
+  },
+  target: {
+    type: String,
+    default: '_blank',
+  },
+})
+
+const isOpenedInNewTab = computed(() => props.target === '_blank')
+
+function isLocalLink(url) {
+  return url.charAt(0) === '/'
+}
 </script>
 
 <style scoped>

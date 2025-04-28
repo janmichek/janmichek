@@ -1,155 +1,94 @@
 <template>
-  <div class="swiper">
-    <div
-      id="carouselId"
-      class="swiper-external-wrapper">
-      <div v-swiper:mySwiper="swiperOptions">
-        <div class="swiper-wrapper">
-          <div
-            v-for="(image, key) in images"
-            :key="key"
-            class="swiper-slide">
-            <app-image
-              :image="`${image.medium}`"
-              :alt="image.altText"/>
-            <div class="swiper__caption">
-              {{ image.altText }}
-            </div>
-          </div>
-        </div>
+  <swiper
+    v-if="images?.length"
+    :modules="modules"
+    :loop="images?.length > 1"
+    :navigation="true"
+    :space-between="48">
+    <swiper-slide
+      v-for="(slide, index) in images"
+      :key="index">
+      <nuxt-img
+        :src="slide.medium"
+        class="swiper__image"/>
+      <div class="swiper__text">
+        {{ slide.altText }}
       </div>
-      <div class="swiper-navigation swiper-navigation-prev"/>
-      <div class="swiper-navigation swiper-navigation-next"/>
-    </div>
-  </div>
+    </swiper-slide>
+  </swiper>
 </template>
 
-<script>
-  export default {
-    name: 'AppSwiper',
-    props: {
-      images: {
-        type: Array,
-        required: true,
-      },
-      carouselId: {
-        type: String,
-        required: true,
-      },
-      options: {
-        type: Object,
-        default: null,
-      },
-    },
-    computed: {
-      swiperOptions () {
-        const defaultOptions = {
-          grabCursor: true,
-          loop: true,
-          spaceBetween: 24,
-          navigation: {
-            nextEl: '#carouselId .swiper-navigation-next',
-            prevEl: '#carouselId .swiper-navigation-prev',
-            disabledClass: 'swiper-navigation--disabled',
-          },
-          pagination: {
-            el: `#${this.carouselId} .swiper-pagination`,
-            clickable: true,
-            bulletActiveClass: 'swiper-pagination-bullet--active',
-          },
-        }
+<script setup>
+import { Navigation } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import 'swiper/css'
+import 'swiper/css/navigation'
 
-        return this.options ? { ...defaultOptions, ...this.options } : defaultOptions
-      },
-    },
-  }
+defineProps({
+  images: {
+    type: Array,
+    default: null,
+  },
+})
+//
+// const defaultOptions = {
+//   grabCursor: true,
+//   loop: true,
+//   spaceBetween: 24,
+//   navigation: {
+//     nextEl: '#carouselId .swiper-navigation-next',
+//     prevEl: '#carouselId .swiper-navigation-prev',
+//     disabledClass: 'swiper-navigation--disabled',
+//   },
+//   pagination: {
+//     el: `#${this.carouselId} .swiper-pagination`,
+//     clickable: true,
+//     bulletActiveClass: 'swiper-pagination-bullet--active',
+//   },
+// }
+
+const modules = [Navigation]
 </script>
 
 <style>
-  .swiper {
-    &-external-wrapper {
-      position: relative;
-      height: auto;
-      padding: 0;
-      box-sizing: border-box;
+.swiper__image {
+  margin: 0 auto;
+  width: 90vw;
+}
 
-      @media (--tablet) {
-        padding: 0 54px;
-      }
-
-      @media (--desktop) {
-        padding: 0 108px;
-      }
-    }
-
-    &-wrapper {
-      width: 100%;
-    }
-
-    &-slide {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-
-    &-navigation {
-      position: absolute;
-      top: calc(50% - 25px);
-      z-index: 9;
-      cursor: pointer;
-      display: none;
-      transition: all 0.2s ease-in-out;
-
-      &-prev {
-        left: 0;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 15px 30px 15px 0;
-        border-color: transparent var(--brand-primary) transparent transparent;
-        @media (--tablet) {
-          left: var(--gutter);
-        }
-      }
-
-      &-next {
-        right: 0;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 15px 0 15px 30px;
-        border-color: transparent transparent transparent var(--brand-primary);
-        @media (--tablet) {
-          right: var(--gutter);
-        }
-      }
-
-      &--disabled {
-        opacity: 0.2;
-      }
-
-      &:hover {
-        transform: scale(1.1);
-        opacity: 0.8;
-      }
-
-      &:active {
-        transform: scale(1.3);
-      }
-
-      &:focus {
-        outline: none;
-      }
-
-      @media (--tablet) {
-        display: block;
-      }
-
-    }
-
-    &__caption {
-      text-align: center;
-    }
-
+.swiper-button-prev {
+  &:after {
+    content: "";
   }
+
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 30px 15px 0;
+  border-color: transparent var(--brand-primary) transparent transparent;
+  @media (--tablet) {
+    left: var(--gutter);
+  }
+}
+
+.swiper-button-next {
+  &:after {
+    content: "";
+  }
+
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 30px;
+  border-color: transparent transparent transparent var(--brand-primary);
+  @media (--tablet) {
+    right: var(--gutter);
+  }
+}
+
+.swiper__text {
+  text-align: center;
+}
 </style>

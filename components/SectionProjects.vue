@@ -9,8 +9,8 @@
           </template>
           <template #image>
             <app-link to="http://pwn.finance">
-              <app-image
-                image="pwn.png"
+              <nuxt-img
+                src="/pwn.png"
                 :width="686"
                 alt="Chabot Builder"/>
             </app-link>
@@ -80,8 +80,8 @@
           </template>
           <template #image>
             <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-              <app-image
-                image="chatbot.png"
+              <nuxt-img
+                src="/chatbot.png"
                 :width="686"
                 alt="Chabot Builder"/>
             </app-link>
@@ -150,8 +150,8 @@
           </template>
           <template #image>
             <app-link to="https://vaznyzajem.cz/">
-              <app-image
-                image="vaznyzajem.png"
+              <nuxt-img
+                src="/vaznyzajem.png"
                 :width="686"
                 alt="Vážný zájem"/>
             </app-link>
@@ -207,8 +207,8 @@
           </template>
           <template #image>
             <app-link to="https://indigo.keboola.com/">
-              <app-image
-                image="indigo.png"
+              <nuxt-img
+                src="/indigo.png"
                 :width="686"
                 alt="Indigo"/>
             </app-link>
@@ -257,12 +257,6 @@
     </div>
   </section>
 </template>
-
-<script>
-  export default {
-    name: 'SectionProjects',
-  }
-</script>
 
 <style scoped>
 .projects {
