@@ -15,11 +15,11 @@
         </li>
         <li class="tech-links__item">
           <h4>
-            <app-link to="https://twitter.com/jan_michek/following">
-              twitter feed
+            <app-link to="https://cointelegraph.com/">
+              cointelegraph.com
             </app-link>
           </h4>
-          <div>This is more of daily feed. Tuned Twitter feed is a must in crypto space.</div>
+          <div>Trustworthy crypto news</div>
         </li>
         <li class="tech-links__item">
           <h4>
@@ -63,11 +63,11 @@
         </li>
         <li class="tech-links__item">
           <h4>
-            <app-link to="https://frontend.garden/">
-              frontend.garden
+            <app-link to="https://science.org/">
+              science.org
             </app-link>
           </h4>
-          <div>Czech frontend community blog</div>
+          <div>Scientific breakthroughs in the purest form</div>
         </li>
         <li class="tech-links__item">
           <h4>
@@ -79,11 +79,11 @@
         </li>
         <li class="tech-links__item">
           <h4>
-            <app-link to="https://vuejsdevelopers.com/">
-              vuejsdevelopers.com
+            <app-link to="https://www.reddit.com/r/badUIbattles/">
+              reddit/badUIbattles/
             </app-link>
           </h4>
-          <div>Vue related feed</div>
+          <div>Really bad UI's</div>
         </li>
       </ul>
     </article>

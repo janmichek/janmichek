@@ -2,6 +2,71 @@
   <section class="projects">
     <div class="u-container">
       <title-section>Recent projects</title-section>
+      <app-post>
+        <template #heading>
+          aeScan.io
+        </template>
+        <template #image>
+          <app-link to="https://aescan.io/">
+            <img
+              src="/aescan.jpg"
+              :width="686"
+              alt="aescan"/>
+          </app-link>
+          <app-link
+            class="projects__preview"
+            to="/preview/aescan">
+            Preview
+          </app-link>
+        </template>
+        <template #description>
+          <ul class="projects__list">
+            <li>
+              Blockchain explorer of enabling users to dive into details of aeternity blockchain. To educate our users
+              there is plenty
+              of contextual hints to explains different aspects of blockchain..
+            </li>
+            <li>
+              <app-link to="https://github.com/aeternity/aescan/" target="_blank">Open source</app-link>
+              , feature-rich blockchain explorer aggregating data from multiple sources.
+              Vast majority of the code is written by me so dont hesitate to explore it. I got a complete responsibility
+              and autonomy of decision over the app.
+            </li>
+            <li>
+              Used tech:
+              <project-link
+                label="Nuxt 3"
+                to="https://nuxt.com/"/>
+              <project-link
+                label="Typescript"
+                to="https://www.typescriptlang.org/"/>
+              <project-link
+                label="aepp SDK"
+                to="https://sdk.aeternity.io/latest/"/>
+              <project-link
+                label="Cypress"
+                to="https://www.cypress.io/"/>
+              <project-link
+                label="Postcss"
+                to="https://postcss.org"/>
+              <project-link
+                label="Eslint"
+                to="https://eslint.org/"/>
+              <project-link
+                label="Sentry"
+                to="https://sentry.io/"/>
+              <project-link
+                label="Figma"
+                to="https://www.figma.com/"/>
+              <project-link
+                label="Plausible"
+                to="https://plausible.io/"
+                is-last/>
+            </li>
+          </ul>
+        </template>
+      </app-post>
+
       <div class="projects__content">
         <app-post>
           <template #heading>
@@ -9,8 +74,8 @@
           </template>
           <template #image>
             <app-link to="http://pwn.finance">
-              <nuxt-img
-                src="/pwn.png"
+              <img
+                src="/pwn.jpg"
                 :width="686"
                 alt="Chabot Builder"/>
             </app-link>
@@ -80,8 +145,8 @@
           </template>
           <template #image>
             <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-              <nuxt-img
-                src="/chatbot.png"
+              <img
+                src="/chatbot.jpg"
                 :width="686"
                 alt="Chabot Builder"/>
             </app-link>
@@ -99,7 +164,7 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                This is a complex frontend for building AI based chatbot made for
+                This is a complex frontend for building pre-LLM era AI based chatbot made for
                 <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
                   industry leader
                 </app-link>
@@ -107,7 +172,7 @@
                 App offers an innovative approach to build conversations between user and bot.
               </li>
               <li>
-                My role was to code whole frontend, participate on creating user flows based on product vision.
+                My role was to code whole frontend, participate on creating user flows based and overall product vision.
                 Team-wise I was responsible to setting guidelines and lead junior dev aside the development.
               </li>
               <li>
@@ -144,115 +209,7 @@
             </ul>
           </template>
         </app-post>
-        <app-post>
-          <template #heading>
-            Vážný zájem
-          </template>
-          <template #image>
-            <app-link to="https://vaznyzajem.cz/">
-              <nuxt-img
-                src="/vaznyzajem.png"
-                :width="686"
-                alt="Vážný zájem"/>
-            </app-link>
-            <app-link
-              class="projects__preview"
-              to="/preview/vz">
-              Preview
-            </app-link>
-          </template>
-          <template #description>
-            <ul class="projects__list">
-              <li>
-                Platform for organizing concerts of classical music in your living room.
-              </li>
-              <li>
-                I have collaborated on custom UI, UX and coded frontend features such as feedbacks, user forms and
-                validations and partly back-end features (notifications, permissions).
-              </li>
-              <li>
-                Used tech:
-                <project-link
-                  label="Vue 2 + Nuxt"
-                  to="https://nuxtjs.org/"/>
-                <project-link
-                  label="Prisma"
-                  to="https://www.prisma.io/"/>
-                <project-link
-                  label="Postcss"
-                  to="https://postcss.org"/>
-                <project-link
-                  label="Eslint"
-                  to="https://eslint.org/"/>
-                <project-link
-                  label="Hotjar"
-                  to="https://www.hotjar.com"/>
-                <project-link
-                  label="PWA"
-                  to="https://developers.google.com/web/progressive-web-apps"/>
-                <project-link
-                  label=" CSS Variables"
-                  to="https://www.w3schools.com/css/css3_variables.as"/>
-                <project-link
-                  label="CSS Animations"
-                  to="https://www.w3schools.com/css/css3_animations.asp"
-                  is-last/>
-              </li>
-            </ul>
-          </template>
-        </app-post>
-        <app-post>
-          <template #heading>
-            Indigo Styleguide
-          </template>
-          <template #image>
-            <app-link to="https://indigo.keboola.com/">
-              <nuxt-img
-                src="/indigo.png"
-                :width="686"
-                alt="Indigo"/>
-            </app-link>
-          </template>
-          <template #description>
-            <ul class="projects__list">
-              <li>
-                UI library for developers to reuse UI components over complex ETL app. The library is unmaintained now.
-              </li>
-              <li>
-                I have reverse engineered inconsistent usage of UI components, codified it in styleguide and
-                reimplemented back to the app.
-              </li>
-              <li>
-                Used tech:
-                <project-link
-                  label="React"
-                  to="https://reactjs.org"/>
-                <project-link
-                  label="JSX"
-                  to="https://reactjs.org/docs/introducing-jsx.html"/>
-                <project-link
-                  label="Storybook"
-                  to="https://storybook.js.org"/>
-                <project-link
-                  label="Jest"
-                  to="https://jestjs.io/"/>
-                <project-link
-                  label="Bootstrap"
-                  to="https://getbootstrap.com/docs/3.3"/>
-                <project-link
-                  label="Eslint"
-                  to="https://eslint.org/"/>
-                <project-link
-                  label="Stylelint"
-                  to="https://stylelint.io/"/>
-                <project-link
-                  label="CSS Animations"
-                  to="https://www.w3schools.com/css/css3_animations.asp"
-                  is-last/>
-              </li>
-            </ul>
-          </template>
-        </app-post>
+
       </div>
     </div>
   </section>
@@ -277,3 +234,4 @@
   }
 }
 </style>
+

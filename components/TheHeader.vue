@@ -4,7 +4,7 @@
       <div class="u-flex-row">
         <div class="u-5/12@tablet the-header__avatar">
           <app-link to="/">
-            <nuxt-img
+            <img
               format="webp"
               class="the-header__image"
               src="/janmichek.jpg"

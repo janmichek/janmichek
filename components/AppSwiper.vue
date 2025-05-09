@@ -8,7 +8,7 @@
     <swiper-slide
       v-for="(slide, index) in images"
       :key="index">
-      <nuxt-img
+      <img
         :src="slide.medium"
         class="swiper__image"/>
       <div class="swiper__text">

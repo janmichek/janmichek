@@ -5,20 +5,11 @@
         My skillset
       </title-section>
       <div class="skills__row">
-        <div class="skills__name">
-          Vue
-        </div>
-        <p class="skills__description">
-          Simple, effective and joy to code. The best JS framework I had an opportunity to work with.
-          I mean React is good, but Vue is cool.
-        </p>
-      </div>
-      <div class="skills__row">
         <div class="skills__name skills__name--web3">
           Web3
         </div>
         <p class="skills__description">
-          Let me implement and design smooth user experience in modern app that is based on confirming transactions.
+          Let me translate overwhelming technical complexity into smooth and modern web app which is intuitive to use.
         </p>
       </div>
       <div class="skills__row">
@@ -28,6 +19,15 @@
         <p class="skills__description">
           I love to bridge computer code with human perception.
           “Don’t let users think” is my ultimate motto. I live on the front side of frontend.
+        </p>
+      </div>
+      <div class="skills__row">
+        <div class="skills__name">
+          Vue
+        </div>
+        <p class="skills__description">
+          Simple, effective and joy to code. The best JS framework I had an opportunity to work with.
+          I mean React is good, but Vue is cool.
         </p>
       </div>
     </div>

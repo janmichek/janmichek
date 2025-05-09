@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="preview">
     <img
       v-if="imageLInk"
       :src="imageLInk"
@@ -26,9 +26,16 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.preview__loading {
+.preview {
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding: var(--gutter-xl);
+  height: 100vh;
+
+  &__loading {
+    display: flex;
+    justify-content: center;
+    padding: var(--gutter-xl);
+  }
 }
 </style>

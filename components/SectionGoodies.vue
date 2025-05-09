@@ -20,12 +20,12 @@
 
 <script setup>
 const goodies = ref([
-  {
-    title: 'Blockchain learning Dapps',
-    image: 'book.jpg',
-    description: 'Set of guided dapps tutorials I made as an entry work to crypto space before my first real experience.',
-    link: '/blockchain-dapps',
-  },
+  // {
+  //   title: 'Blockchain learning Dapps',
+  //   image: 'book.jpg',
+  //   description: 'Set of guided dapps tutorials I made as an entry work to crypto space before my first real experience.',
+  //   link: '/blockchain-dapps',
+  // },
   {
     title: 'Git Flow',
     image: 'checklist.jpg',
@@ -58,7 +58,7 @@ const goodies = ref([
   },
   {
     title: 'CRUD animations',
-    image: 'crud_actions.png',
+    image: 'crud_actions.jpg',
     description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
     link: 'https://codepen.io/janmichek/pen/bGEoozW',
   },
@@ -70,7 +70,7 @@ const goodies = ref([
   },
   {
     title: 'Linter Settings',
-    image: 'eslint.png',
+    image: 'eslint.jpg',
     description: 'In the case of my team lacks linter settings - here are my preffered ones as a good starter for a new project.'
       + '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-eslint-settings">Vue Eslint Settings</a> and '
       + '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-stylelint-settings">Stylelint settings</a>.',
@@ -81,13 +81,13 @@ const goodies = ref([
     description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or just for nice placeholder.',
     link: '/gallery',
   },
-  {
-    title: 'Blog posts',
-    image: 'medium.jpg',
-    description: 'Two of my older blog posts from my mission in Keboola company describing redesigning of UI. '
-      + '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-1-kick-off-eng-cb81d5f7994c">POST 1</a>, '
-      + '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-2-ready-to-go-22a96aa38bfe">POST 2</a>.',
-  },
+  // {
+  //   title: 'Blog posts',
+  //   image: 'medium.jpg',
+  //   description: 'Two of my older blog posts from my mission in Keboola company describing redesigning of UI. '
+  //     + '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-1-kick-off-eng-cb81d5f7994c">POST 1</a>, '
+  //     + '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-2-ready-to-go-22a96aa38bfe">POST 2</a>.',
+  // },
   {
     title: 'Music Production',
     image: 'honeytcz.jpg',

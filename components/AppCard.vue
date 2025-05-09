@@ -13,7 +13,7 @@
       class="card__title">
       {{ title }}
     </h4>
-    <nuxt-img
+    <img
       class="card__image"
       :src="`/${image}`"
       :alt="title"/>
