@@ -20,16 +20,10 @@
 
 <script setup>
 const goodies = ref([
-  // {
-  //   title: 'Blockchain learning Dapps',
-  //   image: 'book.jpg',
-  //   description: 'Set of guided dapps tutorials I made as an entry work to crypto space before my first real experience.',
-  //   link: '/blockchain-dapps',
-  // },
   {
     title: 'Git Flow',
     image: 'checklist.jpg',
-    description: 'No worry if our company does not have solid workflow yet. We can iterate from here.',
+    description: 'No worry if our team does not have solid workflow yet. We can iterate from here.',
     link: '/git-flow',
   },
   {
@@ -52,14 +46,14 @@ const goodies = ref([
   },
   {
     title: 'Vue 2 File Template By Styleguide',
-    image: 'vue-logo.jpg',
+    image: 'vue-logo.svg',
     description: 'A template for new .vue file creation in IntelliJ family editors. This template creates new file according to official styleguide so we can save some time.',
     link: 'https://gist.github.com/janmichek/9a40c8e481a1f8d3fa3a07fe79733e27',
   },
   {
     title: 'CRUD animations',
     image: 'crud_actions.jpg',
-    description: 'These simple but effective icon animations are vital for every CRUD. Intuitive, elegant copy-pasteble solution. Just hover around.',
+    description: 'I bet your CRUD does not have this! Intuitive, elegant copy-pasteble solution. That is my evergreen solution. Just hover around.',
     link: 'https://codepen.io/janmichek/pen/bGEoozW',
   },
   {
@@ -78,16 +72,9 @@ const goodies = ref([
   {
     title: 'Photos Gallery',
     image: 'k6.jpg',
-    description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or just for nice placeholder.',
+    description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or they can be used as a nice placeholders images.',
     link: '/gallery',
   },
-  // {
-  //   title: 'Blog posts',
-  //   image: 'medium.jpg',
-  //   description: 'Two of my older blog posts from my mission in Keboola company describing redesigning of UI. '
-  //     + '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-1-kick-off-eng-cb81d5f7994c">POST 1</a>, '
-  //     + '<a target="_blank" rel="noopener noreferrer" href="https://500.keboola.com/redesign-keboola-connection-ux-part-2-ready-to-go-22a96aa38bfe">POST 2</a>.',
-  // },
   {
     title: 'Music Production',
     image: 'honeytcz.jpg',

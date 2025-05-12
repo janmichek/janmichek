@@ -44,7 +44,7 @@ defineProps({
 .card {
   width: 100%;
   display: inline-block;
-  background: #fff;
+  background: var(--brand-secondary);
   padding: var(--gutter);
   margin-bottom: var(--gutter-lg);
   position: relative;
@@ -62,7 +62,7 @@ defineProps({
   }
 
   &__image {
-    margin-bottom: var(--gutter-lg);
+    margin-bottom: var(--gutter-m);
   }
 
   &__description {
