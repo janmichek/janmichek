@@ -31,6 +31,11 @@ const goodies = ref([
     image: 'news.jpg',
     description: 'List of tech, frontend & crypto related links I am going through every Sunday.',
     link: '/tech-links',
+  }, {
+    title: 'Karabiner Shortcuts',
+    image: 'karabiner.webp',
+    description: 'My personal way to tune ergonomics. I believe this is ultimate good, but it may serve as inspiration.',
+    link: '/karabiner',
   },
   {
     title: 'Webdesign checklist',

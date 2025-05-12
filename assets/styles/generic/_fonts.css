@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Play';
+  font-family: Play;
   src: url('~/assets/fonts/play.woff2') format('woff2'),
   url('~/assets/fonts/play.woff') format('woff');
   font-weight: normal;

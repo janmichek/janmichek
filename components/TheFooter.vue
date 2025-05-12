@@ -70,6 +70,7 @@ defineProps({
   background: var(--footer-background);
   padding: var(--gutter-xl) 0;
   text-align: center;
+
   @media (--mobile) {
     text-align: left;
   }

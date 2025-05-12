@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     @media (--tablet) {
       flex-direction: row;
     }
@@ -83,6 +84,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
     @media (--tablet) {
       text-align: left;
     }

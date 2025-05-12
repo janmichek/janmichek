@@ -14,12 +14,9 @@
   --button-radius: 20px;
   --button-font-size: 18px;
   --button-font-family: var(--font-family);
-
   --button-circle-size: 80px;
   --button-circle-size-sm: 48px;
   --button-circle-size-xs: 24px;
-
   --link-color: var(--text-color);
-
   --placeholder-color: var(--text-color)
 }

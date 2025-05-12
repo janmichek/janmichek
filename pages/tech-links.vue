@@ -3,7 +3,8 @@
     <article class="tech-links">
       <title-slug
         title="Tech links"
-        description="These are the main sources of my outer world contact. I do open them mostly on Sundays. There are more links I read about music production and psychology. But lets stick with these 10 top links."/>
+        description="These are the main sources of my outer world contact. I do open them mostly on Sundays.
+        There are more links I read about music production and psychology. But lets stick with these 10 top links."/>
       <ul>
         <li class="tech-links__item">
           <h4>

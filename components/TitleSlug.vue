@@ -30,6 +30,7 @@ defineProps({
     color: var(--brand-primary);
     margin-bottom: var(--gutter);
     text-align: center;
+
     @media (--tablet) {
       text-align: left;
     }

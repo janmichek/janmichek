@@ -1,11 +1,12 @@
+/* stylelint-disable no-duplicate-selectors */
 /* Box sizing rules */
 html {
   box-sizing: border-box;
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -37,7 +38,7 @@ dd {
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizespeed;
   line-height: 1.5;
 }
 

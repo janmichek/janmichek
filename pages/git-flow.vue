@@ -4,7 +4,8 @@
       <title-slug
         title="Git Flow"
         description="
-      No worry if our company does not have solid workflow yet. After working for different companies, I can see what's ultimately working now.
+      No worry if our company does not have solid workflow yet. After working for different companies, I can see what's
+       ultimately working now.
       I wrote down these rules to make collaboration aligned, so we can iterate from here.
       In the case of missing dev lead or to instruct junior developers, we may use these basics."/>
 

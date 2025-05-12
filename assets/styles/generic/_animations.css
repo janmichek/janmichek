@@ -1,5 +1,5 @@
 html {
-  animation: fadeIn ease-in 1;
+  animation: fade-in ease-in 1;
   animation-fill-mode: forwards;
   animation-duration: var(--slow);
 }
@@ -31,7 +31,7 @@ label {
   }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
   from {
     opacity: 0;
   }

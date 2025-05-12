@@ -10,7 +10,7 @@
       :key="index">
       <img
         :src="slide.medium"
-        class="swiper__image"/>
+        class="swiper__image">
       <div class="swiper__text">
         {{ slide.altText }}
       </div>
@@ -60,13 +60,13 @@ const modules = [Navigation]
   &:after {
     content: "";
   }
-
   left: 0;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 15px 30px 15px 0;
   border-color: transparent var(--brand-primary) transparent transparent;
+
   @media (--tablet) {
     left: var(--gutter);
   }
@@ -76,13 +76,13 @@ const modules = [Navigation]
   &:after {
     content: "";
   }
-
   right: 0;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 15px 0 15px 30px;
   border-color: transparent transparent transparent var(--brand-primary);
+
   @media (--tablet) {
     right: var(--gutter);
   }

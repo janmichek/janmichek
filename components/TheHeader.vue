@@ -9,7 +9,7 @@
               class="the-header__image"
               src="/janmichek.jpg"
               :width="230"
-              alt="Jan Michek's avatar"/>
+              alt="Jan Michek's avatar">
           </app-link>
         </div>
         <div class="u-7/12@tablet the-header__content">

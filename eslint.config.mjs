@@ -1,24 +1,19 @@
-// todo here
-// eslint-disable-next-line no-restricted-imports
+// eslint-disable-next-line no-restricted-imports,import/extensions
 import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt({
   ignores: ['**/dist', '**/.nuxt', '**/.output'],
   rules: {
-    // 'space-before-function-paren': ['error', 'never'],
-    // 'arrow-parens': ['error', 'as-needed'],
-    //
-    // 'max-len': ["error", {
-    //         code: 120,
-    //         ignoreUrls: true,
-    //         ignoreStrings: true,
-    //         ignoreTemplateLiterals: true,
-    // }],
+    'max-len': ['error', {
+      code: 120,
+      ignoreUrls: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
 
     'no-console': 'off',
     'no-use-before-define': 'off',
     'no-useless-constructor': 'off',
-
     'no-restricted-imports': ['error', {
       patterns: ['./'],
     }],
@@ -36,9 +31,6 @@ export default withNuxt({
     'vue/require-v-for-key': 'error',
     'vue/no-v-html': 0,
     'vue/object-curly-spacing': ['error', 'never'],
-
-    // 'vue/operator-linebreak': ['error', 'after'],
-
     'vue/multi-word-component-names': 'off',
     'vue/mustache-interpolation-spacing': ['error', 'always'],
     'vue/no-multiple-template-root': 'off',

@@ -2,72 +2,79 @@
   <section class="projects">
     <div class="u-container">
       <title-section>Recent projects</title-section>
-      <app-post>
-        <template #heading>
-          aeScan.io
-        </template>
-        <template #image>
-          <app-link to="https://aescan.io/">
-            <img
-              src="/aescan.jpg"
-              :width="686"
-              alt="aescan"/>
-          </app-link>
-          <app-link
-            class="projects__preview"
-            to="/preview/aescan">
-            Preview
-          </app-link>
-        </template>
-        <template #description>
-          <ul class="projects__list">
-            <li>
-              Blockchain explorer of enabling users to dive into details of aeternity blockchain. To educate our users
-              there is plenty
-              of contextual hints to explains different aspects of blockchain..
-            </li>
-            <li>
-              <app-link to="https://github.com/aeternity/aescan/" target="_blank">Open source</app-link>
-              , feature-rich blockchain explorer aggregating data from multiple sources.
-              Vast majority of the code is written by me so dont hesitate to explore it. I got a complete responsibility
-              and autonomy of decision over the app.
-            </li>
-            <li>
-              Used tech:
-              <project-link
-                label="Nuxt 3"
-                to="https://nuxt.com/"/>
-              <project-link
-                label="Typescript"
-                to="https://www.typescriptlang.org/"/>
-              <project-link
-                label="aepp SDK"
-                to="https://sdk.aeternity.io/latest/"/>
-              <project-link
-                label="Cypress"
-                to="https://www.cypress.io/"/>
-              <project-link
-                label="Postcss"
-                to="https://postcss.org"/>
-              <project-link
-                label="Eslint"
-                to="https://eslint.org/"/>
-              <project-link
-                label="Sentry"
-                to="https://sentry.io/"/>
-              <project-link
-                label="Figma"
-                to="https://www.figma.com/"/>
-              <project-link
-                label="Plausible"
-                to="https://plausible.io/"
-                is-last/>
-            </li>
-          </ul>
-        </template>
-      </app-post>
 
       <div class="projects__content">
+        <app-post>
+          <template #heading>
+            aeScan.io
+          </template>
+          <template #image>
+            <app-link to="https://aescan.io/">
+              <img
+                src="/aescan.jpg"
+                :width="686"
+                alt="aescan">
+
+            </app-link>
+            <app-link
+              class="projects__preview"
+              to="/preview/aescan">
+              Preview
+            </app-link>
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                Blockchain explorer of enabling users to dive into details of aeternity blockchain. To educate our users
+                there is plenty
+                of contextual hints to explains different aspects of blockchain..
+              </li>
+              <li>
+                <app-link
+                  to="https://github.com/aeternity/aescan/"
+                  target="_blank">
+                  Open source
+                </app-link>
+                , feature-rich blockchain explorer aggregating data from multiple sources.
+                Vast majority of the code is written by me so dont hesitate to explore it. I got a complete
+                responsibility
+                and autonomy of decision over the app.
+              </li>
+              <li>
+                Used tech:
+                <project-link
+                  label="Nuxt 3"
+                  to="https://nuxt.com/"/>
+                <project-link
+                  label="Typescript"
+                  to="https://www.typescriptlang.org/"/>
+                <project-link
+                  label="aepp SDK"
+                  to="https://sdk.aeternity.io/latest/"/>
+                <project-link
+                  label="Cypress"
+                  to="https://www.cypress.io/"/>
+                <project-link
+                  label="Postcss"
+                  to="https://postcss.org"/>
+                <project-link
+                  label="Eslint"
+                  to="https://eslint.org/"/>
+                <project-link
+                  label="Sentry"
+                  to="https://sentry.io/"/>
+                <project-link
+                  label="Figma"
+                  to="https://www.figma.com/"/>
+                <project-link
+                  label="Plausible"
+                  to="https://plausible.io/"
+                  is-last/>
+              </li>
+            </ul>
+          </template>
+        </app-post>
+
         <app-post>
           <template #heading>
             PWN
@@ -77,7 +84,7 @@
               <img
                 src="/pwn.jpg"
                 :width="686"
-                alt="Chabot Builder"/>
+                alt="Chabot Builder">
             </app-link>
             <app-link
               class="projects__preview"
@@ -148,7 +155,7 @@
               <img
                 src="/chatbot.jpg"
                 :width="686"
-                alt="Chabot Builder"/>
+                alt="Chabot Builder">
             </app-link>
             <app-link
               class="projects__preview"
@@ -209,11 +216,13 @@
             </ul>
           </template>
         </app-post>
-
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+</script>
 
 <style scoped>
 .projects {
@@ -234,4 +243,3 @@
   }
 }
 </style>
-

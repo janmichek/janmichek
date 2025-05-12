@@ -6,7 +6,8 @@
           <section>
             <title-slug
               title="Photo Gallery"
-              description="I like shooting photography too. Especially flowers. Here is a small presentation of my esthetics skills. I am using them as placeholder images when building new app."/>
+              description="I like shooting photography too. Especially flowers. Here is a small presentation of my
+              esthetics skills. I am using them as placeholder images when building new app."/>
           </section>
         </div>
       </div>

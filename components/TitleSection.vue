@@ -29,6 +29,7 @@ export default {
 .title-section {
   color: var(--title-section-color);
   text-align: center;
+
   @media (--tablet) {
     text-align: left;
   }

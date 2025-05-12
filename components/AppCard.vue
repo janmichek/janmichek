@@ -16,7 +16,7 @@
     <img
       class="card__image"
       :src="`/${image}`"
-      :alt="title"/>
+      :alt="title">
     <div class="card__description">
       <slot/>
     </div>
