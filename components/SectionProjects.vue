@@ -11,7 +11,7 @@
           <template #image>
             <app-link to="https://aescan.io/">
               <img
-                src="/aescan.jpg"
+                src="/aescan.webp"
                 :width="686"
                 alt="aescan">
 
@@ -81,7 +81,7 @@
           <template #image>
             <app-link to="http://pwn.finance">
               <img
-                src="/pwn.jpg"
+                src="/pwn.webp"
                 :width="686"
                 alt="Chabot Builder">
             </app-link>
@@ -152,7 +152,7 @@
           <template #image>
             <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
               <img
-                src="/chatbot.jpg"
+                src="/chatbot.webp"
                 :width="686"
                 alt="Chabot Builder">
             </app-link>

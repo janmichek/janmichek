@@ -7,7 +7,7 @@
             <img
               format="webp"
               class="the-header__image"
-              src="/janmichek.jpg"
+              src="/janmichek.webp"
               :width="230"
               alt="Jan Michek's avatar">
           </app-link>
@@ -63,6 +63,10 @@
     text-align: center;
     font-size: 56px;
 
+    @media (--tablet) {
+      white-space: nowrap;
+    }
+
     @media (--mobile) {
       font-size: 72px;
     }
@@ -71,6 +75,10 @@
   &__subheading {
     text-align: center;
     color: var(--brand-primary);
+
+    @media (--tablet) {
+      white-space: nowrap;
+    }
   }
 
   &__excerpt {

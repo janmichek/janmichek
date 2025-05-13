@@ -21,51 +21,51 @@
 <script setup>
 const images = ref([
   {
-    medium: 'k1.jpg',
+    medium: 'k1.webp',
     altText: 'Galanthus nivalis - Žižkov',
   },
   {
-    medium: 'k2.jpg',
+    medium: 'k2.webp',
     altText: 'Philadelphus indorus - Křivoklátsko',
   },
   {
-    medium: 'k3.jpg',
+    medium: 'k3.webp',
     altText: 'Canna indica - Puerto de la Cruz',
   },
   {
-    medium: 'k4.jpg',
+    medium: 'k4.webp',
     altText: 'Prunus mahaleb - Žižkov',
   },
   {
-    medium: 'k5.jpg',
+    medium: 'k5.webp',
     altText: 'Pelargonium graveolens - Las Playitas',
   },
   {
-    medium: 'k6.jpg',
+    medium: 'k6.webp',
     altText: 'Nerium oleander - Monopoli',
   },
   {
-    medium: 'k7.jpg',
+    medium: 'k7.webp',
     altText: 'Bougainvillea spectabilis - Puerto de la Cruz',
   },
   {
-    medium: 'k8.jpg',
+    medium: 'k8.webp',
     altText: 'Prunus spinosa - Žižkov',
   },
   {
-    medium: 'k9.jpg',
+    medium: 'k9.webp',
     altText: 'Pancratium maritimum - Praia da Comporta',
   },
   {
-    medium: 'k10.jpg',
+    medium: 'k10.webp',
     altText: 'Delosperma cooperi - Žižkov',
   },
   {
-    medium: 'k11.jpg',
+    medium: 'k11.webp',
     altText: 'Myrtus communis - Monopoli',
   },
   {
-    medium: 'k12.jpg',
+    medium: 'k12.webp',
     altText: 'Pelargonium graveolens - Albertov',
   },
 ])

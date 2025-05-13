@@ -22,13 +22,13 @@
 const goodies = ref([
   {
     title: 'Git Flow',
-    image: 'checklist.jpg',
+    image: 'checklist.webp',
     description: 'No worry if our team does not have solid workflow yet. We can iterate from here.',
     link: '/git-flow',
   },
   {
     title: 'Weekly News Feed',
-    image: 'news.jpg',
+    image: 'news.webp',
     description: 'List of tech, frontend & crypto related links I am going through every Sunday.',
     link: '/tech-links',
   },
@@ -40,13 +40,13 @@ const goodies = ref([
   },
   {
     title: 'Webdesign checklist',
-    image: 'checklist.jpg',
+    image: 'checklist.webp',
     description: 'When I am working with designers I want to make sure all formal requirements on design handoff are met.',
     link: '/webdesign-checklist',
   },
   {
     title: 'Source Code',
-    image: 'sourcecode.jpg',
+    image: 'sourcecode.webp',
     description: 'Source code of this personal page. This web is hosted on Firebase.',
     link: 'https://github.com/janmichek/janmichek',
   },
@@ -58,13 +58,13 @@ const goodies = ref([
   },
   {
     title: 'CRUD animations',
-    image: 'crud_actions.jpg',
+    image: 'crud_actions.webp',
     description: 'I bet your CRUD does not have this! Intuitive, elegant copy-pasteble solution. That is my evergreen solution. Just hover around.',
     link: 'https://codepen.io/janmichek/pen/bGEoozW',
   },
   {
     title: 'Frontend Developer Manifesto',
-    image: 'janmichek.jpg',
+    image: 'janmichek.webp',
     description: 'The set of evergreen rules, best practices, commonly mistaken concepts and personal preferences in a structured form.',
     link: 'https://github.com/janmichek/frontend-developer-manifesto/blob/main/README.md',
   },
@@ -77,14 +77,14 @@ const goodies = ref([
   },
   {
     title: 'Photos Gallery',
-    image: 'k6.jpg',
+    image: 'k6.webp',
     description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or they can be used as a nice placeholders images.',
     link: '/gallery',
   },
   {
     title: 'Music Production',
-    image: 'honeytcz.jpg',
-    description: 'I invest most of my free time into music production. Have a listen.',
+    image: 'honeytcz.webp',
+    description: 'I invest most of my free time into music production, traveling the world with my music and building communities.  Have a listen.',
     link: 'https://open.spotify.com/artist/52iWG2c2P0K6HmGrAAUyoP?si=SuOL9lY1QuyCI1FDBOzO9A',
   },
 ])
