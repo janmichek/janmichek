@@ -70,7 +70,7 @@ const goodies = ref([
   },
   {
     title: 'Linter Settings',
-    image: 'eslint.jpg',
+    image: 'eslint.svg',
     description: 'In the case of my team lacks linter settings - here are my preferred ones as a good starter for a new project.'
       + '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-eslint-settings/blob/master/eslint.config.mjs">Vue Eslint Settings</a> and '
       + '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-stylelint-settings/blob/master/.stylelintrc.js">Stylelint settings</a>.',
