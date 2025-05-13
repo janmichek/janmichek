@@ -10,5 +10,5 @@ body {
   font-variant: normal;
   text-transform: none;
   background: var(--brand-secondary);
-  min-width: 320px;
+  min-width: 300px;
 }

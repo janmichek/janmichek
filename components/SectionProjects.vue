@@ -25,9 +25,9 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                Blockchain explorer of enabling users to dive into details of aeternity blockchain. To educate our users
-                there is plenty
-                of contextual hints to explains different aspects of blockchain..
+                Blockchain explorer which is enabling users to dive into details of aeternity blockchain.
+                To educate our users there I added plenty of contextual hints which explains different
+                aspects of blockchain.
               </li>
               <li>
                 <app-link
@@ -36,9 +36,8 @@
                   Open source
                 </app-link>
                 , feature-rich blockchain explorer aggregating data from multiple sources.
-                Vast majority of the code is written by me so dont hesitate to explore it. I got a complete
-                responsibility
-                and autonomy of decision over the app.
+                Vast majority of the code is written by me so don't hesitate to explore it. I got a strong
+                responsibility and autonomy over decision about the app.
               </li>
               <li>
                 Used tech:
@@ -171,9 +170,9 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                This is a complex frontend for building pre-LLM era AI based chatbot made for
+                This is a complex frontend for building pre-LLM era AI based chatbot delivered to
                 <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-                  industry leader
+                  industry leader of telemarketing.
                 </app-link>
                 .
                 App offers an innovative approach to build conversations between user and bot.
@@ -227,7 +226,7 @@
 <style scoped>
 .projects {
   &__content {
-    margin: 0 var(--gutter);
+    margin: 0 var(--gutter-sm);
   }
 
   &__project:not(:last-of-type) {

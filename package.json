@@ -19,7 +19,8 @@
     "lint:js": "eslint .",
     "lint:style": "stylelint \"./**/*.vue\" \"**/*.css\"",
     "lint:st": "stylelint ./**/*.{vue}",
-    "deploy": "yarn build && firebase deploy"
+    "deploy": "yarn generate && firebase deploy",
+    "emulators": "yarn generate && firebase emulators:start"
   },
   "dependencies": {
     "@nuxt/eslint": "1.3.1",
@@ -27,7 +28,7 @@
     "eslint": "^9.26.0",
     "firebase": "^11.7.1",
     "lost": "^9.0.2",
-    "nuxt": "^3.17.2",
+    "nuxt": "^3.17.3",
     "nuxt-vuefire": "1.0.5",
     "swiper": "^11.2.6",
     "vue": "^3.5.13",
