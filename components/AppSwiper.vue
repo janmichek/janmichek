@@ -30,22 +30,6 @@ defineProps({
     default: null,
   },
 })
-//
-// const defaultOptions = {
-//   grabCursor: true,
-//   loop: true,
-//   spaceBetween: 24,
-//   navigation: {
-//     nextEl: '#carouselId .swiper-navigation-next',
-//     prevEl: '#carouselId .swiper-navigation-prev',
-//     disabledClass: 'swiper-navigation--disabled',
-//   },
-//   pagination: {
-//     el: `#${this.carouselId} .swiper-pagination`,
-//     clickable: true,
-//     bulletActiveClass: 'swiper-pagination-bullet--active',
-//   },
-// }
 
 const modules = [Navigation]
 </script>
@@ -53,13 +37,14 @@ const modules = [Navigation]
 <style>
 .swiper__image {
   margin: 0 auto;
-  width: 90vw;
+  width: 85vw;
 }
 
 .swiper-button-prev {
   &:after {
     content: "";
   }
+
   left: 0;
   width: 0;
   height: 0;
@@ -76,6 +61,7 @@ const modules = [Navigation]
   &:after {
     content: "";
   }
+
   right: 0;
   width: 0;
   height: 0;
