@@ -13,24 +13,21 @@
     </div>
   </div>
 </template>
-<script>
-  export default {
-    name: 'AppPost',
-  }
-</script>
-<style>
-  .post {
-    &__heading {
-      margin-bottom: var(--gutter-sm);
-    }
 
-    &__description {
-      margin-left: 0;
-      margin-top: var(--gutter-sm);
-      @media (--tablet) {
-        margin-left: var(--gutter-lg);
-        margin-top: 0;
-      }
+<style>
+.post {
+  &__heading {
+    margin-bottom: var(--gutter-sm);
+  }
+
+  &__description {
+    margin-left: 0;
+    margin-top: var(--gutter-sm);
+
+    @media (--tablet) {
+      margin-left: var(--gutter-lg);
+      margin-top: 0;
     }
   }
+}
 </style>

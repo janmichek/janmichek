@@ -3,7 +3,7 @@
     class="the-footer"
     :data-theme="theme">
     <div class="u-container">
-      <title-section theme="dark">
+      <title-section theme="primary">
         Contact
       </title-section>
 
@@ -44,49 +44,50 @@
   </footer>
 </template>
 
-<script>
-  export default {
-    name: 'TheFooter',
-    props: {
-      theme: {
-        type: String,
-        default: 'light',
-      },
-    },
-  }
+<script setup>
+defineProps({
+  theme: {
+    type: String,
+    default: 'secondary',
+  },
+})
 </script>
 
 <style scoped>
-  [data-theme="dark"] {
-    --footer-background: var(--brand-primary);
-    --footer-link: var(--brand-secondary);
-    --footer-link-hover: var(--text-color);
+[data-theme="primary"] {
+  --footer-background: var(--brand-primary);
+  --footer-link: var(--brand-secondary);
+  --footer-link-hover: var(--text-color);
+}
+
+[data-theme="secondary"] {
+  --footer-background: var(--brand-secondary);
+  --footer-link: var(--brand-primary);
+  --footer-link-hover: var(--text-color);
+}
+
+.the-footer {
+  background: var(--footer-background);
+  padding: var(--gutter-xl) 0;
+  text-align: center;
+
+  @media (--mobile) {
+    text-align: left;
   }
 
-  [data-theme="light"] {
-    --footer-background: var(--brand-secondary);
-    --footer-link: var(--brand-primary);
-    --footer-link-hover: var(--text-color);
+  &__link {
+    font-size: 22px;
+    color: var(--footer-link);
+
+    &:hover {
+      color: var(--footer-link-hover);
+    }
   }
 
-  .the-footer {
-    background: var(--footer-background);
-    padding: var(--gutter-xl) 0;
+  &__link-wrap {
+    width: 100%;
     text-align: center;
-    @media (--mobile) {
-      text-align: left;
-    }
-    &__link {
-      font-size: 22px;
-      color: var(--footer-link);
-      &:hover {
-        color: var(--footer-link-hover);
-      }
-    }
-    &__link-wrap {
-      width: 100%;
-      text-align: center;
-      margin-bottom: var(--gutter-sm);
-    }
+    margin-bottom: var(--gutter-sm);
   }
+}
 </style>

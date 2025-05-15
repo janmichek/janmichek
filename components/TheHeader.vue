@@ -4,11 +4,12 @@
       <div class="u-flex-row">
         <div class="u-5/12@tablet the-header__avatar">
           <app-link to="/">
-            <app-image
+            <img
+              format="webp"
               class="the-header__image"
-              image="janmichek.jpg"
+              src="/janmichek.webp"
               :width="230"
-              alt="Jan Michek's avatar"/>
+              alt="Jan Michek's avatar">
           </app-link>
         </div>
         <div class="u-7/12@tablet the-header__content">
@@ -27,59 +28,64 @@
   </header>
 </template>
 
-<script>
-  export default {
-    name: 'TheHeader',
-  }
+<script setup>
 
 </script>
 
 <style scoped>
-  .the-header {
-    padding: var(--gutter-xl) var(--gutter-xl) var(--gutter-xxl) ;
-    background: var(--brand-secondary);
+.the-header {
+  padding: var(--gutter-xl) var(--gutter-xl) var(--gutter-xxl);
+  background: var(--brand-secondary);
+  width: 100%;
+  z-index: 900;
+
+  @media (--tablet) {
+    padding: var(--gutter-xxl);
+  }
+
+  &__avatar {
     width: 100%;
-    z-index: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--gutter);
 
     @media (--tablet) {
-      padding: var(--gutter-xxl);
-    }
-
-    &__avatar {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-bottom: var(--gutter);
-
-      @media (--tablet) {
-        justify-content: flex-start;
-        margin-bottom: 0;
-      }
-    }
-
-    &__content {
-      width: 100%;
-    }
-
-    &__heading {
-      text-align: center;
-      font-size: 56px;
-
-      @media (--mobile) {
-        font-size: 72px;
-      }
-    }
-
-    &__subheading {
-      text-align: center;
-      color: var(--brand-primary);
-    }
-
-    &__excerpt {
-      text-align: center;
-      color: var(--text-color-secondary);
-      font-size: 32px;
+      justify-content: flex-start;
       margin-bottom: 0;
     }
   }
+
+  &__content {
+    width: 100%;
+  }
+
+  &__heading {
+    text-align: center;
+    font-size: 56px;
+
+    @media (--tablet) {
+      white-space: nowrap;
+    }
+
+    @media (--mobile) {
+      font-size: 72px;
+    }
+  }
+
+  &__subheading {
+    text-align: center;
+    color: var(--brand-primary);
+
+    @media (--tablet) {
+      white-space: nowrap;
+    }
+  }
+
+  &__excerpt {
+    text-align: center;
+    color: var(--text-color-secondary);
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+}
 </style>
