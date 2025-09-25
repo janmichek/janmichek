@@ -1,91 +1,102 @@
+<script setup>
+
+</script>
+
 <template>
   <header class="the-header">
-    <div class="u-container">
-      <div class="u-flex-row">
-        <div class="u-5/12@tablet the-header__avatar">
-          <app-link to="/">
-            <img
-              format="webp"
-              class="the-header__image"
-              src="/janmichek.webp"
-              :width="230"
-              alt="Jan Michek's avatar">
-          </app-link>
+    <div class="the-header__container">
+      <div class="the-header__avatar">
+        <app-link to="/">
+          <nuxt-img
+            format="webp"
+            class="the-header__image"
+            src="/profile-pic-2022.webp"
+            :width="230"
+            alt="Jan Michek's avatar"/>
+        </app-link>
+      </div>
+      <div>
+        <h1 class="the-header__heading">
+          Jan Michek
+        </h1>
+        <div class="the-header__subheading">
+          web3 frontend engineer
         </div>
-        <div class="u-7/12@tablet the-header__content">
-          <h1 class="the-header__heading">
-            Jan Michek
-          </h1>
-          <div class="h2 the-header__subheading">
-            web3 frontend engineer
-          </div>
-          <div class="h3 the-header__excerpt">
-            Czechia / Prague / <span title="That is 34">1987</span>
-          </div>
+        <div class="the-header__excerpt">
+          Czechia / Prague / <span title="That is 38">1987</span>
         </div>
       </div>
     </div>
   </header>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped>
+@import url("../assets/styles/utilities/_grid.css");
+@import url("../assets/styles/elements/_h.css");
+
 .the-header {
-  padding: var(--gutter-xl) var(--gutter-xl) var(--gutter-xxl);
-  background: var(--brand-secondary);
+  padding: var(--space-xl) var(--space-xl) var(--space-2xl);
+  background: var(--ui-bg);
   width: 100%;
   z-index: 900;
 
   @media (--tablet) {
-    padding: var(--gutter-xxl);
+    padding: var(--space-2xl);
   }
 
-  &__avatar {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: var(--gutter);
+  &__container {
+    @apply .u-container;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space);
 
     @media (--tablet) {
-      justify-content: flex-start;
-      margin-bottom: 0;
+      grid-template-columns: 5fr 7fr;
+      gap: 32px;
     }
   }
 
-  &__content {
-    width: 100%;
+  &__avatar {
+    display: flex;
+    justify-content: center;
+
+    @media (--tablet) {
+      justify-content: flex-start;
+    }
   }
 
   &__heading {
     text-align: center;
-    font-size: 56px;
+    font-size: var(--text-5xl);
 
     @media (--tablet) {
       white-space: nowrap;
     }
 
     @media (--mobile) {
-      font-size: 72px;
+      font-size: var(--text-6xl);
     }
   }
 
   &__subheading {
+    @apply .h2;
+    color: var(--ui-text-primary);
     text-align: center;
-    color: var(--brand-primary);
 
     @media (--tablet) {
       white-space: nowrap;
+    }
+
+    @media (--dark) {
+      color: var(--ui-text-secondary);
     }
   }
 
   &__excerpt {
     text-align: center;
-    color: var(--text-color-secondary);
-    font-size: 32px;
+    color: var(--ui-text-muted);
     margin-bottom: 0;
+    font-size: 32px;
   }
 }
 </style>

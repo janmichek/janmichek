@@ -1,32 +1,41 @@
-<template>
-  <h3
-    class="title-section"
-    :data-theme="theme">
-    <slot/>
-  </h3>
-</template>
-
 <script>
 export default {
   props: {
-    theme: {
+    variant: {
       type: String,
-      default: 'light',
+      default: 'secondary',
     },
   },
 }
 </script>
 
+<template>
+  <h3
+    class="title-section"
+    :data-variant="variant">
+    <slot/>
+  </h3>
+</template>
+
 <style scoped>
-[data-theme="primary"] {
-  --title-section-color: var(--text-color);
+@import url("../assets/styles/elements/_h.css");
+
+[data-variant="primary"] {
+  --title-section-color: var(--ui-text-secondary);
+  @media (--dark) {
+    --title-section-color: var(--ui-text-primary);
+  }
 }
 
-[data-theme="light"] {
-  --title-section-color: var(--brand-primary);
+[data-variant="secondary"] {
+  --title-section-color: var(--ui-text-primary);
+  @media (--dark) {
+    --title-section-color: var(--ui-text-secondary);
+  }
 }
 
 .title-section {
+
   color: var(--title-section-color);
   text-align: center;
 

@@ -1,7 +1,7 @@
 <template>
-  <NuxtLayout name="slug">
+  <nuxt-layout name="slug">
     <article>
-      <title-slug
+      <slug-title
         title="Karabiner Shortcuts"
         description="My personal way to tune ergonomics. I believe this is ultimate good, but it may serve as
          inspiration. At least this setting helped me to save tons of seconds today"/>
@@ -11,7 +11,7 @@
 
       <br>
       <br>
-      <div class="karabiner__container">
+      <div>
         <table>
           <tbody>
             <tr>
@@ -302,13 +302,5 @@
         </table>
       </div>
     </article>
-  </NuxtLayout>
+  </nuxt-layout>
 </template>
-
-<style scoped>
-.karabiner__container {
-  width: calc(100vw - 2 * var(--gutter-sm));
-  overflow-x: auto;
-
-}
-</style>

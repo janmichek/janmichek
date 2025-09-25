@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <Html>
     <Head>
@@ -9,7 +12,7 @@
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/janmichek.webp"/>
+        href="/janmichek-2.webp"/>
       <Meta
         name="description"
         content="Jan Michek's portfolio page"/>
@@ -51,13 +54,8 @@
   <NuxtPage/>
 </template>
 
-<script setup lang="ts">
-</script>
-
 <style scoped>
-.page {
-  &__section {
-    padding: var(--gutter-xxl) 0;
-  }
+.page__section {
+  padding: var(--space-2xl) 0;
 }
 </style>

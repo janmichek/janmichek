@@ -1,9 +1,41 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', 'nuxt-vuefire'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/image',
+    'nuxt-vuefire',
+    '@nuxtjs/stylelint-module',
+  ],
   ssr: false,
-  css: ['~/assets/styles/main.css'],
+  app: {
+    head: {
+      link: [
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com',
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: '',
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap',
+        },
+        {
+          rel: 'icon',
+          type: 'image/webp',
+          href: '/profile-pic-2022.webp',
+        },
+      ],
+    },
+  },
+  css: [
+    '~/assets/styles/main.css',
+    '~/assets/styles/utilities/_grid.css',
+  ],
   devServer: {
     port: 8080,
   },
@@ -12,12 +44,11 @@ export default defineNuxtConfig({
     plugins: {
       'autoprefixer': {},
       '@csstools/postcss-global-data': {
-        files: ['assets/styles/settings/_variables.css'],
+        files: ['assets/styles/settings/_theme.css'],
       },
       'postcss-custom-media': {},
-      'postcss-import': {},
+      'postcss-apply-class': {},
       'postcss-nested': {},
-      'lost': {},
     },
   },
   eslint: {
@@ -28,6 +59,47 @@ export default defineNuxtConfig({
         semi: false,
         commaDangle: 'always-multiline',
         braceStyle: '1tbs',
+      },
+    },
+  },
+  stylelint: {
+    lintOnStart: false,
+    include: ['**/*.{css,scss,sass,html,vue}'],
+    exclude: ['node_modules/**', '.nuxt/**', 'dist/**'],
+    config: {
+      defaultSeverity: 'warning',
+      extends: [
+        'stylelint-config-standard',
+        'stylelint-config-recommended',
+        'stylelint-config-html/vue',
+        'stylelint-config-recommended-vue',
+      ],
+      rules: {
+        'declaration-block-no-duplicate-properties': true,
+        'selector-pseudo-element-colon-notation': 'single',
+        'comment-whitespace-inside': null,
+        'comment-empty-line-before': null,
+        'rule-empty-line-before': null,
+        'selector-class-pattern': null,
+        'declaration-block-no-redundant-longhand-properties': null,
+        'declaration-empty-line-before': [
+          'never',
+          {
+            ignore: [
+              'after-comment',
+              'after-declaration',
+            ],
+          },
+        ],
+        'max-nesting-depth': [
+          3,
+          {
+            ignore: [
+              'pseudo-classes',
+              'blockless-at-rules',
+            ],
+          },
+        ],
       },
     },
   },

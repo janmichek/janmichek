@@ -1,7 +1,10 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <NuxtLayout name="slug">
-    <article class="tech-links">
-      <title-slug
+  <nuxt-layout name="slug">
+    <article>
+      <slug-title
         title="Tech links"
         description="These are the main sources of my outer world contact. I do open them mostly on Sundays.
         There are more links I read about music production and psychology. But lets stick with these 10 top links."/>
@@ -88,16 +91,11 @@
         </li>
       </ul>
     </article>
-  </NuxtLayout>
+  </nuxt-layout>
 </template>
 
-<script setup lang="ts">
-</script>
-
 <style scoped>
-.tech-links {
-  &__item {
-    margin-bottom: var(--gutter);
+.tech-links__item {
+    margin-bottom: var(--space);
   }
-}
 </style>

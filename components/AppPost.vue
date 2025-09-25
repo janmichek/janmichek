@@ -1,33 +1,47 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <div class="projects__project">
+  <div class="post">
     <h4 class="post__heading">
       <slot name="heading"/>
     </h4>
-    <div class="post__body u-flex-row">
-      <div class="post__image u-1/3@tablet">
+    <div class="post__body">
+      <div class="post__image">
         <slot name="image"/>
       </div>
-      <div class="post__description u-2/3@tablet">
+      <div class="post__description">
         <slot name="description"/>
       </div>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
+@import url("../assets/styles/utilities/_grid.css");
+
 .post {
   &__heading {
-    margin-bottom: var(--gutter-sm);
+    margin-bottom: var(--space-sm);
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+
+    @media (--tablet) {
+      grid-template-columns: 1fr 2fr;
+      gap: 32px;
+    }
+  }
+
+  &__image {
+    /* Grid item - no width needed */
   }
 
   &__description {
-    margin-left: 0;
-    margin-top: var(--gutter-sm);
-
-    @media (--tablet) {
-      margin-left: var(--gutter-lg);
-      margin-top: 0;
-    }
+    /* Grid item - no width needed */
   }
 }
 </style>

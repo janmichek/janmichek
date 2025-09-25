@@ -1,23 +1,3 @@
-<template>
-  <swiper
-    v-if="images?.length"
-    :modules="modules"
-    :loop="images?.length > 1"
-    :navigation="true"
-    :space-between="48">
-    <swiper-slide
-      v-for="(slide, index) in images"
-      :key="index">
-      <img
-        :src="slide.medium"
-        class="swiper__image">
-      <div class="swiper__text">
-        {{ slide.altText }}
-      </div>
-    </swiper-slide>
-  </swiper>
-</template>
-
 <script setup>
 import { Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
@@ -33,6 +13,27 @@ defineProps({
 
 const modules = [Navigation]
 </script>
+
+<template>
+  <swiper
+    v-if="images?.length"
+    :modules="modules"
+    :loop="images?.length > 1"
+    :navigation="true"
+    :space-between="48">
+    <swiper-slide
+      v-for="(slide, index) in images"
+      :key="index">
+      <nuxt-img
+        format="webp"
+        :src="slide.medium"
+        class="swiper__image"/>
+      <div class="swiper__text">
+        {{ slide.altText }}
+      </div>
+    </swiper-slide>
+  </swiper>
+</template>
 
 <style>
 .swiper__image {
@@ -50,10 +51,10 @@ const modules = [Navigation]
   height: 0;
   border-style: solid;
   border-width: 15px 30px 15px 0;
-  border-color: transparent var(--brand-primary) transparent transparent;
+  border-color: transparent var(--ui-primary) transparent transparent;
 
   @media (--tablet) {
-    left: var(--gutter);
+    left: var(--space);
   }
 }
 
@@ -67,10 +68,10 @@ const modules = [Navigation]
   height: 0;
   border-style: solid;
   border-width: 15px 0 15px 30px;
-  border-color: transparent transparent transparent var(--brand-primary);
+  border-color: transparent transparent transparent var(--ui-primary);
 
   @media (--tablet) {
-    right: var(--gutter);
+    right: var(--space);
   }
 }
 

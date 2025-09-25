@@ -1,28 +1,3 @@
-<template>
-  <div class="card">
-    <app-link
-      v-if="link"
-      class="card__link u-stretched-link"
-      :to="link">
-      <h4 class="card__title">
-        {{ title }}
-      </h4>
-    </app-link>
-    <h4
-      v-else
-      class="card__title">
-      {{ title }}
-    </h4>
-    <img
-      class="card__image"
-      :src="`/${image}`"
-      :alt="title">
-    <div class="card__description">
-      <slot/>
-    </div>
-  </div>
-</template>
-
 <script setup>
 defineProps({
   image: {
@@ -40,17 +15,55 @@ defineProps({
 })
 </script>
 
+<template>
+  <div class="card">
+    <app-link
+      v-if="link"
+      class="card__link"
+      :to="link">
+      <h4 class="card__title">
+        {{ title }}
+      </h4>
+    </app-link>
+    <h4
+      v-else
+      class="card__title">
+      {{ title }}
+    </h4>
+    <nuxt-img
+      format="webp"
+      class="card__image"
+      :src="`/${image}`"
+      :alt="title"/>
+    <div class="card__description">
+      <slot/>
+    </div>
+  </div>
+</template>
+
 <style scoped>
+@import url("../assets/styles/utilities/_stretched-link.css");
+
 .card {
   width: 100%;
   display: inline-block;
-  background: var(--brand-secondary);
-  padding: var(--gutter);
-  margin-bottom: var(--gutter-lg);
+  background: var(--ui-secondary);
+  padding: var(--space);
+  margin-bottom: var(--space-lg);
   position: relative;
 
   &__link {
     text-decoration: none;
+
+    &:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      content: "";
+    }
 
     &:hover {
       text-decoration: underline;
@@ -62,12 +75,16 @@ defineProps({
   }
 
   &__image {
-    margin-bottom: var(--gutter-m);
+    margin-bottom: var(--space);
   }
 
   &__description {
-    margin-top: var(--gutter-xs);
-    color: var(--text-color);
+    margin-top: var(--space-xs);
+    color: var(--ui-text-secondary);
+
+    @media (--dark) {
+      color: var(--ui-text-primary);
+    }
   }
 }
 </style>

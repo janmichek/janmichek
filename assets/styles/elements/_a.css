@@ -1,14 +1,18 @@
 a {
-  text-decoration: underline;
-  color: var(--link-color);
-  word-wrap: break-word;
-
-  &:visited {
-    color: var(--link-color);
+  color: var(--ui-text-primary);
+  @media (--dark) {
+    color: var(--ui-text-secondary);
   }
+  text-decoration: underline;
+  overflow-wrap: break-word;
+
 
   &:hover,
   &:focus {
-    color: var(--brand-primary);
+    color: var(--ui-text-secondary);
+
+    @media (--dark) {
+      color: var(--ui-text-secondary);
+    }
   }
 }

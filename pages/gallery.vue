@@ -1,23 +1,3 @@
-<template>
-  <article class="gallery">
-    <div class="layout__content u-flex-row u-center">
-      <div class="u-2/3@tablet">
-        <div class="u-container">
-          <section>
-            <title-slug
-              title="Photo Gallery"
-              description="I like shooting photography too. Especially flowers. Here is a small presentation of my
-              esthetics skills. I am using them as placeholder images when building new app."/>
-          </section>
-        </div>
-      </div>
-    </div>
-    <section>
-      <app-swiper :images="images"/>
-    </section>
-  </article>
-</template>
-
 <script setup>
 const images = ref([
   {
@@ -71,8 +51,50 @@ const images = ref([
 ])
 </script>
 
+<template>
+  <article class="gallery">
+    <div class="gallery__container">
+      <div class="gallery__main">
+        <section>
+          <slug-title
+            title="Photo Gallery"
+            description="I like shooting photography too. Especially flowers. Here is a small presentation of my
+              esthetics skills. I am using them as placeholder images when building new app."/>
+        </section>
+      </div>
+    </div>
+    <section>
+      <app-swiper :images="images"/>
+    </section>
+  </article>
+</template>
+
 <style scoped>
 .gallery {
-  padding: var(--gutter-xxl) 0;
+  padding: var(--space-2xl) 0;
+
+  &__content {
+    display: grid;
+    place-items: center;
+  }
+
+  &__container {
+    max-width: var(--container-max-width);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    margin: 0 auto;
+    padding: 0 var(--space-sm);
+
+    @media (--desktop) {
+      padding: 0 var(--space-xl);
+    }
+  }
+
+  &__main {
+    width: 100%;
+    max-width: calc(2 / 3 * 100%);
+  }
 }
 </style>

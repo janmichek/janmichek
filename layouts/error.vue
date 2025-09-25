@@ -1,5 +1,14 @@
+<script setup>
+defineProps({
+  error: {
+    type: Object,
+    required: true,
+  },
+})
+</script>
+
 <template>
-  <div class="error u-container">
+  <div class="error">
     <h1
       v-if="error.statusCode === 404"
       class="error__heading">
@@ -21,18 +30,10 @@
   </div>
 </template>
 
-<script setup>
-defineProps({
-  error: {
-    type: Object,
-    required: true,
-  },
-})
-</script>
-
-<style>
+<style scoped>
 .error {
-  margin: var(--gutter-xl) 0;
+  @apply .u-container;
+  margin: var(--space-xl) 0;
 
   &__heading {
     text-align: center;
@@ -40,7 +41,7 @@ defineProps({
 
   &__excerpt {
     text-align: center;
-    padding-bottom: var(--gutter-xl);
+    padding-bottom: var(--space-xl);
   }
 
   &__action {

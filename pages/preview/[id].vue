@@ -1,17 +1,3 @@
-<template>
-  <div class="preview">
-    <img
-      v-if="imageLInk"
-      :src="imageLInk"
-      alt="preview">
-    <div
-      v-else
-      class="preview__loading">
-      Loading preview
-    </div>
-  </div>
-</template>
-
 <script setup>
 import { useRoute } from 'vue-router'
 
@@ -25,6 +11,21 @@ onMounted(() => {
 })
 </script>
 
+<template>
+  <div class="preview">
+    <nuxt-img
+      v-if="imageLInk"
+      format="webp"
+      :src="imageLInk"
+      alt="preview"/>
+    <div
+      v-else
+      class="preview__loading">
+      Loading preview
+    </div>
+  </div>
+</template>
+
 <style scoped>
 .preview {
   display: flex;
@@ -35,7 +36,7 @@ onMounted(() => {
   &__loading {
     display: flex;
     justify-content: center;
-    padding: var(--gutter-xl);
+    padding: var(--space-xl);
   }
 }
 </style>

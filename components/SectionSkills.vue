@@ -1,7 +1,11 @@
+<script setup>
+
+</script>
+
 <template>
   <section class="skills">
-    <div class="u-container">
-      <title-section theme="primary">
+    <div class="skills__container">
+      <title-section variant="primary">
         My skillset
       </title-section>
       <div class="skills__row">
@@ -34,13 +38,15 @@
   </section>
 </template>
 
-<script setup>
+<style scoped>
+@import url("../assets/styles/utilities/_grid.css");
 
-</script>
-
-<style>
 .skills {
-  background: var(--brand-primary);
+  background: var(--ui-primary);
+
+  &__container {
+    @apply .u-container;
+  }
 
   &__row {
     display: flex;
@@ -52,21 +58,21 @@
     }
 
     &:not(:last-of-type) {
-      margin-bottom: var(--gutter-lg);
+      margin-bottom: var(--space-lg);
     }
   }
 
   &__name {
-    font-family: var(--font-family-heading);
+    font-family: var(--font-serif);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--brand-secondary);
-    font-size: 40px;
+    color: var(--ui-secondary);
+    font-size: var(--text-4xl);
     text-align: center;
     min-width: 118px;
     line-height: 1;
-    margin-bottom: var(--gutter-sm);
+    margin-bottom: var(--space-sm);
 
     @media (--tablet) {
       margin-bottom: 0;
@@ -74,7 +80,7 @@
 
     &--web3 {
       @media (--tablet) {
-        font-size: 28px;
+        font-size: var(--text-xl);
       }
     }
   }

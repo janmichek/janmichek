@@ -1,22 +1,29 @@
 :root {
-  --button-background: var(--brand-primary);
-  --button-background-primary: var(--brand-primary);
-  --button-background-secondary: var(--brand-secondary);
-  --button-background-success: var(--brand-success);
-  --button-background-warning: var(--brand-warning);
-  --button-background-error: var(--brand-error);
-  --button-background-info: var(--brand-info);
-  --button-background-default: var(--text-color);
-  --button-color: #fff;
-  --button-padding-x: 8px;
-  --button-padding-y: 4px;
-  --button-shadow: var(--drop-shadow);
-  --button-radius: 20px;
-  --button-font-size: 18px;
-  --button-font-family: var(--font-family);
-  --button-circle-size: 80px;
-  --button-circle-size-sm: 48px;
-  --button-circle-size-xs: 24px;
-  --link-color: var(--text-color);
-  --placeholder-color: var(--text-color)
+  /*USE DIRECTLY IN ELEMENTS, COMPONENTS AND PAGES*!*/
+  --ui-primary: var(--color-sky);
+  --ui-secondary: var(--color-cream);
+  --ui-text-primary: var(--color-teal);
+  --ui-text-secondary: var(--color-carbon);
+  --ui-text-tertiary: var(--color-cream);
+  --ui-border-color: var(--color-carbon);
+  --ui-text-muted: var(--color-gray);
+  --ui-placeholder-color: var(--ui-text-muted);
+  --ui-bg: var(--ui-secondary);
+  --ui-text: var(--ui-text-secondary);
 }
+
+@media (--dark) {
+  :root {
+    --ui-bg: var(--color-carbon);
+    --ui-text: var(--color-cream);
+    --ui-text-primary: var(--color-cream);
+    --ui-text-secondary: var(--color-teal);
+    --ui-text-tertiary: var(--color-carbon);
+    --ui-text-muted: var(--color-pale);
+    --ui-secondary: var(--color-carbon);
+    --ui-border-color: var(--color-cream);
+    --ui-placeholder-color: var(--ui-text-muted);
+  }
+}
+
+

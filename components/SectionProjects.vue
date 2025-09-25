@@ -1,31 +1,39 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <section class="projects">
-    <div class="u-container">
+    <div class="projects__container">
       <title-section>Recent projects</title-section>
 
       <div class="projects__content">
-        <app-post>
+        <app-post class="projects__post">
           <template #heading>
             aeScan.io
           </template>
           <template #image>
             <app-link to="https://aescan.io/">
-              <img
+              <nuxt-img
+                format="webp"
                 src="/aescan.webp"
                 :width="686"
-                alt="aescan">
-
+                alt="aescan"/>
             </app-link>
+
             <app-link
               class="projects__preview"
-              to="/preview/aescan">
-              Preview
+              to="https://youtu.be/4jmVQlHASCY">
+              Walktrhough Video
             </app-link>
           </template>
           <template #description>
             <ul class="projects__list">
               <li>
-                Led development of aeScan.io, an open-source blockchain explorer for the Aeternity network,
+                An open-source blockchain explorer of
+                <app-link to="http://aeScan.io">
+                  aeScan.io
+                </app-link>
+                , an for the Aeternity network, where I took a leader part,
                 full autonomy over technical decisions.
                 Built comprehensive blockchain data visualization aggregating multiple sources.
               </li>
@@ -82,16 +90,16 @@
           </template>
         </app-post>
 
-        <app-post>
+        <app-post class="projects__post">
           <template #heading>
             PWN Finance
           </template>
           <template #image>
             <app-link to="http://pwn.finance">
-              <img
+              <nuxt-img
                 src="/pwn.webp"
                 :width="686"
-                alt="PWN Finance">
+                alt="PWN Finance"/>
             </app-link>
             <app-link
               class="projects__preview"
@@ -107,9 +115,12 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                Collaborated on frontend for PWN, the first web3 NFT pawnshop platform on Ethereum,
-                handling user interactions with wallets and smart contracts. Built a seamless web3 user
-                experience from scratch.
+                The first NFT pawnshop on Ethereum
+                <app-link to="https://pwn.xyz">
+                  pwn.xyz
+                </app-link>
+                where I collaborated on frontend, handling user interactions with
+                wallets and smart contracts. Built a seamless web3 user experience from scratch.
               </li>
               <li>
                 Collaborated on visual design and UX architecture while engaging directly with the crypto
@@ -158,16 +169,16 @@
           </template>
         </app-post>
 
-        <app-post>
+        <app-post class="projects__post">
           <template #heading>
             Chatbot Builder
           </template>
           <template #image>
             <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-              <img
+              <nuxt-img
                 src="/chatbot.webp"
                 :width="686"
-                alt="Chabot Builder">
+                alt="Chabot Builder"/>
             </app-link>
             <app-link
               class="projects__preview"
@@ -183,20 +194,21 @@
           <template #description>
             <ul class="projects__list">
               <li>
-                Built the complete frontend for an innovative pre-LLM AI chatbot builder platform delivered to
+                An AI Chatbot builder for telco clients from pre-LLM era. I bluild the frontend interface part
+                translating conversation complexity delivered to
                 <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
                   a telemarketing industry leader
                 </app-link>
                 . Developed complex conversation flow interfaces enabling intuitive bot creation.
               </li>
               <li>
-                Led frontend architecture decisions and established development guidelines while mentoring
+                I led frontend architecture decisions and established development guidelines while mentoring
                 junior developer. Collaborated closely with backend developers and designers to shape
                 overall product vision and user experience flows.
               </li>
               <li>
                 Implemented an innovative approach to building conversations tree and
-                creatied seamless user flows.
+                created seamless user flows.
               </li>
               <li>
                 Used tech:
@@ -237,25 +249,36 @@
   </section>
 </template>
 
-<script setup lang="ts">
-</script>
-
 <style scoped>
+@import url("../assets/styles/utilities/_grid.css");
+
 .projects {
+  &__container {
+    @apply .u-container;
+  }
+
+  &__post {
+    margin-bottom: var(--space-2xl);
+  }
+
+  &__list {
+    margin-top: 0;
+  }
+
   &__content {
-    margin: 0 var(--gutter-sm);
+    margin: 0 var(--space-sm);
   }
 
   &__project:not(:last-of-type) {
-    margin-bottom: var(--gutter-xxl);
+    margin-bottom: var(--space-2xl);
   }
 
   &__preview {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-right: var(--gutter-xs);
-    font-size: 14px;
+    margin-right: var(--space-xs);
+    font-size: var(--text-sm);
   }
 }
 </style>
