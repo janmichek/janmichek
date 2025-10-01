@@ -3,21 +3,24 @@
 
 <template>
   <section class="projects">
-    <div class="projects__container">
-      <title-section>Recent projects</title-section>
+    <div class="u-container">
+      <title-section data-aos="fade-up">
+        Recent projects
+      </title-section>
 
       <div class="projects__content">
-        <app-post class="projects__post">
+        <app-post
+          class="projects__post"
+          data-aos="fade-up">
           <template #heading>
             aeScan.io
           </template>
           <template #image>
             <app-link to="https://aescan.io/">
-              <nuxt-img
-                format="webp"
+              <img
                 src="/aescan.webp"
-                :width="686"
-                alt="aescan"/>
+                width="686"
+                alt="aescan">
             </app-link>
 
             <app-link
@@ -90,16 +93,18 @@
           </template>
         </app-post>
 
-        <app-post class="projects__post">
+        <app-post
+          class="projects__post"
+          data-aos="fade-up">
           <template #heading>
             PWN Finance
           </template>
           <template #image>
             <app-link to="http://pwn.finance">
-              <nuxt-img
+              <img
                 src="/pwn.webp"
-                :width="686"
-                alt="PWN Finance"/>
+                width="686"
+                alt="PWN Finance">
             </app-link>
             <app-link
               class="projects__preview"
@@ -169,16 +174,18 @@
           </template>
         </app-post>
 
-        <app-post class="projects__post">
+        <app-post
+          class="projects__post"
+          data-aos="fade-up">
           <template #heading>
             Chatbot Builder
           </template>
           <template #image>
             <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-              <nuxt-img
+              <img
                 src="/chatbot.webp"
-                :width="686"
-                alt="Chabot Builder"/>
+                width="686"
+                alt="Chabot Builder">
             </app-link>
             <app-link
               class="projects__preview"
@@ -250,13 +257,7 @@
 </template>
 
 <style scoped>
-@import url("../assets/styles/utilities/_grid.css");
-
 .projects {
-  &__container {
-    @apply .u-container;
-  }
-
   &__post {
     margin-bottom: var(--space-2xl);
   }

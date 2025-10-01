@@ -3,9 +3,9 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/image',
     'nuxt-vuefire',
     '@nuxtjs/stylelint-module',
+    'nuxt-aos',
   ],
   ssr: false,
   app: {
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/webp',
-          href: '/profile-pic-2022.webp',
+          href: '/profile-pic.webp',
         },
       ],
     },
@@ -47,9 +47,13 @@ export default defineNuxtConfig({
         files: ['assets/styles/settings/_theme.css'],
       },
       'postcss-custom-media': {},
-      'postcss-apply-class': {},
       'postcss-nested': {},
     },
+  },
+  aos: {
+    duration: 300,
+    offset: 10,
+    once: true,
   },
   eslint: {
     config: {

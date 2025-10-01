@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-  theme: {
+  variant: {
     type: String,
     default: 'secondary',
   },
@@ -9,43 +9,52 @@ defineProps({
 
 <template>
   <footer
-    class="the-footer"
-    :data-theme="theme">
-    <div class="the-footer__container">
-      <title-section variant="primary">
+    :class="['footer', `footer--${variant}`]">
+    <div
+      class="u-container"
+      data-aos="fade-up">
+      <title-section :variant="variant">
         Contact
       </title-section>
 
-      <div class="the-footer__grid">
-        <div class="the-footer__link-wrap">
+      <div class="footer__grid">
+        <div class="footer__container">
           <app-link
-            class="the-footer__link"
+            class="footer__link"
             to="mailto:jan@janmichek.cz">
             jan@janmichek.cz
           </app-link>
         </div>
 
-        <div class="the-footer__link-wrap">
+        <div class="footer__container">
           <app-link
-            class="the-footer__link"
+            class="footer__link"
             to="https://cz.linkedin.com/in/jan-michek-aba913103">
             Linked In
           </app-link>
         </div>
 
-        <div class="the-footer__link-wrap">
+        <div class="footer__container">
           <app-link
-            class="the-footer__link"
+            class="footer__link"
             to="https://github.com/janmichek/">
             Github
           </app-link>
         </div>
 
-        <div class="the-footer__link-wrap">
+        <div class="footer__container">
           <app-link
-            class="the-footer__link"
+            class="footer__link"
             to="https://www.twitter.com/jan_michek">
             Twitter
+          </app-link>
+        </div>
+
+        <div class="footer__container">
+          <app-link
+            class="footer__link"
+            to="https://drive.google.com/file/d/1zqSU7Gq8hmqqhy65obWP-801D2SX_ycy/view?usp=drive_link">
+            CV
           </app-link>
         </div>
       </div>
@@ -54,36 +63,30 @@ defineProps({
 </template>
 
 <style scoped>
-@import url("../assets/styles/utilities/_grid.css");
-
-[data-theme="primary"] {
-  --footer-background: var(--ui-primary);
-  --footer-link: var(--ui-text-secondary);
-  --footer-link-hover: var(--ui-text-primary);
-  @media (--dark) {
-    --footer-link: var(--ui-text-tertiary);
-  }
-}
-
-[data-theme="secondary"] {
+.footer--primary {
   --footer-background: var(--ui-secondary);
   --footer-link: var(--ui-text-primary);
   --footer-link-hover: var(--ui-text-primary);
 
+  @media (--dark) {
+    --footer-link: var(--ui-primary);
+  }
 }
 
-.the-footer {
+.footer--secondary {
+  --footer-background: var(--ui-secondary);
+  --footer-link: var(--ui-text-secondary);
+  --footer-link-hover: var(--ui-text-primary);
+
+  @media (--dark) {
+    --footer-link: var(--ui-text-primary);
+    --footer-link-hover: var(--ui-text-secondary);
+  }
+}
+
+.footer {
   background: var(--footer-background);
   padding: var(--space-xl) 0;
-  text-align: center;
-
-  @media (--mobile) {
-    text-align: left;
-  }
-
-  &__container {
-    @apply .u-container;
-  }
 
   &__grid {
     display: grid;
@@ -95,7 +98,7 @@ defineProps({
     }
 
     @media (--desktop) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
     }
   }
 
@@ -108,7 +111,7 @@ defineProps({
     }
   }
 
-  &__link-wrap {
+  &__container {
     text-align: center;
     margin-bottom: var(--space-sm);
 

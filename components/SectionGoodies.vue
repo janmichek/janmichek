@@ -6,12 +6,7 @@ const goodies = ref([
     description: 'A video of me dive into my latest project and explaining details',
     link: 'https://youtu.be/4jmVQlHASCY',
   },
-  {
-    title: 'Claude Settings',
-    image: 'sourcecode.webp',
-    description: 'Personal configuration and settings for Claude Code CLI to enhance development workflow from different tutorials in one place.',
-    link: 'https://github.com/janmichek/claude-settings',
-  },
+
   {
     title: 'Weekly News Feed',
     image: 'news.webp',
@@ -24,11 +19,18 @@ const goodies = ref([
     description: 'My personal way to tune ergonomics. I believe this is ultimate good, but it may serve as inspiration.',
     link: '/karabiner',
   },
+
   {
     title: 'Webdesign checklist',
     image: 'checklist.webp',
     description: 'When I am working with designers I want to make sure all formal requirements on design handoff are met.',
     link: '/webdesign-checklist',
+  },
+  {
+    title: 'Claude Settings',
+    image: 'claude-ai-icon.svg',
+    description: 'Personal configuration and settings for Claude Code CLI to enhance development workflow from different tutorials in one place.',
+    link: 'https://github.com/janmichek/claude-settings',
   },
   {
     title: 'Source Code',
@@ -43,30 +45,32 @@ const goodies = ref([
     link: 'https://codepen.io/janmichek/pen/bGEoozW',
   },
   {
+    title: 'Photos Gallery',
+    image: 'k3.webp',
+    description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or they can be used as a nice placeholders images.',
+    link: '/gallery',
+  },
+  {
     title: 'Linter Settings',
     image: 'eslint.svg',
     description: 'In the case of my team lacks linter settings - here are my preferred ones as a good starter for a new project.'
       + '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-eslint-settings/blob/master/eslint.config.mjs">Vue Eslint Settings</a> and '
       + '<a target="_blank" rel="noopener noreferrer" href="https://github.com/janmichek/preferred-stylelint-settings/blob/master/.stylelintrc.js">Stylelint settings</a>.',
   },
-  {
-    title: 'Photos Gallery',
-    image: 'k6.webp',
-    description: 'I like shooting photos too. Especially flowers. Here is a small presentation of my esthetics skills. Or they can be used as a nice placeholders images.',
-    link: '/gallery',
-  },
+
   {
     title: 'Music Production',
-    image: 'profile-pic-2022.webp',
+    image: 'honey-t.webp',
     description: 'I invest my free time into music production: creative organization proven by 5+ millions of'
       + ' streams, and personal building of communities worldwide. Have a listen.',
     link: 'https://open.spotify.com/artist/52iWG2c2P0K6HmGrAAUyoP?si=SuOL9lY1QuyCI1FDBOzO9A',
   },
-
   // {
   //   title: 'Tailwind Alternative',
   //   image: 'sourcecode.webp',
-  //   description: 'Unpopular opinion, but I am not a fan of Tailwind. I like to use my own CSS framework. This is my attempt to create something similar.',
+
+  //   description: 'Unpopular opinion, but I am not a fan of Tailwind. I like to use my own CSS framework. ' +
+  //     'This is my attempt to create something similar.',
   //   link: 'https://github.com/janmichek/claude-settings',
   // },
 ])
@@ -74,17 +78,23 @@ const goodies = ref([
 
 <template>
   <section class="goodies">
-    <div class="goodies__container">
-      <title-section variant="primary">
+    <div class="u-container">
+      <title-section
+        variant="primary"
+        data-aos="fade-up">
         Goodies
       </title-section>
-      <div class="goodies__masonry">
+      <div
+        class="u-masonry"
+        data-aos="fade-up">
         <app-card
           v-for="(goodie, id) in goodies"
           :key="id"
           :image="goodie.image"
           :title="goodie.title"
-          :link="goodie.link">
+          :link="goodie.link"
+          data-aos="zoom-in"
+          :data-aos-offset="-1*(10 + (id * 60))">
           <div v-html="goodie.description"/>
         </app-card>
       </div>
@@ -92,28 +102,8 @@ const goodies = ref([
   </section>
 </template>
 
-<style>
-@import url("../assets/styles/utilities/_grid.css");
-
+<style scoped>
 .goodies {
   background: var(--ui-primary);
-
-  &__container {
-    @apply .u-container;
-
-    /*&__masonry {*/
-    /*  @apply .u-masonry;*/
-    /*}*/
-
-    column-gap: 1.5em;
-
-    @media (min-width: 768px) {
-      column-count: 2
-    }
-
-    @media (min-width: 992px) {
-      column-count: 3
-    }
-  }
 }
 </style>

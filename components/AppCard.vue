@@ -30,11 +30,10 @@ defineProps({
       class="card__title">
       {{ title }}
     </h4>
-    <nuxt-img
-      format="webp"
+    <img
       class="card__image"
       :src="`/${image}`"
-      :alt="title"/>
+      :alt="title">
     <div class="card__description">
       <slot/>
     </div>
@@ -42,15 +41,17 @@ defineProps({
 </template>
 
 <style scoped>
-@import url("../assets/styles/utilities/_stretched-link.css");
-
 .card {
   width: 100%;
   display: inline-block;
   background: var(--ui-secondary);
   padding: var(--space);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
   position: relative;
+
+  &__title {
+    margin-bottom: var(--space);
+  }
 
   &__link {
     text-decoration: none;

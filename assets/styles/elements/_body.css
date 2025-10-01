@@ -3,9 +3,9 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   font-family: var(--font-sans);
-  font-size: var(--text-base);
+
   line-height: var(--line-height);
   background: var(--ui-bg);
   color: var(--ui-text);
-  min-width: 300px;
+  min-width: var(--container-min-width);
 }

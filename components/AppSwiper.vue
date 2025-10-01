@@ -24,10 +24,10 @@ const modules = [Navigation]
     <swiper-slide
       v-for="(slide, index) in images"
       :key="index">
-      <nuxt-img
-        format="webp"
+      <img
         :src="slide.medium"
-        class="swiper__image"/>
+        class="swiper__image"
+        :alt="slide.altText">
       <div class="swiper__text">
         {{ slide.altText }}
       </div>
@@ -38,44 +38,34 @@ const modules = [Navigation]
 <style>
 .swiper__image {
   margin: 0 auto;
-  width: 85vw;
+  width: 85%;
 }
 
 .swiper-button-prev {
   &:after {
     content: "";
   }
-
   left: 0;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 15px 30px 15px 0;
+  border-width: var(--space-md) var(--space-lg) var(--space-md) 0;
   border-color: transparent var(--ui-primary) transparent transparent;
-
-  @media (--tablet) {
-    left: var(--space);
-  }
 }
 
 .swiper-button-next {
   &:after {
     content: "";
   }
-
-  right: 0;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 15px 0 15px 30px;
+  border-width: var(--space-md) 0 var(--space-md) var(--space-lg);
   border-color: transparent transparent transparent var(--ui-primary);
-
-  @media (--tablet) {
-    right: var(--space);
-  }
 }
 
 .swiper__text {
   text-align: center;
+  color: var(--ui-text-muted);
 }
 </style>

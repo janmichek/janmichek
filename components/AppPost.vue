@@ -7,10 +7,10 @@
       <slot name="heading"/>
     </h4>
     <div class="post__body">
-      <div class="post__image">
+      <div>
         <slot name="image"/>
       </div>
-      <div class="post__description">
+      <div>
         <slot name="description"/>
       </div>
     </div>
@@ -18,8 +18,6 @@
 </template>
 
 <style scoped>
-@import url("../assets/styles/utilities/_grid.css");
-
 .post {
   &__heading {
     margin-bottom: var(--space-sm);
@@ -32,16 +30,8 @@
 
     @media (--tablet) {
       grid-template-columns: 1fr 2fr;
-      gap: 32px;
+      gap: var(--space-lg);
     }
-  }
-
-  &__image {
-    /* Grid item - no width needed */
-  }
-
-  &__description {
-    /* Grid item - no width needed */
   }
 }
 </style>
