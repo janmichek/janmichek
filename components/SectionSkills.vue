@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <section class="skills">
@@ -11,22 +12,11 @@
       <div
         class="skills__row"
         data-aos="fade-up">
-        <div class="skills__name skills__name--web3">
-          web3
-        </div>
-        <p class="skills__description">
-          Let me translate complexity of DeFi into smooth and modern web app which is intuitive to use.
-        </p>
-      </div>
-
-      <div
-        class="skills__row"
-        data-aos="fade-up">
         <div class="skills__name">
           JS
         </div>
         <p class="skills__description">
-          Vue is, effective and joy to code. The smoothest DX framework I had a chance to work with.
+          Vue is effective and joy to code. The smoothest DX framework I had a chance to work with.
           React is cool too!
         </p>
       </div>
@@ -39,6 +29,17 @@
         <p class="skills__description">
           I love to bridge computer code with human perception.
           "Don’t let users think" is my ultimate motto. I live on the front side of frontend.
+        </p>
+      </div>
+      <div
+        class="skills__row"
+        data-aos="fade-up">
+        <div class="skills__name skills__name--web3">
+          web3
+        </div>
+        <p class="skills__description">
+          Specializing in web3 dapps. Let me translate complexity of DeFi into smooth and modern web app which is
+          intuitive to use.
         </p>
       </div>
     </div>

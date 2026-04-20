@@ -13,6 +13,147 @@
           class="projects__post"
           data-aos="fade-up">
           <template #heading>
+            Melodot — Polkadot Hackathon Winner
+          </template>
+          <template #image>
+            <app-link to="https://melodot.vercel.app/">
+              <img
+                src="/melodot.webp"
+                width="686"
+                alt="MeloDot - decentralized music discovery and donation dApp">
+            </app-link>
+            <app-link
+              class="projects__preview"
+              to="https://youtu.be/f7LlZRMdKm4">
+              Walkthrough Video
+            </app-link>
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                Placed among
+                <app-link to="https://devpost.com/software/melodot-decentralized-music-discovery-and-donation-dapp">
+                  winners
+                </app-link>
+                at the Polkadot Builder hackathon. Built
+                <app-link to="https://melodot.vercel.app/">
+                  Melodot
+                </app-link>
+                , a decentralized music discovery and donation
+                dApp combining music recognition technology with blockchain-based donations - bridging art and
+                technology.
+              </li>
+              <li>
+                Developed a full-stack blockchain application - proof-of-concept that solves a real-life problem.
+              </li>
+              <li>
+                Covered the full spectrum of modern app development: communication, product vision, wireframing,
+                UI/UX design, smart contract development and deployment, API design, frontend,
+                and app deployment.
+              </li>
+              <li>
+                Used tech:
+                <project-link
+                  label="React"
+                  to="https://react.dev/"/>
+                <project-link
+                  label="Solidity"
+                  to="https://soliditylang.org/"/>
+                <project-link
+                  label="Vercel"
+                  to="https://vercel.com/"/>
+                <project-link
+                  label="Typescript"
+                  to="https://www.typescriptlang.org/"/>
+                <project-link
+                  label="Wagmi"
+                  to="https://wagmi.sh/"/>
+                <project-link
+                  label="Viem"
+                  to="https://viem.sh/"/>
+                <project-link
+                  label="Claude"
+                  to="https://www.anthropic.com/claude"/>
+                <project-link
+                  label="Cursor"
+                  to="https://cursor.com/"/>
+                <project-link
+                  label="Node.js"
+                  to="https://www.nodejs.org/"/>
+                <project-link
+                  label="Web3Auth"
+                  to="https://web3auth.io/"/>
+                <project-link
+                  label="RapidApi"
+                  to="https://rapidapi.com/"/>
+                <project-link
+                  label="Tailwind"
+                  to="https://tailwindcss.com/"/>
+                <project-link
+                  label="Shadcn"
+                  to="https://ui.shadcn.com/"
+                  is-last/>
+              </li>
+            </ul>
+          </template>
+        </app-post>
+
+        <app-post
+          class="projects__post"
+          data-aos="fade-up">
+          <template #heading>
+            OpenAssets
+          </template>
+          <template #image>
+            <img
+              src="/openassets.webp"
+              width="686"
+              alt="OpenAssets — asset management SaaS for equipment tracking and maintenance planning">
+          </template>
+          <template #description>
+            <ul class="projects__list">
+              <li>
+                Lead developer of an asset management SaaS for equipment tracking, maintenance planning, and reporting
+                incidents.
+              </li>
+              <li>
+                Collaborated on the implementation and UX design of a highly dynamic environment, generated from
+                previous users' interactions, complex generic entity system and user roles. User interaction are
+                enriched with diagrams, maps, calendars or galleries.
+              </li>
+              <li>
+                Used tech:
+                <project-link
+                  label="Typescript"
+                  to="https://www.typescriptlang.org/"/>
+                <project-link
+                  label="Vue.js"
+                  to="https://vuejs.org/"/>
+                <project-link
+                  label="TanStack"
+                  to="https://tanstack.com/"/>
+                <project-link
+                  label="Quasar"
+                  to="https://quasar.dev/"/>
+                <project-link
+                  label="Claude"
+                  to="https://www.anthropic.com/claude"/>
+                <project-link
+                  label="Cursor"
+                  to="https://cursor.com/"/>
+                <project-link
+                  label="MongoDB"
+                  to="https://www.mongodb.com/"
+                  is-last/>
+              </li>
+            </ul>
+          </template>
+        </app-post>
+
+        <app-post
+          class="projects__post"
+          data-aos="fade-up">
+          <template #heading>
             aeScan.io
           </template>
           <template #image>
@@ -168,84 +309,6 @@
                 <project-link
                   label="CSS Variables"
                   to="https://www.w3schools.com/css/css3_variables.asp"
-                  is-last/>
-              </li>
-            </ul>
-          </template>
-        </app-post>
-
-        <app-post
-          class="projects__post"
-          data-aos="fade-up">
-          <template #heading>
-            Chatbot Builder
-          </template>
-          <template #image>
-            <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-              <img
-                src="/chatbot.webp"
-                width="686"
-                alt="Chabot Builder">
-            </app-link>
-            <app-link
-              class="projects__preview"
-              to="/preview/chatbot1">
-              Preview 1
-            </app-link>
-            <app-link
-              class="projects__preview"
-              to="/preview/chatbot2">
-              Preview 2
-            </app-link>
-          </template>
-          <template #description>
-            <ul class="projects__list">
-              <li>
-                An AI Chatbot builder for telco clients from pre-LLM era. I bluild the frontend interface part
-                translating conversation complexity delivered to
-                <app-link to="https://www.nice.com/websites/cxone-next-gen-cx/">
-                  a telemarketing industry leader
-                </app-link>
-                . Developed complex conversation flow interfaces enabling intuitive bot creation.
-              </li>
-              <li>
-                I led frontend architecture decisions and established development guidelines while mentoring
-                junior developer. Collaborated closely with backend developers and designers to shape
-                overall product vision and user experience flows.
-              </li>
-              <li>
-                Implemented an innovative approach to building conversations tree and
-                created seamless user flows.
-              </li>
-              <li>
-                Used tech:
-                <project-link
-                  label="Vue 2"
-                  to="https://vuejs.org/"/>
-                <project-link
-                  label="Vuex"
-                  to="https://vuex.vuejs.org/"/>
-                <project-link
-                  label="Laravel"
-                  to="https://laravel.com/"/>
-                <project-link
-                  label="Jest"
-                  to="https://jestjs.io/"/>
-                <project-link
-                  label="Postcss"
-                  to="https://postcss.org"/>
-                <project-link
-                  label="Eslint"
-                  to="https://eslint.org/"/>
-                <project-link
-                  label="Adobe XD"
-                  to="https://www.adobe.com/products/xd.html"/>
-                <project-link
-                  label="CSS Variables"
-                  to="https://www.w3schools.com/css/css3_variables.asp"/>
-                <project-link
-                  label="CSS Animations"
-                  to="https://www.w3schools.com/css/css3_animations.asp"
                   is-last/>
               </li>
             </ul>
