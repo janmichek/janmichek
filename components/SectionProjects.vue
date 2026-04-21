@@ -34,7 +34,7 @@
               <app-link to="https://devpost.com/software/melodot-decentralized-music-discovery-and-donation-dapp">
                 winners
               </app-link>
-              at the Polkadot Builder hackathon. Built
+              at the Polkadot Builder Party. Built
               <app-link to="https://melodot.vercel.app/">
                 Melodot
               </app-link>

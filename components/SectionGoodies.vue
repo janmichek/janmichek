@@ -7,12 +7,6 @@ const goodies = ref([
     link: 'https://youtu.be/4jmVQlHASCY',
   },
   {
-    title: 'Melodot Walkthrough',
-    image: 'melodot-walkthrough.webp',
-    description: 'Walkthrough of MeloDot — decentralized music discovery and donation dApp from the Polkadot Builder hackathon.',
-    link: 'https://youtu.be/f7LlZRMdKm4',
-  },
-  {
     title: 'Weekly News Feed',
     image: 'news.webp',
     description: 'List of tech, frontend & crypto related links I am going through every Sunday.',
@@ -23,6 +17,12 @@ const goodies = ref([
     image: 'karabiner.webp',
     description: 'My personal way to tune ergonomics. I believe this is ultimate good, but it may serve as inspiration.',
     link: '/karabiner',
+  },
+  {
+    title: 'Melodot Walkthrough',
+    image: 'melodot-walkthrough.webp',
+    description: 'Walkthrough of MeloDot — decentralized music discovery and donation dApp from the Polkadot Builder hackathon.',
+    link: 'https://youtu.be/f7LlZRMdKm4',
   },
   {
     title: 'Webdesign checklist',
