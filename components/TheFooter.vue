@@ -46,15 +46,7 @@ defineProps({
         <div class="footer__container">
           <app-link
             class="footer__link"
-            to="https://www.twitter.com/jan_michek">
-            Twitter
-          </app-link>
-        </div>
-
-        <div class="footer__container">
-          <app-link
-            class="footer__link"
-            to="https://drive.google.com/file/d/1zqSU7Gq8hmqqhy65obWP-801D2SX_ycy/view?usp=drive_link">
+            to="https://drive.google.com/file/d/1IV1yaAaLgEswHw2EWx6h44ylBZM6Zim2/view?usp=drive_link">
             CV
           </app-link>
         </div>
@@ -99,7 +91,7 @@ defineProps({
     }
 
     @media (--desktop) {
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
   }
 
