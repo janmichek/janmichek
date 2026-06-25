@@ -46,7 +46,7 @@ defineProps({
         <div class="footer__container">
           <app-link
             class="footer__link"
-            to="https://docs.google.com/document/d/1s_-5eTjkZG-YZriK7FyGjPNSe876pRPz/edit?usp=drive_link&ouid=112258136541538745896&rtpof=true&sd=true">
+            to="https://drive.google.com/file/d/1JKoO3XYsx_8BGriNa9rMlt0nwgQajE3v/view?usp=drive_link">
             CV
           </app-link>
         </div>
