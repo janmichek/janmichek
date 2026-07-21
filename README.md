@@ -1,6 +1,7 @@
 ## Jan Michek 👋
 
-- 🔭 Senior developer with 14 years of experience including 4+ years of Web3 experience building smart contracts with Web3 interfaces. 
+Senior developer with 14 years of experience including 4+ years of Web3 experience building smart contracts with Web3 interfaces. 
+
 - 🦡️ My background includes leading the development of aescan.io, an open-source blockchain explorer and crafting smooth Web3 UX flows for NFT lending platform at PWN. 
 - 🙌🏼️ I am proud of winning an award at the Polkadot Hackathon. 
 - 🎆️ I combine fullstack expertise in JS frameworks with Solidity to build dApps that are joy to use.
