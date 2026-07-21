@@ -12,7 +12,7 @@ Senior developer with 14 years of experience including 4+ years of Web3 experien
    discovery and donation dApp                                                  
    (https://devpost.com/software/melodot-decentralized-music-discovery-and-dona 
    tion-dapp) (Repo (https://github.com/janmichek/melodot/)).
-    - 🌱 I’m currently learning Solidity at Metana                                 
+- 🌱 I’m currently learning Solidity at Metana                                 
    (https://metana.io/web3-solidity-bootcamp-ethereum-blockchain/).
  - 🎆️ I combine fullstack expertise in JS frameworks with Solidity to build     
    dApps that are joy to use.       
