@@ -8,7 +8,7 @@ Senior developer with 14 years of experience including 4+ years of Web3 experien
    open-source blockchain explorer and crafting smooth Web3 UX flows for NFT    
    lending platform at PWN.                                               
         
- - 🎵 I am proud of winning an award at the Polkadot Hackathon. I developed Melodot (https://melodot.vercel.app/), a decentralized music    
+ - 🎵 I am proud of winning an award at the Polkadot Hackathon. I developed [Melodot](https://melodot.vercel.app/), a decentralized music    
    discovery and donation dApp                                                  
    (https://devpost.com/software/melodot-decentralized-music-discovery-and-dona 
    tion-dapp) (Repo (https://github.com/janmichek/melodot/)).
