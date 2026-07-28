@@ -16,9 +16,7 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 - 🌐 **Crafted Web3 UX** at [PWN Finance](https://pwn.xyz/) — Ethereum NFT lending platform with multi-asset collateral
 - 🌱 **Currently Learning:** Solidity at [Metana](https://metana.io/web3-solidity-bootcamp-ethereum-blockchain/) (since May 2026)
 - 👯 **Looking for:** Smart contract engineer, full-stack web3, or web3 frontend roles — remote, where i can stitch parts together into smooth experience.
-- 🎵 **Fun Fact**
-
-[7+ million streams on Spotify](https://open.spotify.com/search/honey%20t) — I co-created music that people actually want to listen to!
+- 🎵 **Fun Fact**: [7+ million streams on Spotify](https://open.spotify.com/search/honey%20t) — I created lo-fi beats music that people listen to non-stop. Ideal for coding!
 ---
 
 ## 🛠️ Tech Stack
