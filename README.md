@@ -49,8 +49,8 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 - **4+ years** Web3 development
 - **14 years** full-stack frontend
 - **10K+** monthly users (aescan.io)
-- **7+ million** streams on Spotify (lo-fi beats)
 - **1** Hackathon win
+- **7+ million** streams on [Spotify](https://open.spotify.com/search/honey%20t) (lo-fi beats)
 
 ---
 
