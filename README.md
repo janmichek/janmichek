@@ -39,8 +39,6 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 ### Backend & Deployment
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://vercel.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
-[![Hardhat](https://img.shields.io/badge/Hardhat-FFF04B?style=flat&logoColor=black)](https://hardhat.org/)
 
 ---
 
