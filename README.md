@@ -13,10 +13,10 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 
 - 🚀 **Led development of [aescan.io](https://aescan.io)** — open-source blockchain explorer with 10K+ monthly visitors
 - 🎵 **Polkadot Hackathon Winner** — Built [MeloDot](https://melodot.vercel.app/), a decentralized music discovery & donation dApp ([Repo](https://github.com/janmichek/melodot/))
-- 🌐 **Crafted Web3 UX** at [PWN Finance](https://pwn.xyz/) — Ethereum NFT lending platform with multi-asset collateral
+- 🌐 **Crafted Web3 UX** at [PWN Finance](https://pwn.xyz/) — Omnichain NFT lending platform with multi-asset collateral
 - 🌱 **Currently Learning:** Solidity at [Metana](https://metana.io/web3-solidity-bootcamp-ethereum-blockchain/) (since May 2026)
 - 👯 **Looking for:** Smart contract engineer, full-stack web3, or web3 frontend roles — remote, EVM-focused
-
+- 🎶️ **Fun fact:**  [7+ million streams on Spotify](https://open.spotify.com/search/honey%20t) — I co-created music that people actually want to listen to!
 ---
 
 ## 🛠️ Tech Stack
@@ -39,8 +39,7 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 ### Backend & Deployment
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://vercel.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
-[![Hardhat](https://img.shields.io/badge/Hardhat-FFF04B?style=flat&logoColor=black)](https://hardhat.org/)
+
 
 ---
 
@@ -50,13 +49,7 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 - **14 years** full-stack frontend
 - **10K+** monthly users (aescan.io)
 - **1** Hackathon win
-- **7+ million** streams on [Spotify](https://open.spotify.com/search/honey%20t) (lo-fi beats)
-
----
-
-## 🎵 Fun Fact
-
-[7+ million streams on Spotify](https://open.spotify.com/search/honey%20t) — I co-created music that people actually want to listen to!
+- **7+ million** streams on Spotify (lo-fi beats)
 
 ---
 
@@ -64,4 +57,3 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 
 📧 [jan@janmichek.cz](mailto:jan@janmichek.cz)  
 🔗 [LinkedIn](https://linkedin.com/in/jan-michek-web3)  
-💻 [GitHub](https://github.com/janmichek)
