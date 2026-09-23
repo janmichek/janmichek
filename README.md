@@ -4,7 +4,7 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jan@janmichek.cz)
 [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/jan_michek)
 
-**Senior Full-Stack Web3 Developer** | 14 years total · 4+ years Web3 | Prague, CZ
+**Senior Full-Stack Web3 Developer** | 14 years total · 5+ years Web3 | Prague, CZ
 
 ---
 
