@@ -15,7 +15,7 @@ Senior full stack engineer with 14 years of experience building product interfac
 - 🚀 **Led development of [aescan.io](https://aescan.io)** — open-source blockchain explorer with 10K+ monthly visitors
 - 🎵 **Polkadot Hackathon Winner** — Built [MeloDot](https://melodot.vercel.app/), a decentralized music discovery & donation dApp
 - 🌐 **Crafted Web3 UX** at [PWN Finance](https://pwn.xyz/) — Omnichain NFT lending platform with multi-asset collateral
-- 🌱 **Currently Learning:** Solidity at [Metana](https://metana.io/web3-solidity-bootcamp-ethereum-blockchain/) (since May 2026)
+- 🌱 **Fave Build:** [UXTapFix](github.com/janmichek/UXTapFix) - MacBook must have! A missing piece of UX for everyday use.
 - 👯 **Looking for:** Senior fullstack role where frontend quality matters and the product ships to real users
 - 🎶️ **Side Quest:**  12+ million streams on Spotify — I created music that people love on repeat worldwide! [Take a listen](https://open.spotify.com/artist/52iWG2c2P0K6HmGrAAUyoP?si=rWRbCaSnThStWwLkSFKfog)
 ---
