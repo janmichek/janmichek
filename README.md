@@ -4,31 +4,23 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jan@janmichek.cz)
 [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/jan_michek)
 
-**Senior Full-Stack Web3 Developer** | 14 years total · 5+ years Web3 | Prague, CZ
+**Senior Full-Stack Developer** | 14 years total · 5+ years Web3 | Prague, CZ
 
 ---
 
 ## 💼 About Me
 
-I combine full-stack expertise in JavaScript frameworks with Solidity to build dApps that are a joy to use.
+Senior full stack engineer with 14 years of experience building product interfaces and the systems behind them. I led the frontend of aescan.io, an open-source blockchain explorer with 10K monthly visitors, and built the frontend for PWN's NFT lending platform. I work in TypeScript with Vue/Nuxt and React/Next, and I am comfortable in Node.js, GraphQL, and REST when the product needs API work.
 
 - 🚀 **Led development of [aescan.io](https://aescan.io)** — open-source blockchain explorer with 10K+ monthly visitors
 - 🎵 **Polkadot Hackathon Winner** — Built [MeloDot](https://melodot.vercel.app/), a decentralized music discovery & donation dApp
 - 🌐 **Crafted Web3 UX** at [PWN Finance](https://pwn.xyz/) — Omnichain NFT lending platform with multi-asset collateral
 - 🌱 **Currently Learning:** Solidity at [Metana](https://metana.io/web3-solidity-bootcamp-ethereum-blockchain/) (since May 2026)
-- 👯 **Looking for:** Smart contract engineer, full-stack web3, or web3 frontend roles — remote, EVM-focused
+- 👯 **Looking for:** Senior fullstack role where frontend quality matters and the product ships to real users
 - 🎶️ **Side Quest:**  12+ million streams on Spotify — I created music that people love on repeat worldwide! [Take a listen](https://open.spotify.com/artist/52iWG2c2P0K6HmGrAAUyoP?si=rWRbCaSnThStWwLkSFKfog)
 ---
 
 ## 🛠️ Tech Stack
-
-### Blockchain & Smart Contracts
-[![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)](https://soliditylang.org/)
-[![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)](https://ethereum.org/)
-[![Foundry](https://img.shields.io/badge/Foundry-463D3B?style=flat&logoColor=white)](https://getfoundry.sh/)
-[![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat&logoColor=white)](https://web3js.readthedocs.io/)
-[![Wagmi](https://img.shields.io/badge/Wagmi-1E5A96?style=flat&logoColor=white)](https://wagmi.sh/)
-[![Viem](https://img.shields.io/badge/Viem-0D0D0D?style=flat&logoColor=white)](https://viem.sh/)
 
 ### Frontend
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)](https://vuejs.org/)
@@ -40,16 +32,8 @@ I combine full-stack expertise in JavaScript frameworks with Solidity to build d
 ### Backend & Deployment
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://vercel.com/)
-
-
----
-
-## 📊 By the Numbers
-
-- **5+ years** Web3 development
-- **14 years** full-stack frontend
-- **10K+** monthly users (aescan.io)
-- **1** Hackathon win
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)](https://graphql.org/)
 
 ---
 
